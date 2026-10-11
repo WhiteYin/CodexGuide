@@ -21,6 +21,10 @@ permalink: /start/
 
 如果你是开发者，本教程也提供了额外 CLI、IDE、Cloud 等内容来入门 Codex 。
 
+## 账号准备
+
+如果你还没有注册过ChatGPT账号，可以阅读[这篇教程](https://ai.bigbiscuit.fun/p/hvccrf/)
+
 ## 快速上手
 
 如果你知道怎么跟AI对话，那么恭喜你，你已经准备好开始使用 Codex 了！跟着下方的教程，循序渐进地开始使用 Codex。

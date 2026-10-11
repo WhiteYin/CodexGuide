@@ -138,100 +138,7 @@ https://shop.pockyt.io/index
 
 这里也可以购买，信息来源于社区，建议自行甄别。
 
-
-## 方法二：土耳其区 App Store（第三方经验，价格优先）
-
-如果你的核心诉求是降低长期订阅成本，可以参考低价区 App Store 的做法：单独准备一个土耳其区 Apple ID，通过该区礼品卡给 Apple ID 余额充值，再在 ChatGPT iOS App 里用 App Store 应用内购订阅。
-
-::: warning 来源与风险
-本小节整理自第三方文章 [App Store Price《没有海外信用卡也能稳定订阅 ChatGPT/Claude》](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)，源文发布于 2026-03-03，作者/发布方为 App Store Price。下图也来自该文。如有问题，请联系作者删除
-
-这不是 OpenAI 或 Apple 官方订阅说明。跨区账号、礼品卡余额、汇率、App Store 定价和风控策略都可能变化，存在充值失败、订阅失败、余额无法退款、账号触发安全验证或后续续费不稳定等风险。正式操作前建议先小额验证，不要把主 Apple ID 频繁切区。
-:::
-
-![App Store Price 提供的 ChatGPT Plus 各区价格对比示例](/images/tutorials/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp)
-
-图源：[App Store Price 文章](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)。本小节后续截图除特别说明外，均整理自同一篇文章。价格、排名和汇率只代表源文截图时的状态，实际付款前一定以 App Store 结算页显示为准。
-
-**适合谁：**
-
-- 已经有 iPhone / iPad，愿意单独维护一个海外区 Apple ID。
-- 能接受第三方礼品卡渠道的不确定性。
-- 更看重订阅价格，而不是最省心的官方直连支付体验。
-
-### 详细流程
-
-**第一步：核对当前低价区**
-
-先打开 App Store Price 的 [ChatGPT 价格页](https://appstoreprice.org/zh/apps/6448311069)，选择 ChatGPT Plus 月付项，看当前各地区价格。源文截图显示土耳其区价格较低，但低价区会随 App Store 定价、汇率和税费变化，操作前必须重新核对。
-
-**第二步：确认网络节点与账号地区一致**
-
-源文建议先准备土耳其节点，并在 IP 检测页面确认当前出口地区。核心原则是：注册 Apple ID、填写地区信息、登录 App Store 时，地区信息要尽量保持一致，减少触发安全验证的概率。
-
-![土耳其节点 IP 检测示例](/images/tutorials/subscribe-appstoreprice-ip-check-watermarked-small.webp)
-
-**第三步：注册土耳其区 Apple ID**
-
-打开 [account.apple.com](https://account.apple.com) 注册新的 Apple ID。注册时选择土耳其地区，按页面提示填写邮箱、手机号和验证码。源文说明旧的 `appleid.apple.com` 入口也可用，但 Apple 当前页面名称可能会变化，以实际页面为准。
-
-![Apple ID 注册页面示例](/images/tutorials/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp)
-
-::: caution
-建议为这条订阅路线单独准备 Apple ID，不要频繁切换自己的主力 Apple ID 地区。跨区账号可能涉及 Apple 当前服务条款、账单地址真实性和后续风控，请自行确认能接受这些风险。
-:::
-
-**第四步：补齐 Payment Address**
-
-注册完成后，在 Apple 账号或 iPhone / iPad 的 App Store 账户设置里补齐 Payment Address。即使不绑定土耳其本地银行卡，Apple 也可能在购买或兑换时要求补充账单地址。
-
-![App Store 账户 Payment Address 示例](/images/tutorials/subscribe-appstoreprice-payment-address-watermarked-small.webp)
-
-**第五步：购买土耳其区 App Store 礼品卡**
-
-源文提到土耳其区礼品卡可以通过淘宝、闲鱼等渠道购买，也可以在土耳其数字商品平台购买。它以 `oyunfor.com` 为示例：注册并登录后，在站内找到 App Store 礼品卡，选择所需面值并加入购物车。
-
-![Oyunfor 礼品卡选择页面示例](/images/tutorials/subscribe-appstoreprice-gift-card-watermarked-small.webp)
-
-::: warning
-大蓝营 不推荐具体商家，也不保证任何第三方礼品卡渠道的稳定性。礼品卡一旦兑换通常不可退款，建议先小额测试。
-:::
-
-**第六步：选择支付方式并付款**
-
-源文示例中，Oyunfor 支持信用卡和 Binance Pay。信用卡页面里会出现不同支付通道，部分通道可能要求土耳其本地支付方式，源文选择了可用的国际卡通道。截图中的示例为 1000 土耳其里拉礼品卡，并叠加约 2.5% 手续费，实际手续费以付款页为准。
-
-![Oyunfor 支付方式选择示例](/images/tutorials/subscribe-appstoreprice-payment-method-watermarked-small.webp)
-
-随后进入支付页，填写银行卡信息并确认付款。源文里的银行卡信息已经做了遮挡；你自己操作时不要把银行卡、验证码、礼品卡兑换码截图发给任何人。
-
-![银行卡支付页面示例](/images/tutorials/subscribe-appstoreprice-card-payment-watermarked-small.webp)
-
-如果银行或支付通道要求 3D Secure / 短信验证码，按页面提示完成验证。
-
-![银行卡验证码验证页面示例](/images/tutorials/subscribe-appstoreprice-card-verify-watermarked-small.webp)
-
-**第七步：收取并兑换礼品卡**
-
-付款成功后，礼品卡通常会通过邮件发送。源文的邮件截图中露出了兑换码，所以这里不再放图。拿到兑换码后，打开 App Store，点击头像，进入「兑换礼品卡或代码」，把土耳其区礼品卡兑换到同一个土耳其区 Apple ID。
-
-![App Store 兑换礼品卡示例](/images/tutorials/subscribe-appstoreprice-redeem-watermarked-small.webp)
-
-**第八步：在 ChatGPT App 内购买订阅**
-
-在 iPhone / iPad 的 App Store 登录这个土耳其区 Apple ID，用它下载 ChatGPT App。如果之前 ChatGPT 是用其他地区 Apple ID 下载的，源文建议先删除再用当前 Apple ID 重新下载。打开 ChatGPT App 后登录你的 ChatGPT 账号，进入订阅页，选择 Plus / Pro，用 Apple ID 余额完成 App Store 应用内购。
-
-后续如果开启自动续费，需要保证这个 Apple ID 余额足够；如果余额不足，续费可能失败。
-
-**注意事项：**
-
-- 不要只看网页截图里的价格，最终价格以 App Store 付款页为准。
-- 礼品卡有区域限制，土耳其区礼品卡通常不能给其他区 Apple ID 充值。
-- 礼品卡渠道质量差异很大，避免一次性充值太多。
-- 如果后续要续费，需要保证 Apple ID 余额足够，或者提前补充礼品卡余额。
-- 如果你更在意稳定和售后，优先用前面的美国 / 新加坡区礼品卡方案。
-
-## 方法三：安卓 Google Play（备选）
+## 方法二：安卓 Google Play（备选）
 
 ### Visa 卡购买
 
@@ -280,7 +187,7 @@ https://shop.pockyt.io/index
 
 ![升级 Plus 支付情况](../images/subscribe-google-play-chatgpt-plus-checkout.png)
 
-## 方法四：第三方会员代充
+## 方法三：第三方会员代充
 
 如果不方便使用海外支付方式，也可以通过第三方店铺购买会员代充服务。
 

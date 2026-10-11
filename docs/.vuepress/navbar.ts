@@ -37,6 +37,11 @@ const docItems = (items: NavbarDocItem[]) =>
   }));
 
 const startItems = docItems(startItemsSource);
+startItems.splice(1, 0, {
+  text: "注册GPT账号",
+  icon: "",
+  link: "https://ai.bigbiscuit.fun/p/hvccrf/",
+});
 const advancedItems = docItems(advancedItemsSource);
 const recipeItems = docItems(recipeItemsSource);
 // 添加外链时只需编辑 external-links.ts；未配置时显示静态提示。

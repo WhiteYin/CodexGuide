@@ -17,6 +17,10 @@ export default sidebar({
       prefix: "/start/",
       children: [
         "00-index.md",
+        {
+          text: "注册GPT账号",
+          link: "https://ai.bigbiscuit.fun/p/hvccrf/",
+        },
         "01-what-is-codex.md",
         "02-app-installation.md",
         "03-account-plan.md",

@@ -129,9 +129,14 @@
   background: var(--vp-c-accent-soft);
 }
 
-.vp-dropdown-item .route-link,
+.vp-dropdown-item .auto-link,
 .slimsearch-placeholder {
   font-size: 1rem;
+}
+
+.vp-dropdown-item .auto-link[href="https://ai.bigbiscuit.fun/p/hvccrf/"] {
+  // 为没有图标的注册入口预留与其他菜单项相同的图标空间。
+  padding-inline-start: calc(0.25rem + 1.25em);
 }
 
 .vp-dropdown-title {
@@ -171,24 +176,24 @@
   transform-origin: top left;
 }
 
-.vp-dropdown-item .route-link,
-.vp-dropdown-subitem .route-link,
-.vp-nav-screen-menu-item .route-link,
-.vp-nav-screen-menu-subitem .route-link {
+.vp-dropdown-item .auto-link,
+.vp-dropdown-subitem .auto-link,
+.vp-nav-screen-menu-item .auto-link,
+.vp-nav-screen-menu-subitem .auto-link {
   border-radius: 6px;
   transition:
     color 0.16s ease,
     background-color 0.16s ease;
 }
 
-.vp-dropdown-item .route-link:hover,
-.vp-dropdown-item .route-link:focus-visible,
-.vp-dropdown-subitem .route-link:hover,
-.vp-dropdown-subitem .route-link:focus-visible,
-.vp-nav-screen-menu-item .route-link:hover,
-.vp-nav-screen-menu-item .route-link:focus-visible,
-.vp-nav-screen-menu-subitem .route-link:hover,
-.vp-nav-screen-menu-subitem .route-link:focus-visible {
+.vp-dropdown-item .auto-link:hover,
+.vp-dropdown-item .auto-link:focus-visible,
+.vp-dropdown-subitem .auto-link:hover,
+.vp-dropdown-subitem .auto-link:focus-visible,
+.vp-nav-screen-menu-item .auto-link:hover,
+.vp-nav-screen-menu-item .auto-link:focus-visible,
+.vp-nav-screen-menu-subitem .auto-link:hover,
+.vp-nav-screen-menu-subitem .auto-link:focus-visible {
   background: var(--vp-c-accent-soft);
   color: var(--vp-c-accent);
   text-decoration: none;
