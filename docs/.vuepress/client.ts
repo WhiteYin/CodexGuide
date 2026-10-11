@@ -4,7 +4,6 @@ import { defineClientConfig } from "vuepress/client";
 import SiteVisitCounter from "./components/SiteVisitCounter.vue";
 import { loadSiteVisitStats } from "./site-visits.js";
 
-
 const navbarDropdownLinks: Record<string, string> = {
   快速上手导航: "/start/",
   进阶教程导航: "/advanced/",
@@ -64,7 +63,8 @@ export default defineClientConfig({
       typeof window !== "undefined" &&
       !["localhost", "127.0.0.1"].includes(window.location.hostname)
     ) {
-      inject();
+      // Web Analytics 自动记录首次访问和站内路由切换；无需统计数据库。
+      inject({ mode: "production", debug: false });
     }
   },
 });

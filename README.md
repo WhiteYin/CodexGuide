@@ -19,10 +19,10 @@ pnpm typecheck
 
 ## 配置
 
-- 外链名称与地址：`docs/.vuepress/external-links.ts`。
+- 外链名称与地址：`docs/.vuepress/external-links.ts`，已配置 GPT直充和 AI教程中心。
 - 正式域名：默认 `https://guide.bigbiscuit.fun`，环境变量 `PUBLIC_SITE_URL` 可覆盖。
 - 今日／累计访问：配置 `DATABASE_URL` 和可选的 `SITE_VISIT_HASH_SECRET`，然后执行 `pnpm db:migrate`。统计不可用时自动收起，不影响教程阅读。
-- 保留 Vercel Analytics；不生成 RSS、Atom 或 JSON 订阅。
+- 已接入 Vercel Web Analytics，统计首次访问和站内页面切换；不生成 RSS、Atom 或 JSON 订阅。
 - 教程图片从原 CDN 下载到 `docs/.vuepress/public/images/tutorials/`；原图水印保留，详见 `reviews/`。
 - 文章发布日期、更新时间与正文日期已固定偏移 ±1–3 天，前后对照见 `reviews/date-changes.json`。
 
@@ -39,5 +39,7 @@ pnpm typecheck
 5. 点击 **Deploy**，部署成功后打开首页和教程内页确认内容正常。
 
 部署完成后，将 `guide.bigbiscuit.fun` 添加到项目域名，并按 Vercel 给出的记录配置 DNS。在项目中启用 Web Analytics 即可查看访问分析；首页今日／累计计数暂时隐藏，后续配置数据库并执行迁移后启用。
+
+Web Analytics 代码已在 `docs/.vuepress/client.ts` 接入。进入 Vercel 项目的 **Analytics / Web Analytics → Enable**，启用后重新部署，让平台生成统计路由。访问站点后即可在控制台查看访客和页面浏览数据，无需配置 `DATABASE_URL`。
 
 通过 GitHub 导入后，Vercel 默认会在后续推送时自动部署。需要从控制台手动发布某个分支或提交时，进入项目 **Deployments → Create Deployment**，选择对应分支或提交。
