@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-06-17
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex Hooks 入门指南，说明 Hooks 的用途、配置位置、事件类型、信任审查、输入输出协议和安全实践。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-19。本文依据 [Codex Hooks 官方文档](https://developers.openai.com/codex/hooks) 和 [Codex Configuration Reference](https://developers.openai.com/codex/config-reference) 整理。
+官方资料最后核对日期：2026-06-22。本文依据 [Codex Hooks 官方文档](https://developers.openai.com/codex/hooks) 和 [Codex Configuration Reference](https://developers.openai.com/codex/config-reference) 整理。
 :::
 
 # Hooks
@@ -307,7 +313,7 @@ Hook 可以通过退出码和 `stdout` / `stderr` 影响 Codex。主要分为两
 
 ## 审查与信任
 
-![Codex Hooks 审查与信任界面](https://cdn.canghecode.com/codexguide/docs/images/codex-hooks-trust-review-watermarked-small.png)
+![Codex Hooks 审查与信任界面](/images/tutorials/codex-hooks-trust-review-watermarked-small.png)
 
 非托管 command Hook 在运行前需要被审查和信任。Codex 会根据 Hook 当前定义计算 hash；Hook 修改后，会重新进入待审查状态，在信任前会被跳过。
 

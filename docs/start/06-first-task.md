@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-16
+updated: 2026-07-01
+lastUpdated: true
+contributors: false
+editLink: false
 description: "用 Codex 完成第一个任务的入门教程，带你选择工作目录、输入任务、查看结果并完成基础验证，形成操作习惯。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本章以桌面 App 第一个任务为例，Codex App 的项目、工作区、权限和任务执行入口请以 [Codex App docs](https://developers.openai.com/codex/app)、[Settings](https://developers.openai.com/codex/app/settings) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 为准。
+官方资料最后核对日期：2026-06-30。本章以桌面 App 第一个任务为例，Codex App 的项目、工作区、权限和任务执行入口请以 [Codex App docs](https://developers.openai.com/codex/app)、[Settings](https://developers.openai.com/codex/app/settings) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 为准。
 :::
 
 # 用 Codex 完成第一个任务
@@ -19,7 +25,7 @@ description: "用 Codex 完成第一个任务的入门教程，带你选择工�
 文件夹路径中尽量不要包含中文，避免部分工具出现兼容性问题。
 :::
 
-![新建本地文件夹](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-local-folder.png)
+![新建本地文件夹](/images/tutorials/codex-first-task-local-folder.png)
 
 ## 第二步：选择对话还是项目
 
@@ -34,25 +40,25 @@ description: "用 Codex 完成第一个任务的入门教程，带你选择工�
 
 选择项目后，点击"使用现有文件夹"，选中刚才创建的文件夹。
 
-![选择工作目录](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-add-workspace-folder.png)
+![选择工作目录](/images/tutorials/codex-first-task-add-workspace-folder.png)
 
 选择完成后，对话框左下角会显示当前工作目录的路径，确认路径正确即可。
 
-![确认工作目录](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-selected-workspace.png)
+![确认工作目录](/images/tutorials/codex-first-task-selected-workspace.png)
 
 ## 第四步：输入任务描述，开始执行
 
 在对话框中输入你的需求，点击发送，Codex 就会开始执行任务。
 
-![输入任务并发送](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-prompt-input.png)
+![输入任务并发送](/images/tutorials/codex-first-task-prompt-input.png)
 
 任务完成后，Codex 会在对话中展示结果，同时将生成的文件写入工作目录。
 
-![任务完成](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-completion.png)
+![任务完成](/images/tutorials/codex-first-task-completion.png)
 
 如果生成的是网页文件，可以直接点击 Codex 弹出的"打开"按钮，在 App 内置浏览器中预览效果，无需手动打开文件夹。
 
-![内置浏览器预览](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-browser-preview.png)
+![内置浏览器预览](/images/tutorials/codex-first-task-browser-preview.png)
 
 ## 第五步：逐步迭代
 
@@ -60,13 +66,13 @@ description: "用 Codex 完成第一个任务的入门教程，带你选择工�
 
 随着对话轮次增加，上下文窗口会逐渐被填满。点击对话框右下角的小圆圈图标，可以查看当前上下文使用情况。
 
-![上下文使用情况](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-context-usage.png)
+![上下文使用情况](/images/tutorials/codex-first-task-context-usage.png)
 
 ::: info 什么是上下文窗口？
 每次对话都有容量上限，每一轮问答都会占用一定空间。当上下文接近满载时，建议在项目中新建一个对话继续处理后续任务——新对话仍然共享同一工作目录，不需要重新配置。
 :::
 
-![项目中新建对话](https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-new-chat-in-project.png)
+![项目中新建对话](/images/tutorials/codex-first-task-new-chat-in-project.png)
 
 如果使用的是"对话"模式而非项目，新建对话时需要重新指定工作目录，两个对话之间也是相互隔离的，不方便统一管理。这也是推荐使用项目的主要原因之一。
 

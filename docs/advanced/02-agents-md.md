@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-04-29
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "AGENTS.md 项目规则指南，说明如何写入项目命令、代码风格、禁用事项、验证方式、团队约定和本地私有规则，让 Codex 更快理解项目。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-19。`AGENTS.md` 机制请以 [Codex AGENTS.md 官方文档](https://developers.openai.com/codex/guides/agents-md)、[AGENTS.md 标准网站](https://agents.md/) 和 [openai/codex GitHub repository](https://github.com/openai/codex) 为准。
+官方资料最后核对日期：2026-06-16。`AGENTS.md` 机制请以 [Codex AGENTS.md 官方文档](https://developers.openai.com/codex/guides/agents-md)、[AGENTS.md 标准网站](https://agents.md/) 和 [openai/codex GitHub repository](https://github.com/openai/codex) 为准。
 :::
 
 # AGENTS.md
@@ -30,7 +36,7 @@ description: "AGENTS.md 项目规则指南，说明如何写入项目命令、�
 
 对于普通项目，最推荐的做法是在项目根目录创建 `AGENTS.md`。Codex 在开始处理任务前会自动读取它，并把内容作为工作上下文带入新的对话。
 
-![agents-md-editor-rule-example](https://cdn.canghecode.com/codexguide/docs/images/agents-md-editor-rule-example.png)
+![agents-md-editor-rule-example](/images/tutorials/agents-md-editor-rule-example.png)
 
 若希望全局生效，可以撰写 Codex 的全局指令：
 
@@ -39,7 +45,7 @@ description: "AGENTS.md 项目规则指南，说明如何写入项目命令、�
 
 设置全局规则后，它会影响你打开的所有项目；项目级 `AGENTS.md` 只影响当前仓库。两者作用域不同，要分清。
 
-![codex-app-personalization-settings](https://cdn.canghecode.com/codexguide/docs/images/codex-app-personalization-settings.png)
+![codex-app-personalization-settings](/images/tutorials/codex-app-personalization-settings.png)
 
 请确保文件名始终为 `AGENTS.md`，并确认**大小写**是否正确。否则 Codex 不会自动识别。
 

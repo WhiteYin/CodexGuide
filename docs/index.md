@@ -1,11 +1,17 @@
 ---
+author: 大蓝营
+date: 2026-04-29
+updated: 2026-09-08
+lastUpdated: true
+contributors: false
+editLink: false
 home: true
 icon: home
 title: OpenAI Codex 中文教程与实战指南
-description: "CodexGuide 是面向中文用户的 OpenAI Codex 教程，帮助你从第一次任务快速上手Codex，并通过进阶教程与社区实践掌握实用的技巧。"
+description: "大蓝营 是面向中文用户的 OpenAI Codex 教程，帮助你从第一次任务快速上手Codex，并通过进阶教程与实战案例掌握实用的技巧。"
 pageClass: codex-home-page
-heroImage: https://cdn.canghecode.com/codexguide/docs/.vuepress/public/logo.svg
-heroText: CodexGuide
+heroImage: /bluecamp-logo.svg
+heroText: 大蓝营
 tagline: 一站式掌握 Codex App、CLI、配置与实战。让 AI 编程助手真正进入你的日常工作
 actions:
   - text: 从快速上手开始
@@ -13,9 +19,6 @@ actions:
     type: primary
   - text: 阅读学习路线
     link: /guide/
-    type: default
-  - text: 加入交流群
-    link: /community/join.md
     type: default
 ---
 
@@ -29,7 +32,7 @@ actions:
 
 ## 选择适合你的教程
 
-CodexGuide 提供分层次的精细教学。助力你快速入门 Codex，并通过进阶教程掌握实用的技巧。
+大蓝营 提供分层次的精细教学。助力你快速入门 Codex，并通过进阶教程掌握实用的技巧。
 
 <div class="home-core-layout">
   <div class="home-core-card home-core-card-primary">
@@ -89,7 +92,7 @@ CodexGuide 提供分层次的精细教学。助力你快速入门 Codex，并通
 
 <p class="home-gallery-label">更多优质教程：</p>
 
-<div class="home-gallery-frame" aria-label="CodexGuide 优质教程节选">
+<div class="home-gallery-frame" aria-label="大蓝营 优质教程节选">
   <div class="home-gallery-track">
     <a class="home-gallery-card" href="/start/06-first-task">
       <span>快速上手</span>
@@ -186,45 +189,6 @@ CodexGuide 提供分层次的精细教学。助力你快速入门 Codex，并通
 
 </section>
 
-<section class="home-section home-community">
 
-<div class="home-community-copy">
-
-<div class="home-section-kicker">付费交流群</div>
-
-## 和认真使用 Codex 的人一起进步
-
-当教程无法覆盖你的真实场景，可以在群里交流配置、工作流、Skills、Plugins、自动化和项目实战。智能体每天汇总各群精华，加入任一群也能了解整个 Codex 社区当天的重点。9.9 元一次付费，入群资格长期有效。
-
-<p class="home-community-scale"><strong>已有 5 个 Codex 交流群满员</strong><span>新成员将加入当前开放群，并持续收到整个社区的每日精华。</span></p>
-
-<ul class="home-community-benefits">
-  <li>围绕真实问题交流，减少泛泛讨论</li>
-  <li>智能体每日汇总多个群的核心话题</li>
-  <li>持续获取实战案例与重要更新</li>
-  <li>认识同样在长期使用 Codex 的伙伴</li>
-</ul>
-
-<div class="home-action-row">
-  <a class="home-primary-link" href="/community/join.md">¥9.9 了解并加入</a>
-  <a href="/community/roadmap.md">参与社区共建</a>
-</div>
-
-<p class="home-community-note">支付宝支付 · 付款后当前浏览器自动保存入群资格</p>
-
-</div>
-
-<aside class="home-community-panel">
-  <span>适合这些读者</span>
-  <strong>你已经开始使用 Codex，并希望把它真正融入工作</strong>
-  <ul>
-    <li>手上有具体问题或项目</li>
-    <li>愿意分享过程和有效经验</li>
-    <li>希望获得长期、稳定的中文交流环境</li>
-  </ul>
-  <a href="/community/join.md">查看完整介绍</a>
-</aside>
-
-</section>
 
 </div>

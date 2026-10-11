@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-18
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 Draw.io MCP 案例，说明如何用 AI 自动绘制架构图、整理节点关系并生成可编辑图形。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/)、[jgraph/drawio-mcp](https://github.com/jgraph/drawio-mcp) 与 [draw.io](https://www.drawio.com/)。第三方 MCP 的安装命令、授权方式和兼容性请以原项目说明为准。
+公开资料最后核对日期：2026-07-02。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/)、[jgraph/drawio-mcp](https://github.com/jgraph/drawio-mcp) 与 [draw.io](https://www.drawio.com/)。第三方 MCP 的安装命令、授权方式和兼容性请以原项目说明为准。
 :::
 
 # Codex × Draw.io MCP：AI 自动绘制架构图
@@ -23,7 +29,7 @@ description: "Codex 与 Draw.io MCP 案例，说明如何用 AI 自动绘制架�
 
 GitHub 地址：https://github.com/jgraph/drawio-mcp
 
-![drawio-mcp-github-repository](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-github-repository.png)
+![drawio-mcp-github-repository](/images/tutorials/drawio-mcp-github-repository.png)
 
 本章节介绍如何使用 Codex 安装、使用 Draw.io 的 MCP 工具，去绘制信息图或架构图。
 
@@ -33,17 +39,17 @@ GitHub 地址：https://github.com/jgraph/drawio-mcp
 
 可以在设置里面添加，但需要填写对应的配置选项：
 
-![drawio-mcp-add-server-settings](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-add-server-settings.png)
+![drawio-mcp-add-server-settings](/images/tutorials/drawio-mcp-add-server-settings.png)
 
 更简单的方法是**直接把 Draw.io MCP 的 GitHub 仓库链接丢给 Codex，让 Codex 帮我们完成安装**。
 
-![drawio-mcp-install-prompt](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-install-prompt.png)
+![drawio-mcp-install-prompt](/images/tutorials/drawio-mcp-install-prompt.png)
 
 如果它没有理解你的需求，就让它直接安装，说："安装之后，请确保我可以直接使用。"它就会帮你完成安装的过程。
 
 安装完成之后，确认一下即可：
 
-![drawio-mcp-install-command-result](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-install-command-result.png)
+![drawio-mcp-install-command-result](/images/tutorials/drawio-mcp-install-command-result.png)
 
 ---
 
@@ -51,21 +57,21 @@ GitHub 地址：https://github.com/jgraph/drawio-mcp
 
 我选择一本书的内容，让 Draw.io 根据这本书的核心观点，绘制一张中文信息图。
 
-![drawio-mcp-permission-model-prompt](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-permission-model-prompt.png)
+![drawio-mcp-permission-model-prompt](/images/tutorials/drawio-mcp-permission-model-prompt.png)
 
 你可以随意要求它，自定义要绘制的内容、主题、风格等相关要求。
 
 > **提示：** 在提示词里一定要强调使用 **Draw.io 的 MCP** 去完成任务，这样它才会调用这个工具。
 
-![drawio-mcp-permission-model-source-links](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-permission-model-source-links.png)
+![drawio-mcp-permission-model-source-links](/images/tutorials/drawio-mcp-permission-model-source-links.png)
 
 绘制完成之后，它会针对本次任务进行总结，并且**自动打开浏览器显示绘图结果**。
 
-![drawio-mcp-read-write-own-summary](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-read-write-own-summary.png)
+![drawio-mcp-read-write-own-summary](/images/tutorials/drawio-mcp-read-write-own-summary.png)
 
 绘图结果如图所示：
 
-![drawio-mcp-read-write-own-diagram](https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-read-write-own-diagram.png)
+![drawio-mcp-read-write-own-diagram](/images/tutorials/drawio-mcp-read-write-own-diagram.png)
 
 ---
 

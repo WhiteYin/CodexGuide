@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-06-06
+updated: 2026-07-02
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex Hatch Pet 功能案例，说明如何用一张照片生成专属宠物动画，适合想要个性化编程伴侣的用户。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文记录 Codex 客户端中的 Hatch Pet 使用流程，相关入口、Slash Command、素材格式和生成结果请以当前 Codex 客户端为准；通用能力说明可参考 [Codex App docs](https://developers.openai.com/codex/app) 与 [Codex Skills](https://developers.openai.com/codex/skills)。
+官方资料最后核对日期：2026-07-01。本文记录 Codex 客户端中的 Hatch Pet 使用流程，相关入口、Slash Command、素材格式和生成结果请以当前 Codex 客户端为准；通用能力说明可参考 [Codex App docs](https://developers.openai.com/codex/app) 与 [Codex Skills](https://developers.openai.com/codex/skills)。
 :::
 
 # Codex × Hatch Pet：用一张照片生成专属宠物
@@ -20,7 +26,7 @@ Codex 内置了一个宠物系统——**Hatch Pet**。
 
 在对话框中输入 `/`，选择「Hatch Pet」。
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603164239865.png)
+![image.png](/images/tutorials/yanyan-20260603164239865.png)
 
 ---
 
@@ -32,15 +38,15 @@ Codex 内置了一个宠物系统——**Hatch Pet**。
 /Hatch Pet 帮我根据上传的照片生成一个萌系 Q 版的宠物。
 ```
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603165113247.png)
+![image.png](/images/tutorials/yanyan-20260603165113247.png)
 
 Codex 会自动完成风格转换、生成帧数、添加动画效果。
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603165417268.png)
+![image.png](/images/tutorials/yanyan-20260603165417268.png)
 
 生成过程中会显示进度提示：
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603170909630.png)
+![image.png](/images/tutorials/yanyan-20260603170909630.png)
 
 > 生成时间通常需要 1-3 分钟，请耐心等待。
 
@@ -50,17 +56,17 @@ Codex 会自动完成风格转换、生成帧数、添加动画效果。
 
 生成完成后，在「自定义宠物」区域点击选择，专属宠物就诞生了。
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603171016784.png)
+![image.png](/images/tutorials/yanyan-20260603171016784.png)
 
 最终效果：
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603171438425.png)
+![image.png](/images/tutorials/yanyan-20260603171438425.png)
 
 生成后的动画效果可以在 Codex 的自定义宠物列表和输出目录中查看。
 
 宠物包输出位置：
 
-![](https://cdn.canghecode.com/yanyan/20260603180110711.png)
+![](/images/tutorials/yanyan-20260603180110711.png)
 
 ---
 
@@ -72,7 +78,7 @@ Codex 会自动完成风格转换、生成帧数、添加动画效果。
 ~/.codex/pet
 ```
 
-![image.png](https://cdn.canghecode.com/yanyan/20260603174027962.png)
+![image.png](/images/tutorials/yanyan-20260603174027962.png)
 
 ---
 

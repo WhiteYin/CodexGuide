@@ -2,11 +2,12 @@ import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { externalLinks } from "./external-links.js";
+
 import { navbar } from "vuepress-theme-hope";
 
 import {
   advancedItemsSource,
-  manualItemsSource,
   recipeItemsSource,
   startItemsSource,
   type NavbarDocItem,
@@ -38,41 +39,11 @@ const docItems = (items: NavbarDocItem[]) =>
 const startItems = docItems(startItemsSource);
 const advancedItems = docItems(advancedItemsSource);
 const recipeItems = docItems(recipeItemsSource);
-const manualItems = docItems(manualItemsSource);
-
-const moreItems = [
-  { text: "赞助商", icon: "star", link: "/sponsors/" },
-  ...manualItems,
-  {
-    text: "社区共建",
-    icon: "people",
-    link: "/community/roadmap.md",
-    ariaLabel: "社区共建",
-    children: [
-      { text: "社区共建图", icon: "message", link: "/community/roadmap.md" },
-      { text: "社区教程合集", icon: "book", link: "/community/tutorials.md" },
-    ],
-  },
-];
-
-const productItems = [
-  {
-    text: "皮肤",
-    icon: "palette",
-    link: "https://theme.codexguide.ai/",
-    ariaLabel: "CodexGuide 主题皮肤",
-  },
-];
-
-const publicSiteUrl = process.env.PUBLIC_SITE_URL?.trim();
-const configuredCommunitySiteUrl = process.env.COMMUNITY_SITE_URL?.trim();
-const isSeparateCommunitySite =
-  configuredCommunitySiteUrl &&
-  (!publicSiteUrl ||
-    new URL(configuredCommunitySiteUrl).origin !== new URL(publicSiteUrl).origin);
-const communityJoinLink = isSeparateCommunitySite
-  ? new URL("/community/join", configuredCommunitySiteUrl).toString()
-  : "/community/join.md";
+// 添加外链时只需编辑 external-links.ts；未配置时显示静态提示。
+const moreItems = [{ text: "参考来源与致谢", icon: "heart", link: "/manual/02-credits.md" }];
+const configuredExternalLinks = externalLinks.length
+  ? externalLinks
+  : [{ text: "待配置", children: [] }];
 
 export default navbar([
   { text: "首页", icon: "home", link: "/" },
@@ -99,16 +70,10 @@ export default navbar([
     children: recipeItems,
   },
   {
-    text: "产品",
-    icon: "app",
-    ariaLabel: "产品导航",
-    children: productItems,
-  },
-  {
-    text: "交流群",
-    icon: "message",
-    link: communityJoinLink,
-    ariaLabel: "交流群",
+    text: "外链",
+    icon: "link",
+    ariaLabel: "外链导航",
+    children: configuredExternalLinks,
   },
   {
     text: "更多",

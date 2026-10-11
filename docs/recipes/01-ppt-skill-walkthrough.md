@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 PPT Skill 案例，说明如何用一句话生成演示文稿，检查结构、视觉一致性和导出效果。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。本文关于 Skill 机制参考 [Codex Skills](https://developers.openai.com/codex/skills)。案例中使用的 PPT Skill 来自社区仓库：[guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)。第三方 Skill 的安装方式、依赖要求和输出格式请以原仓库说明为准。
+官方资料最后核对日期：2026-05-25。本文关于 Skill 机制参考 [Codex Skills](https://developers.openai.com/codex/skills)。案例中使用的 PPT Skill 来自社区仓库：[guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)。第三方 Skill 的安装方式、依赖要求和输出格式请以原仓库说明为准。
 :::
 
 # Codex × PPT Skill：一句话生成演示文稿
@@ -36,7 +42,7 @@ description: "Codex 与 PPT Skill 案例，说明如何用一句话生成演示�
 安装完成后，告诉我它的用途、依赖要求，以及应该如何调用。
 ```
 
-![ppt-skill-install-prompt](https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-install-prompt.png)
+![ppt-skill-install-prompt](/images/tutorials/ppt-skill-install-prompt.png)
 
 不同工作区里，安装方式可能不完全一样。有些会直接支持安装，有些则会先分析仓库结构，再提示你确认放置位置或依赖要求。
 
@@ -46,7 +52,7 @@ description: "Codex 与 PPT Skill 案例，说明如何用一句话生成演示�
 
 如果这个 Skill 已经提前安装过，你通常也可以通过斜杠命令、技能选择器，或者在任务里明确点名的方式来调用它。
 
-![ppt-skill-installation-result](https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-installation-result.png)
+![ppt-skill-installation-result](/images/tutorials/ppt-skill-installation-result.png)
 
 例如：
 
@@ -56,15 +62,15 @@ description: "Codex 与 PPT Skill 案例，说明如何用一句话生成演示�
 
 如果你没有给足上下文，Codex 往往会先回到这个 Skill 的操作手册里，看看它需要什么输入，然后再向你追问必要信息。
 
-![ppt-skill-user-input-menu](https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-user-input-menu.png)
+![ppt-skill-user-input-menu](/images/tutorials/ppt-skill-user-input-menu.png)
 
 当你补齐背景、主题、受众或风格要求后，它会按该 Skill 的流程去读取 README、模板和相关文档，再生成结果。
 
-![ppt-skill-generated-file-result](https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-generated-file-result.png)
+![ppt-skill-generated-file-result](/images/tutorials/ppt-skill-generated-file-result.png)
 
 如果这个 Skill 的默认产物是 HTML 演示稿，你通常可以直接在 Codex 内置浏览器里打开预览。
 
-![ppt-skill-html-preview](https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-html-preview.png)
+![ppt-skill-html-preview](/images/tutorials/ppt-skill-html-preview.png)
 
 ## 你要重点检查什么
 

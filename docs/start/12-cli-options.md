@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-01
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex CLI 选项与命令指南，覆盖交互模式、非交互执行、恢复会话、Slash Commands 和常用启动参数。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Codex CLI 官方仓库](https://github.com/openai/codex)、[CLI getting started](https://github.com/openai/codex/blob/main/docs/getting-started.md)、[exec 文档](https://github.com/openai/codex/blob/main/docs/exec.md) 与 [slash commands 文档](https://github.com/openai/codex/blob/main/docs/slash_commands.md)。
+官方资料最后核对日期：2026-05-24。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Codex CLI 官方仓库](https://github.com/openai/codex)、[CLI getting started](https://github.com/openai/codex/blob/main/docs/getting-started.md)、[exec 文档](https://github.com/openai/codex/blob/main/docs/exec.md) 与 [slash commands 文档](https://github.com/openai/codex/blob/main/docs/slash_commands.md)。
 :::
 
 # CLI 选项与命令

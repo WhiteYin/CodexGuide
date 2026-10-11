@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-01
+updated: 2026-06-29
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex CLI 安装与登录教程，覆盖 Node 环境、安装命令、版本检查、登录流程和首次运行准备。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。CLI 系统要求与安装方式参考 [openai/codex 官方仓库](https://github.com/openai/codex)、[CLI install 文档](https://github.com/openai/codex/blob/main/docs/install.md) 和 [Codex CLI Help Center](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started)。
+官方资料最后核对日期：2026-05-26。CLI 系统要求与安装方式参考 [openai/codex 官方仓库](https://github.com/openai/codex)、[CLI install 文档](https://github.com/openai/codex/blob/main/docs/install.md) 和 [Codex CLI Help Center](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started)。
 :::
 
 # 安装CLI
@@ -28,7 +34,7 @@ npm -v
 git --version
 ```
 
-![codex-cli-prerequisite-version-check](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-prerequisite-version-check.png)
+![codex-cli-prerequisite-version-check](/images/tutorials/codex-cli-prerequisite-version-check.png)
 
 ## 安装 CLI
 
@@ -50,7 +56,7 @@ npm install -g @openai/codex@latest
 codex --version
 ```
 
-![codex-cli-version-check](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-version-check.png)
+![codex-cli-version-check](/images/tutorials/codex-cli-version-check.png)
 
 ## 登录方式
 
@@ -62,7 +68,7 @@ codex
 
 根据终端提示完成登录。官方资料说明 Codex 可以通过 ChatGPT 账号在多个入口中使用，具体可用计划、限额和组织策略以 [Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt) 为准。
 
-![codex-cli-login-account-selection](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-login-account-selection.png)
+![codex-cli-login-account-selection](/images/tutorials/codex-cli-login-account-selection.png)
 
 ## 第一次只读任务
 
@@ -83,7 +89,7 @@ codex
 4. 你建议我下一步交给你的 3 个低风险任务
 ```
 
-![codex-cli-readonly-first-task](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-readonly-first-task.png)
+![codex-cli-readonly-first-task](/images/tutorials/codex-cli-readonly-first-task.png)
 
 ## 安装失败时怎么判断
 

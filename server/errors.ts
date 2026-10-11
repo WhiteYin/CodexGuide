@@ -27,7 +27,7 @@ export const errorResponse = (error: unknown): Response => {
   if (error instanceof ConfigError) {
     console.error(error.message);
     return Response.json(
-      { error: { code: "service_not_configured", message: "付费入群服务尚未配置完成。" } },
+      { error: { code: "service_not_configured", message: "访问统计服务尚未配置完成。" } },
       { status: 503, headers },
     );
   }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <circle cx="1080" cy="90" r="340" fill="#1d4ed8" opacity=".35"/>
+  <rect x="80" y="84" width="92" height="92" rx="26" fill="#2563eb"/>
+  <path d="m98 154 28-46 28 46Z" fill="#fff"/><path d="m117 154 9-18 9 18Z" fill="#2563eb"/>
+  <text x="80" y="302" fill="#fff" font-family="Microsoft YaHei, sans-serif" font-size="90" font-weight="700">大蓝营</text>
+  <text x="80" y="376" fill="#93c5fd" font-family="Arial, sans-serif" font-size="44" font-weight="700">BlueCamp</text>
+  <text x="80" y="484" fill="#e2e8f0" font-family="Microsoft YaHei, sans-serif" font-size="34">Codex 中文教程与实战指南</text>
+  <text x="80" y="544" fill="#94a3b8" font-family="Microsoft YaHei, sans-serif" font-size="24">从第一次任务，到可复用的真实工作流</text>
+</svg>

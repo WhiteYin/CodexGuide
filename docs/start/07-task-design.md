@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-01
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 任务设计方法，说明如何写清目标、背景、范围、约束、验证和交付格式，让执行结果更稳定，减少返工。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文是 Codex 任务设计方法总结，涉及上下文、指令、验证和安全边界时，请参考 [Codex 文档入口](https://developers.openai.com/codex/)、[AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。
+官方资料最后核对日期：2026-06-26。本文是 Codex 任务设计方法总结，涉及上下文、指令、验证和安全边界时，请参考 [Codex 文档入口](https://developers.openai.com/codex/)、[AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。
 :::
 
 # 任务设计

@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-03
+updated: 2026-07-01
+lastUpdated: true
+contributors: false
+editLink: false
 description: "第一次让 Codex CLI 改代码的教程，说明如何选择低风险任务、让 Codex 读仓库、修改文件并运行验证。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[openai/codex getting started](https://github.com/openai/codex/blob/main/docs/getting-started.md)、[AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md) 与 [Codex security](https://developers.openai.com/codex/agent-approvals-security)。
+官方资料最后核对日期：2026-05-28。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[openai/codex getting started](https://github.com/openai/codex/blob/main/docs/getting-started.md)、[AGENTS.md guide](https://developers.openai.com/codex/guides/agents-md) 与 [Codex security](https://developers.openai.com/codex/agent-approvals-security)。
 :::
 
 # 运行 CLI
@@ -44,7 +50,7 @@ description: "第一次让 Codex CLI 改代码的教程，说明如何选择低�
 5. 你建议我第一次交给你的低风险任务
 ```
 
-![codex-cli-repo-overview-response](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-repo-overview-response.png)
+![codex-cli-repo-overview-response](/images/tutorials/codex-cli-repo-overview-response.png)
 
 ## 第二步：给出小任务
 
@@ -74,7 +80,7 @@ description: "第一次让 Codex CLI 改代码的教程，说明如何选择低�
 5. 最后列出来源链接和需要人工补图的位置。
 ```
 
-![codex-cli-small-task-response](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-small-task-response.png)
+![codex-cli-small-task-response](/images/tutorials/codex-cli-small-task-response.png)
 
 ## 第三步：观察过程
 
@@ -108,7 +114,7 @@ git diff
 4. 是否还有未验证的地方
 ```
 
-![codex-cli-review-diff-result](https://cdn.canghecode.com/codexguide/docs/images/codex-cli-review-diff-result.png)
+![codex-cli-review-diff-result](/images/tutorials/codex-cli-review-diff-result.png)
 
 ## 第五步：提交前记录
 

@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 桌面形象设置教程，记录桌面展示效果、素材准备、配置步骤和适合个性化工作台的用法，便于识别任务状态。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文记录 Codex 桌面宠物相关流程，插件入口、Slash Command、状态展示和本地文件位置请以当前 Codex 客户端为准；通用能力说明可参考 [Codex App docs](https://developers.openai.com/codex/app)、[Codex Plugins](https://developers.openai.com/codex/plugins) 与 [Codex Skills](https://developers.openai.com/codex/skills)。
+官方资料最后核对日期：2026-06-27。本文记录 Codex 桌面宠物相关流程，插件入口、Slash Command、状态展示和本地文件位置请以当前 Codex 客户端为准；通用能力说明可参考 [Codex App docs](https://developers.openai.com/codex/app)、[Codex Plugins](https://developers.openai.com/codex/plugins) 与 [Codex Skills](https://developers.openai.com/codex/skills)。
 :::
 
 # 如何设置自己的 Codex 桌面宠物
@@ -24,11 +30,11 @@ description: "Codex 桌面形象设置教程，记录桌面展示效果、素材
 
 打开”**设置**” → “**外观**”，往下滑到”**宠物**”这一栏。在这里可以选择喜欢的宠物类型并点击”**唤醒**”，桌面上就会出现选定的小宠物了。
 
-![codex-desktop-pet-plugin-install](https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-plugin-install.png)
+![codex-desktop-pet-plugin-install](/images/tutorials/codex-desktop-pet-plugin-install.png)
 
 **快捷命令方式：** 如果不想进设置，也可以直接在聊天框中输入 `/`，选择”**宠物**”选项，同样可以唤醒或收起桌面宠物。
 
-![codex-desktop-pet-slash-command](https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-slash-command.png)
+![codex-desktop-pet-slash-command](/images/tutorials/codex-desktop-pet-slash-command.png)
 
 ---
 
@@ -38,8 +44,8 @@ description: "Codex 桌面形象设置教程，记录桌面展示效果、素材
 
 比如下面这个情况：它正在进行搜索，并执行我们的任务。
 
-![codex-desktop-pet-task-bubble](https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-task-bubble.png)
+![codex-desktop-pet-task-bubble](/images/tutorials/codex-desktop-pet-task-bubble.png)
 
 任务完成之后，会显示一个**绿色对勾**，提示任务已完成。也就是说，我们可以实时看到它的执行过程以及完成结果，完全不需要盯着 Codex 窗口等待。
 
-![codex-desktop-pet-completed-task-bubble](https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-completed-task-bubble.png)
+![codex-desktop-pet-completed-task-bubble](/images/tutorials/codex-desktop-pet-completed-task-bubble.png)

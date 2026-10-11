@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-12
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与飞书 CLI 案例，说明如何用一句话处理飞书数据、多维表格和团队协作信息，适合自动整理团队数据。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [larksuite/cli](https://github.com/larksuite/cli/blob/main/README.zh.md) 与 [飞书开放平台](https://open.feishu.cn/)。飞书 CLI 的登录、授权、命令参数和 API 能力请以官方仓库与开放平台文档为准。
+公开资料最后核对日期：2026-06-26。本文参考 [larksuite/cli](https://github.com/larksuite/cli/blob/main/README.zh.md) 与 [飞书开放平台](https://open.feishu.cn/)。飞书 CLI 的登录、授权、命令参数和 API 能力请以官方仓库与开放平台文档为准。
 :::
 
 # Codex × 飞书 CLI：一句话处理飞书数据
@@ -24,7 +30,7 @@ description: "Codex 与飞书 CLI 案例，说明如何用一句话处理飞书�
 帮我装一下所有的东西：https://github.com/larksuite/cli/blob/main/README.zh.md
 ```
 
-![feishu-cli-install-result](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-install-result.png)
+![feishu-cli-install-result](/images/tutorials/feishu-cli-install-result.png)
 
 ---
 
@@ -34,19 +40,19 @@ description: "Codex 与飞书 CLI 案例，说明如何用一句话处理飞书�
 
 不用担心不知道怎么获取——直接问 Codex，它会告诉你飞书开放平台的地址，并引导你在浏览器里创建应用。
 
-![feishu-cli-create-app-prompt](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-create-app-prompt.png)
+![feishu-cli-create-app-prompt](/images/tutorials/feishu-cli-create-app-prompt.png)
 
 打开链接，创建应用：
 
-![feishu-cli-create-custom-app-modal](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-create-custom-app-modal.png)
+![feishu-cli-create-custom-app-modal](/images/tutorials/feishu-cli-create-custom-app-modal.png)
 
 按照它的指引创建应用之后，把 App ID 和 App Secret 发给它，Codex 会自动完成飞书应用配置和权限申请。
 
-![feishu-cli-doc-export-tools-result](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-doc-export-tools-result.png)
+![feishu-cli-doc-export-tools-result](/images/tutorials/feishu-cli-doc-export-tools-result.png)
 
 > 过程中会涉及**手动授权**操作。Codex 会提供跳转链接，点击在浏览器里放行对应权限即可，这样它才能读取和操作你的飞书数据。
 
-![feishu-cli-oauth-login-link](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-oauth-login-link.png)
+![feishu-cli-oauth-login-link](/images/tutorials/feishu-cli-oauth-login-link.png)
 
 ---
 
@@ -54,11 +60,11 @@ description: "Codex 与飞书 CLI 案例，说明如何用一句话处理飞书�
 
 配置完成后，Codex 就具备了非常丰富的飞书操作能力。让它列举一下可以访问的内容：
 
-![feishu-cli-document-list-result](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-document-list-result.png)
+![feishu-cli-document-list-result](/images/tutorials/feishu-cli-document-list-result.png)
 
 Codex 还会贴心地告诉你第一次应该怎么用，连提示词都帮你准备好了。
 
-![feishu-cli-command-examples](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-command-examples.png)
+![feishu-cli-command-examples](/images/tutorials/feishu-cli-command-examples.png)
 
 **实战演示：** 我让它读取飞书云盘里一个关于"知识管理"的文件夹（共 14 篇文档），读取完成后直接调用 GPT 最新的生图模型，生成一张中文信息图。
 
@@ -66,13 +72,13 @@ Codex 还会贴心地告诉你第一次应该怎么用，连提示词都帮你�
 
 执行到生图步骤时，它要求我提供 OpenAI 的 API Key：
 
-![feishu-cli-image-generation-prompt](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-image-generation-prompt.png)
+![feishu-cli-image-generation-prompt](/images/tutorials/feishu-cli-image-generation-prompt.png)
 
 这其实是不合理的。**订阅 Codex 和 ChatGPT Plus 之后，在 Codex 里可以直接调用 GPT 生图模型，完全不需要单独提供 API Key。** 这时候直接反驳它就好了。
 
 反驳之后，它就会正确调用 **GPT-Image-2** 生成信息图，无需任何额外的 API Key。
 
-![feishu-cli-generated-image-preview](https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-generated-image-preview.png)
+![feishu-cli-generated-image-preview](/images/tutorials/feishu-cli-generated-image-preview.png)
 
 ---
 

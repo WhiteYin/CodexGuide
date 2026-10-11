@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 const visitMocks = vi.hoisted(() => ({
   readSiteVisitStats: vi.fn(),
@@ -19,17 +19,33 @@ const BROWSER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/140.0 Safari/537.36";
 
 const visitRequest = (init: RequestInit = {}): Request =>
-  new Request("https://codexguide.ai/api/site/visits", {
+  new Request("https://bluecamp.example/api/site/visits", {
     ...init,
     headers: { "user-agent": BROWSER_AGENT, ...(init.headers as Record<string, string>) },
   });
 
 describe("homepage visit counter endpoint", () => {
   beforeEach(() => {
+    vi.stubEnv("DATABASE_URL", "postgresql://test.invalid/visits");
     visitMocks.readSiteVisitStats.mockReset();
     visitMocks.recordSiteVisit.mockReset();
     visitMocks.readSiteVisitStats.mockResolvedValue({ today: 12, total: 3456 });
     visitMocks.recordSiteVisit.mockResolvedValue({ today: 13, total: 3457 });
+  });
+
+  afterEach(() => vi.unstubAllEnvs());
+
+  it.each(["GET", "POST"])("hides counters without querying a database on %s when unconfigured", async (method) => {
+    vi.stubEnv("DATABASE_URL", "  ");
+    const response = await handler.fetch(
+      visitRequest({ method, headers: { origin: "https://bluecamp.example" } }),
+    );
+
+    expect(response.status).toBe(200);
+    expect(await response.json()).toBeNull();
+    expect(response.headers.get("Cache-Control")).toContain("no-store");
+    expect(visitMocks.readSiteVisitStats).not.toHaveBeenCalled();
+    expect(visitMocks.recordSiteVisit).not.toHaveBeenCalled();
   });
 
   it("reads the counters without recording on GET", async () => {
@@ -45,7 +61,7 @@ describe("homepage visit counter endpoint", () => {
 
   it("keeps the recording response private to avoid caching a write", async () => {
     const response = await handler.fetch(
-      visitRequest({ method: "POST", headers: { origin: "https://codexguide.ai" } }),
+      visitRequest({ method: "POST", headers: { origin: "https://bluecamp.example" } }),
     );
 
     expect(response.headers.get("Cache-Control")).toContain("no-store");
@@ -53,7 +69,7 @@ describe("homepage visit counter endpoint", () => {
 
   it("records a visit for a same-origin browser request", async () => {
     const response = await handler.fetch(
-      visitRequest({ method: "POST", headers: { origin: "https://codexguide.ai" } }),
+      visitRequest({ method: "POST", headers: { origin: "https://bluecamp.example" } }),
     );
 
     expect(response.status).toBe(200);
@@ -76,7 +92,7 @@ describe("homepage visit counter endpoint", () => {
     const response = await handler.fetch(
       visitRequest({
         method: "POST",
-        headers: { origin: "https://codexguide.ai", "user-agent": "Googlebot/2.1" },
+        headers: { origin: "https://bluecamp.example", "user-agent": "Googlebot/2.1" },
       }),
     );
 

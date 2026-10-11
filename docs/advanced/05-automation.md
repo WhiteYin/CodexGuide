@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-17
+updated: 2026-07-02
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 自动化指南，说明定时任务、提醒、监控、后续跟进和适合自动化处理的工作场景，沉淀重复检查流程。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。本文参考 [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 与 [Codex use cases](https://developers.openai.com/codex/use-cases/)。不同客户端、工作区套餐和权限设置下，自动化入口和可选项可能会有所不同。
+官方资料最后核对日期：2026-05-29。本文参考 [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 与 [Codex use cases](https://developers.openai.com/codex/use-cases/)。不同客户端、工作区套餐和权限设置下，自动化入口和可选项可能会有所不同。
 :::
 
 # Automation
@@ -66,7 +72,7 @@ description: "Codex 自动化指南，说明定时任务、提醒、监控、后
 - 第一次配置时，建议先从低风险、只读型任务开始。
 - 如果自动化会写文件、访问外部系统或触发通知，最好先确认权限边界和人工复核方式。
 
-![codex-automation-create-dialog](https://cdn.canghecode.com/codexguide/docs/images/codex-automation-create-dialog.png)
+![codex-automation-create-dialog](/images/tutorials/codex-automation-create-dialog.png)
 
 ## 下一步
 

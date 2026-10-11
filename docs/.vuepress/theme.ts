@@ -18,16 +18,18 @@ const isHomePage = (path: string): boolean => path === "/" || path === "/index.h
 
 export default hopeTheme({
   hostname: `${siteUrl}/`,
-  logo: "https://cdn.canghecode.com/codexguide/docs/.vuepress/public/logo.svg",
-  favicon: "https://cdn.canghecode.com/codexguide/docs/.vuepress/public/logo.svg",
+  logo: "/bluecamp-logo.svg",
+  favicon: "/bluecamp-logo.svg",
 
   author: {
-    name: "canghe",
-    url: "https://github.com/freestylefly",
+    name: "大蓝营",
   },
 
-  repo: "https://github.com/freestylefly/CodexGuide",
-  docsDir: "docs",
+  repoDisplay: false,
+  editLink: false,
+  contributors: false,
+  lastUpdated: true,
+  navbarLayout: { start: ["Brand"], center: ["Links"], end: ["Outlook", "Search"] },
 
   navbar,
   sidebar,
@@ -37,8 +39,7 @@ export default hopeTheme({
   focus: false,
   breadcrumb: true,
   displayFooter: true,
-  footer:
-    '感谢 <a href="https://www.packyapi.ai/register?aff=CV0c" target="_blank" rel="noopener noreferrer">PackyAPI</a> 的独家赞助 · MIT Licensed',
+  footer: "大蓝营 · BlueCamp · Codex 中文教程与实战指南",
   pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
@@ -57,18 +58,16 @@ export default hopeTheme({
   plugins: {
     copyCode: true,
     copyright: {
-      author: "CodexGuide(codexguide.ai)",
+      author: "大蓝营 / BlueCamp",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
       canonical: `${siteUrl}/`,
       global: true,
     },
-    feed: {
-      atom: true,
-      json: true,
-      rss: true,
-    },
+    feed: false,
+    catalog: false,
+    git: { createdTime: false, updatedTime: false, contributors: false, changelog: false },
     seo: {
       fallBackImage: siteOgImage,
       canonical: (page) => toSiteUrl(page.path),
@@ -76,7 +75,7 @@ export default hopeTheme({
         ...ogp,
         "og:description": getPageDescription(page.path),
         "og:image": page.frontmatter.cover || page.frontmatter.banner ? ogp["og:image"] : siteOgImage,
-        "og:image:alt": `${page.title} - CodexGuide`,
+        "og:image:alt": `${page.title} - 大蓝营`,
         "og:locale": "zh_CN",
       }),
       jsonLd: (jsonLD, page) =>
@@ -87,18 +86,17 @@ export default hopeTheme({
                 {
                   "@type": "Organization",
                   "@id": `${siteUrl}/#organization`,
-                  name: "CodexGuide",
+                  name: "大蓝营",
                   url: `${siteUrl}/`,
                   logo: {
                     "@type": "ImageObject",
-                    url: `https://cdn.canghecode.com/codexguide/docs/.vuepress/public/logo.svg`,
+                    url: toSiteUrl("/bluecamp-logo.svg"),
                   },
-                  sameAs: ["https://github.com/freestylefly/CodexGuide"],
                 },
                 {
                   "@type": "WebSite",
                   "@id": `${siteUrl}/#website`,
-                  name: "CodexGuide",
+                  name: "大蓝营",
                   alternateName: ["OpenAI Codex 中文教程", "Codex 教程"],
                   url: `${siteUrl}/`,
                   description: getPageDescription(page.path),
@@ -115,7 +113,7 @@ export default hopeTheme({
                 {
                   "@type": ["LearningResource", "Course"],
                   "@id": `${siteUrl}/#codex-course`,
-                  name: "CodexGuide：OpenAI Codex 中文教程与实战指南",
+                  name: "大蓝营：OpenAI Codex 中文教程与实战指南",
                   url: `${siteUrl}/`,
                   description: getPageDescription(page.path),
                   image: [siteOgImage],
@@ -136,46 +134,48 @@ export default hopeTheme({
             }
           : {
               ...jsonLD,
+              dateCreated: page.frontmatter.date ? new Date(page.frontmatter.date).toISOString() : undefined,
+              dateModified: page.frontmatter.updated ? new Date(page.frontmatter.updated).toISOString() : undefined,
               description: getPageDescription(page.path),
               url: toSiteUrl(page.path),
               image: [siteOgImage],
               inLanguage: "zh-CN",
               isPartOf: {
                 "@type": "WebSite",
-                name: "CodexGuide",
+                name: "大蓝营",
                 url: `${siteUrl}/`,
               },
               publisher: {
                 "@type": "Organization",
-                name: "CodexGuide",
+                name: "大蓝营",
                 url: `${siteUrl}/`,
                 logo: {
                   "@type": "ImageObject",
-                  url: `https://cdn.canghecode.com/codexguide/docs/.vuepress/public/logo.svg`,
+                  url: toSiteUrl("/bluecamp-logo.svg"),
                 },
               },
             },
       customHead: (head, page) => {
         const description = getPageDescription(page.path);
-        const title = `${page.title} | CodexGuide`;
+        const title = `${page.title} | 大蓝营`;
 
         addMeta(head, "name", "twitter:card", "summary_large_image");
         addMeta(head, "name", "twitter:title", title);
         addMeta(head, "name", "twitter:description", description);
         addMeta(head, "name", "twitter:image", siteOgImage);
-        addMeta(head, "name", "twitter:image:alt", `${page.title} - CodexGuide`);
+        addMeta(head, "name", "twitter:image:alt", `${page.title} - 大蓝营`);
       },
     },
     sitemap: {
       hostname: `${siteUrl}/`,
       changefreq: "weekly",
-      excludePaths: ["/404.html", "/guide/", "/community/"],
+      excludePaths: ["/404.html"],
     },
     slimsearch: {
       maxSuggestions: 10,
       locales: {
         "/": {
-          placeholder: "搜索 CodexGuide",
+          placeholder: "搜索 大蓝营",
         },
       },
     },

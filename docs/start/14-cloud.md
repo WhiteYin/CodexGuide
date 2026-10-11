@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-12
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex Cloud 使用指南，说明云端任务、仓库连接、长任务、PR 工作流和与本地 App、IDE 的差异。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文参考 [Codex Cloud docs](https://platform.openai.com/docs/codex)、[Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。云端环境、仓库连接、任务权限和可用计划请以官方页面为准。
+官方资料最后核对日期：2026-06-26。本文参考 [Codex Cloud docs](https://platform.openai.com/docs/codex)、[Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。云端环境、仓库连接、任务权限和可用计划请以官方页面为准。
 :::
 
 # 使用 Codex Cloud
@@ -31,27 +37,27 @@ CLI 的使用方式见 [CLI 安装与登录](./10-cli-installation.md)，IDE 插
 
 访问：[https://chatgpt.com/codex/cloud](https://chatgpt.com/codex/cloud)
 
-![codex-cloud-connect-github-button](https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-connect-github-button.png)
+![codex-cloud-connect-github-button](/images/tutorials/codex-cloud-connect-github-button.png)
 
 连接成功后会跳转到任务页面：
 
-![codex-cloud-start-task-page](https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-start-task-page.png)
+![codex-cloud-start-task-page](/images/tutorials/codex-cloud-start-task-page.png)
 
 ### 第 2 步：授权并选择仓库
 
 Cloud 模式直接在 GitHub 仓库中运行，需要先完成授权。你可以授权全部仓库，也可以只选择特定仓库：
 
-![codex-cloud-github-repository-authorization](https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-github-repository-authorization.png)
+![codex-cloud-github-repository-authorization](/images/tutorials/codex-cloud-github-repository-authorization.png)
 
 ### 第 3 步：下达指令，查看任务进度
 
 下达指令后，Codex 会在云端执行任务，进度显示在页面下方的任务列表里：
 
-![codex-cloud-repository-context-prompt](https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-repository-context-prompt.png)
+![codex-cloud-repository-context-prompt](/images/tutorials/codex-cloud-repository-context-prompt.png)
 
 点击任务可以查看每一步的执行过程和中间状态。任务完成后也可以查看最终回答和产出内容：
 
-![codex-cloud-task-progress-result](https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-task-progress-result.png)
+![codex-cloud-task-progress-result](/images/tutorials/codex-cloud-task-progress-result.png)
 
 ---
 

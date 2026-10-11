@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 Figma MCP 案例，说明如何读取设计稿、理解布局与组件，并辅助前端实现或文档整理。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/) 与 [Figma](https://www.figma.com/)。Figma MCP、Dev Mode、授权入口和可读取的设计信息会随 Figma 与 Codex 客户端更新变化，请以当前产品界面为准。
+公开资料最后核对日期：2026-06-27。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/) 与 [Figma](https://www.figma.com/)。Figma MCP、Dev Mode、授权入口和可读取的设计信息会随 Figma 与 Codex 客户端更新变化，请以当前产品界面为准。
 :::
 
 # Codex × Figma MCP：让 AI 读懂你的设计稿
@@ -18,7 +24,7 @@ description: "Codex 与 Figma MCP 案例，说明如何读取设计稿、理解�
 
 安装后会跳转到浏览器页面完成授权（流程和 Notion MCP 类似，按提示操作即可）。
 
-![figma-mcp-plugin-permissions](https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-plugin-permissions.png)
+![figma-mcp-plugin-permissions](/images/tutorials/figma-mcp-plugin-permissions.png)
 
 ---
 
@@ -30,21 +36,21 @@ description: "Codex 与 Figma MCP 案例，说明如何读取设计稿、理解�
 
 让它生成一个包含基本操作步骤的用户登录流程图：
 
-![figma-mcp-generate-flowchart-prompt](https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-generate-flowchart-prompt.png)
+![figma-mcp-generate-flowchart-prompt](/images/tutorials/figma-mcp-generate-flowchart-prompt.png)
 
 点击返回的链接，在浏览器里查看生成的登录注册流程图效果：
 
-![figma-mcp-user-login-flowchart](https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-user-login-flowchart.png)
+![figma-mcp-user-login-flowchart](/images/tutorials/figma-mcp-user-login-flowchart.png)
 
 **示例二：生成高保真 UI 设计图**
 
 如果你觉得流程图太偏技术，可以让它设计产品功能架构图，或者生成海报式的高保真 UI。直接发提示词即可：
 
-![figma-mcp-high-fidelity-ui-prompt](https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-high-fidelity-ui-prompt.png)
+![figma-mcp-high-fidelity-ui-prompt](/images/tutorials/figma-mcp-high-fidelity-ui-prompt.png)
 
 点击链接查看效果，整体呈现非常不错：
 
-![figma-mcp-ai-product-ui-design](https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-ai-product-ui-design.png)
+![figma-mcp-ai-product-ui-design](/images/tutorials/figma-mcp-ai-product-ui-design.png)
 
 ---
 

@@ -1,16 +1,22 @@
 ---
+author: 大蓝营
+date: 2026-05-02
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 团队实践指南，整理 AGENTS.md、PR、排障、知识库、任务模板和团队推广的协作方法。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文参考 [Codex AGENTS.md 官方文档](https://developers.openai.com/codex/guides/agents-md)、[Permissions](https://developers.openai.com/codex/permissions)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 与 [Codex App Worktrees](https://developers.openai.com/codex/app/worktrees)。团队制度、审批边界和共享规则请结合本组织实际情况确认。
+官方资料最后核对日期：2026-06-27。本文参考 [Codex AGENTS.md 官方文档](https://developers.openai.com/codex/guides/agents-md)、[Permissions](https://developers.openai.com/codex/permissions)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 与 [Codex App Worktrees](https://developers.openai.com/codex/app/worktrees)。团队制度、审批边界和共享规则请结合本组织实际情况确认。
 :::
 
 # 团队实践
 
 团队使用 Codex 的关键是把规则写清楚、把验证跑起来、把案例沉淀下来。
 
-![Codex 安全边界分层](https://cdn.canghecode.com/codexguide/docs/.vuepress/public/images/codex-safety-layers.svg)
+![Codex 安全边界分层](/images/tutorials/codex-safety-layers.svg)
 
 ## 团队接入清单
 

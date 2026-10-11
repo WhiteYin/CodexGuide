@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-12
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "在 VS Code 中使用 Codex 的教程，介绍插件入口、文件上下文、局部修改、解释代码和编辑器内协作方式。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文以 VS Code 为例演示 Codex IDE 入口，插件安装、登录、界面名称和可用功能请以当前编辑器插件与 [Codex 文档入口](https://developers.openai.com/codex/) 为准；CLI 基础能力可参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)。
+官方资料最后核对日期：2026-06-26。本文以 VS Code 为例演示 Codex IDE 入口，插件安装、登录、界面名称和可用功能请以当前编辑器插件与 [Codex 文档入口](https://developers.openai.com/codex/) 为准；CLI 基础能力可参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)。
 :::
 
 # 在 VS Code 中使用 Codex
@@ -19,15 +25,15 @@ description: "在 VS Code 中使用 Codex 的教程，介绍插件入口、文�
 这里安装的是 OpenAI 官方发布的 ChatGPT 插件，其中集成了 Codex 的对话与代码辅助能力。
 :::
 
-![搜索并安装 Codex 插件](https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-marketplace.png)
+![搜索并安装 Codex 插件](/images/tutorials/vscode-codex-extension-marketplace.png)
 
 ## 打开插件对话窗口
 
 安装完成后，在 VS Code 中打开任意一个项目文件，右上角会出现 ChatGPT 的图标。点击该图标，右侧边栏就会展开 Codex 的对话窗口。
 
-![文件右上角的插件图标](https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-icon.png)
+![文件右上角的插件图标](/images/tutorials/vscode-codex-extension-icon.png)
 
-![展开后的对话窗口](https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-chat-panel.png)
+![展开后的对话窗口](/images/tutorials/vscode-codex-chat-panel.png)
 
 ## 开始使用
 
@@ -37,7 +43,7 @@ description: "在 VS Code 中使用 Codex 的教程，介绍插件入口、文�
 
 在对话框中输入 `@` 后选择具体文件，Codex 会直接定位到该文件进行分析或修改，比让它全局搜索更快、更准确。建议在任务目标明确时优先使用 `@` 指定相关文件。
 
-![使用 @ 指定文件](https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-file-reference.png)
+![使用 @ 指定文件](/images/tutorials/vscode-codex-file-reference.png)
 
 ## App 与 VS Code 插件怎么选
 

@@ -1,7 +1,7 @@
 export type SiteVisitStats = { today: number; total: number };
 
 const ENDPOINT = "/api/site/visits";
-const SESSION_KEY = "codexguide-visit-recorded";
+const SESSION_KEY = "bluecamp-visit-recorded";
 
 let pending: Promise<SiteVisitStats | null> | null = null;
 
@@ -32,9 +32,9 @@ const requestStats = async (): Promise<SiteVisitStats | null> => {
 
   if (!response.ok) return null;
 
-  const data = (await response.json()) as Partial<SiteVisitStats>;
+  const data = (await response.json()) as Partial<SiteVisitStats> | null;
 
-  if (!Number.isFinite(data.today) || !Number.isFinite(data.total)) return null;
+  if (!data || !Number.isFinite(data.today) || !Number.isFinite(data.total)) return null;
 
   if (!recorded) rememberRecorded();
 

@@ -1,10 +1,16 @@
 ---
+author: 大蓝营
+date: 2026-07-03
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 快速上手教程，从认识 Codex、安装账号、桌面 App、第一个任务到开发者入口，帮助初学者先跑通。"
 permalink: /start/
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本页是快速上手索引，Codex 的安装、账号、CLI、IDE、Cloud 与移动端入口请以 [Codex 文档入口](https://developers.openai.com/codex/)、[Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt) 和 [Codex Cloud docs](https://platform.openai.com/docs/codex) 为准。
+官方资料最后核对日期：2026-07-02。本页是快速上手索引，Codex 的安装、账号、CLI、IDE、Cloud 与移动端入口请以 [Codex 文档入口](https://developers.openai.com/codex/)、[Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt) 和 [Codex Cloud docs](https://platform.openai.com/docs/codex) 为准。
 :::
 
 # 快速上手

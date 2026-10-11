@@ -1,0 +1,2271 @@
+[
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/prompt-caching-stable-prefix-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/prompt-caching-stable-prefix-watermarked-small.png",
+    "path": "/images/tutorials/prompt-caching-stable-prefix-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/01-cost-context.md"
+    ],
+    "status": "downloaded",
+    "bytes": 302019
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/agents-md-editor-rule-example.png",
+    "file": "docs/.vuepress/public/images/tutorials/agents-md-editor-rule-example.png",
+    "path": "/images/tutorials/agents-md-editor-rule-example.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/02-agents-md.md"
+    ],
+    "status": "downloaded",
+    "bytes": 115075
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-personalization-settings.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-personalization-settings.png",
+    "path": "/images/tutorials/codex-app-personalization-settings.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/02-agents-md.md"
+    ],
+    "status": "downloaded",
+    "bytes": 207104
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-skills-plugins-entry-page.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-plugins-entry-page.png",
+    "path": "/images/tutorials/codex-skills-plugins-entry-page.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "status": "downloaded",
+    "bytes": 305898
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-skills-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-list.png",
+    "path": "/images/tutorials/codex-skills-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "status": "downloaded",
+    "bytes": 348971
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-skills-slash-command-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-slash-command-list.png",
+    "path": "/images/tutorials/codex-skills-slash-command-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "status": "downloaded",
+    "bytes": 508120
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-plugins-at-command-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugins-at-command-list.png",
+    "path": "/images/tutorials/codex-plugins-at-command-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "bytes": 321096,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-install-github-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-install-github-prompt.png",
+    "path": "/images/tutorials/codex-plugin-install-github-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "bytes": 184312,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-permissions-selector-menu-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-permissions-selector-menu-watermarked-small.png",
+    "path": "/images/tutorials/codex-app-permissions-selector-menu-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "bytes": 60384,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-auto-review-rejection-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-auto-review-rejection-watermarked-small.png",
+    "path": "/images/tutorials/codex-app-auto-review-rejection-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "bytes": 29432,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-config-toml-settings-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-config-toml-settings-watermarked-small.png",
+    "path": "/images/tutorials/codex-app-config-toml-settings-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "bytes": 39944,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-automation-create-dialog.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-create-dialog.png",
+    "path": "/images/tutorials/codex-automation-create-dialog.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/05-automation.md"
+    ],
+    "bytes": 156822,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-hooks-trust-review-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-hooks-trust-review-watermarked-small.png",
+    "path": "/images/tutorials/codex-hooks-trust-review-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/06-hooks.md"
+    ],
+    "bytes": 96328,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/.vuepress/public/images/codex-safety-layers.svg",
+    "file": "docs/.vuepress/public/images/tutorials/codex-safety-layers.svg",
+    "path": "/images/tutorials/codex-safety-layers.svg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/advanced/07-sandbox-approvals.md",
+      "docs/advanced/10-team-playbook.md"
+    ],
+    "bytes": 3776,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-config-sandbox-settings-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-config-sandbox-settings-watermarked-small.png",
+    "path": "/images/tutorials/codex-config-sandbox-settings-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/07-sandbox-approvals.md"
+    ],
+    "bytes": 55133,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-config-approval-policy-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-config-approval-policy-watermarked-small.png",
+    "path": "/images/tutorials/codex-config-approval-policy-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/07-sandbox-approvals.md"
+    ],
+    "bytes": 55757,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-auto-thread-management-tools-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-auto-thread-management-tools-watermarked-small.png",
+    "path": "/images/tutorials/codex-auto-thread-management-tools-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/advanced/08-thread-management.md"
+    ],
+    "bytes": 69209,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-install-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-install-prompt.png",
+    "path": "/images/tutorials/ppt-skill-install-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "bytes": 188530,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-installation-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-installation-result.png",
+    "path": "/images/tutorials/ppt-skill-installation-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "bytes": 573292,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-user-input-menu.png",
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-user-input-menu.png",
+    "path": "/images/tutorials/ppt-skill-user-input-menu.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "bytes": 386084,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-generated-file-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-generated-file-result.png",
+    "path": "/images/tutorials/ppt-skill-generated-file-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "bytes": 341956,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/ppt-skill-html-preview.png",
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-html-preview.png",
+    "path": "/images/tutorials/ppt-skill-html-preview.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "bytes": 645555,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-github-repository.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-github-repository.png",
+    "path": "/images/tutorials/drawio-mcp-github-repository.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 384580,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-add-server-settings.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-add-server-settings.png",
+    "path": "/images/tutorials/drawio-mcp-add-server-settings.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 240583,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-install-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-install-prompt.png",
+    "path": "/images/tutorials/drawio-mcp-install-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 211014,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-install-command-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-install-command-result.png",
+    "path": "/images/tutorials/drawio-mcp-install-command-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 313132,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-permission-model-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-permission-model-prompt.png",
+    "path": "/images/tutorials/drawio-mcp-permission-model-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 356969,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-permission-model-source-links.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-permission-model-source-links.png",
+    "path": "/images/tutorials/drawio-mcp-permission-model-source-links.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 340519,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-read-write-own-summary.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-read-write-own-summary.png",
+    "path": "/images/tutorials/drawio-mcp-read-write-own-summary.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 231887,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/drawio-mcp-read-write-own-diagram.png",
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-read-write-own-diagram.png",
+    "path": "/images/tutorials/drawio-mcp-read-write-own-diagram.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "bytes": 426410,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-add-command.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-add-command.png",
+    "path": "/images/tutorials/playwright-mcp-add-command.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 137657,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-server-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-server-list.png",
+    "path": "/images/tutorials/playwright-mcp-server-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 1144779,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-list-command.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-list-command.png",
+    "path": "/images/tutorials/playwright-mcp-list-command.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 276198,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-browser-search-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-browser-search-prompt.png",
+    "path": "/images/tutorials/playwright-mcp-browser-search-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 1087221,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-permission-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-permission-prompt.png",
+    "path": "/images/tutorials/playwright-mcp-permission-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 217214,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-baidu-search-results.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-baidu-search-results.png",
+    "path": "/images/tutorials/playwright-mcp-baidu-search-results.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 475171,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-collected-search-summary.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-collected-search-summary.png",
+    "path": "/images/tutorials/playwright-mcp-collected-search-summary.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 1705142,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-markdown-file-created.png",
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-markdown-file-created.png",
+    "path": "/images/tutorials/playwright-mcp-markdown-file-created.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "bytes": 1635965,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/hyperframes-plugin-search.png",
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-plugin-search.png",
+    "path": "/images/tutorials/hyperframes-plugin-search.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "bytes": 197932,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/hyperframes-book-content-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-book-content-prompt.png",
+    "path": "/images/tutorials/hyperframes-book-content-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "bytes": 451904,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/hyperframes-local-output-summary.png",
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-local-output-summary.png",
+    "path": "/images/tutorials/hyperframes-local-output-summary.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "bytes": 273130,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/hyperframes-generated-frame-files.png",
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-generated-frame-files.png",
+    "path": "/images/tutorials/hyperframes-generated-frame-files.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "bytes": 297742,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/hyperframes-refinement-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-refinement-prompt.png",
+    "path": "/images/tutorials/hyperframes-refinement-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "bytes": 496432,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-plugin-search.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-plugin-search.png",
+    "path": "/images/tutorials/obsidian-terminal-plugin-search.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 531194,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-plugin-settings.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-plugin-settings.png",
+    "path": "/images/tutorials/obsidian-terminal-plugin-settings.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 250240,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-profiles-config.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-profiles-config.png",
+    "path": "/images/tutorials/obsidian-terminal-profiles-config.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 183345,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-command-palette-integrated-terminal.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-command-palette-integrated-terminal.png",
+    "path": "/images/tutorials/obsidian-command-palette-integrated-terminal.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+    "bytes": 302646,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-embedded-terminal-open.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-embedded-terminal-open.png",
+    "path": "/images/tutorials/obsidian-embedded-terminal-open.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 85258,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-terminal-start.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-terminal-start.png",
+    "path": "/images/tutorials/obsidian-codex-terminal-start.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 209024,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-generation-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-generation-prompt.png",
+    "path": "/images/tutorials/obsidian-codex-image-generation-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 311690,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-generation-result-url.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-generation-result-url.png",
+    "path": "/images/tutorials/obsidian-codex-image-generation-result-url.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 277629,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-llm-wiki-concept-image.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-llm-wiki-concept-image.png",
+    "path": "/images/tutorials/obsidian-codex-llm-wiki-concept-image.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 1233706,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-upload-tools-search.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-upload-tools-search.png",
+    "path": "/images/tutorials/obsidian-codex-image-upload-tools-search.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 291670,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-upload-link-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-upload-link-result.png",
+    "path": "/images/tutorials/obsidian-codex-image-upload-link-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "bytes": 447624,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-install-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-install-result.png",
+    "path": "/images/tutorials/feishu-cli-install-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 287393,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-create-app-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-create-app-prompt.png",
+    "path": "/images/tutorials/feishu-cli-create-app-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 229588,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-create-custom-app-modal.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-create-custom-app-modal.png",
+    "path": "/images/tutorials/feishu-cli-create-custom-app-modal.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 259833,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-doc-export-tools-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-doc-export-tools-result.png",
+    "path": "/images/tutorials/feishu-cli-doc-export-tools-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 240940,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-oauth-login-link.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-oauth-login-link.png",
+    "path": "/images/tutorials/feishu-cli-oauth-login-link.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 226903,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-document-list-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-document-list-result.png",
+    "path": "/images/tutorials/feishu-cli-document-list-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 522630,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-command-examples.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-command-examples.png",
+    "path": "/images/tutorials/feishu-cli-command-examples.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 285098,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-image-generation-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-image-generation-prompt.png",
+    "path": "/images/tutorials/feishu-cli-image-generation-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 254219,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/feishu-cli-generated-image-preview.png",
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-generated-image-preview.png",
+    "path": "/images/tutorials/feishu-cli-generated-image-preview.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "bytes": 523842,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-concept-diagram.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-concept-diagram.png",
+    "path": "/images/tutorials/llm-wiki-concept-diagram.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "bytes": 1233706,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-codex-create-vault-command.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-create-vault-command.png",
+    "path": "/images/tutorials/llm-wiki-codex-create-vault-command.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+    "bytes": 331671,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-obsidian-web-clipper-search.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-obsidian-web-clipper-search.png",
+    "path": "/images/tutorials/llm-wiki-obsidian-web-clipper-search.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "bytes": 289419,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-clip-article-to-raw.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-clip-article-to-raw.png",
+    "path": "/images/tutorials/llm-wiki-clip-article-to-raw.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "bytes": 792102,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-codex-import-article-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-import-article-prompt.png",
+    "path": "/images/tutorials/llm-wiki-codex-import-article-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "bytes": 291504,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/llm-wiki-codex-generated-pages.png",
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-generated-pages.png",
+    "path": "/images/tutorials/llm-wiki-codex-generated-pages.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "bytes": 609457,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-plugin-permissions.png",
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-plugin-permissions.png",
+    "path": "/images/tutorials/figma-mcp-plugin-permissions.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "bytes": 361302,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-generate-flowchart-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-generate-flowchart-prompt.png",
+    "path": "/images/tutorials/figma-mcp-generate-flowchart-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "bytes": 159433,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-user-login-flowchart.png",
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-user-login-flowchart.png",
+    "path": "/images/tutorials/figma-mcp-user-login-flowchart.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "bytes": 451501,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-high-fidelity-ui-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-high-fidelity-ui-prompt.png",
+    "path": "/images/tutorials/figma-mcp-high-fidelity-ui-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "bytes": 336585,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/figma-mcp-ai-product-ui-design.png",
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-ai-product-ui-design.png",
+    "path": "/images/tutorials/figma-mcp-ai-product-ui-design.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "bytes": 850357,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-plugin-search.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-plugin-search.png",
+    "path": "/images/tutorials/notion-mcp-plugin-search.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 195610,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-authorization.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-authorization.png",
+    "path": "/images/tutorials/notion-mcp-authorization.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 254524,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-workspace-read-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-workspace-read-result.png",
+    "path": "/images/tutorials/notion-mcp-workspace-read-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 328784,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-updated-content-query-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-updated-content-query-result.png",
+    "path": "/images/tutorials/notion-mcp-updated-content-query-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 280183,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-write-summary-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-write-summary-result.png",
+    "path": "/images/tutorials/notion-mcp-write-summary-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 575381,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-created-summary-page.png",
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-created-summary-page.png",
+    "path": "/images/tutorials/notion-mcp-created-summary-page.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "bytes": 398289,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/dkfile-upload-home.png",
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-upload-home.png",
+    "path": "/images/tutorials/dkfile-upload-home.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "bytes": 337699,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/dkfile-upload-dropzone.png",
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-upload-dropzone.png",
+    "path": "/images/tutorials/dkfile-upload-dropzone.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "bytes": 932338,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/dkfile-help-tools-section.png",
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-help-tools-section.png",
+    "path": "/images/tutorials/dkfile-help-tools-section.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "bytes": 179727,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/dkfile-codex-task-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-codex-task-result.png",
+    "path": "/images/tutorials/dkfile-codex-task-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "bytes": 392127,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-keyerror-traceback.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-keyerror-traceback.png",
+    "path": "/images/tutorials/remote-bug-fix-keyerror-traceback.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 168707,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-package-install-error.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-package-install-error.png",
+    "path": "/images/tutorials/remote-bug-fix-package-install-error.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 377369,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-healthcheck-curl-success.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-healthcheck-curl-success.png",
+    "path": "/images/tutorials/remote-bug-fix-healthcheck-curl-success.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 135296,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-codex-login-check.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-codex-login-check.png",
+    "path": "/images/tutorials/remote-bug-fix-codex-login-check.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 445907,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-remote-session-start.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-remote-session-start.png",
+    "path": "/images/tutorials/remote-bug-fix-remote-session-start.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 583873,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-tests-pass.png",
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-tests-pass.png",
+    "path": "/images/tutorials/remote-bug-fix-tests-pass.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "bytes": 160201,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/chrome-codex-extension-page-summary-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/chrome-codex-extension-page-summary-prompt.png",
+    "path": "/images/tutorials/chrome-codex-extension-page-summary-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "bytes": 207957,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/chrome-web-store-codex-extension.png",
+    "file": "docs/.vuepress/public/images/tutorials/chrome-web-store-codex-extension.png",
+    "path": "/images/tutorials/chrome-web-store-codex-extension.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "bytes": 390178,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/chrome-codex-extension-summary-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/chrome-codex-extension-summary-result.png",
+    "path": "/images/tutorials/chrome-codex-extension-summary-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "bytes": 615810,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-failure-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-failure-list.png",
+    "path": "/images/tutorials/github-actions-workflow-failure-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 352604,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-failing-test-log.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-failing-test-log.png",
+    "path": "/images/tutorials/github-actions-failing-test-log.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 410790,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-annotations.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-annotations.png",
+    "path": "/images/tutorials/github-actions-workflow-annotations.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 354333,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-permissions-settings.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-permissions-settings.png",
+    "path": "/images/tutorials/github-actions-workflow-permissions-settings.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 341267,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-auto-fix-pr-list.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-auto-fix-pr-list.png",
+    "path": "/images/tutorials/github-actions-auto-fix-pr-list.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 202133,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/github-actions-discount-fix-diff.png",
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-discount-fix-diff.png",
+    "path": "/images/tutorials/github-actions-discount-fix-diff.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "bytes": 234585,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603164239865.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603164239865.png",
+    "path": "/images/tutorials/yanyan-20260603164239865.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 97802,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603165113247.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603165113247.png",
+    "path": "/images/tutorials/yanyan-20260603165113247.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 63777,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603165417268.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603165417268.png",
+    "path": "/images/tutorials/yanyan-20260603165417268.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 195780,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603170909630.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603170909630.png",
+    "path": "/images/tutorials/yanyan-20260603170909630.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 323333,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603171016784.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603171016784.png",
+    "path": "/images/tutorials/yanyan-20260603171016784.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 38475,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603171438425.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603171438425.png",
+    "path": "/images/tutorials/yanyan-20260603171438425.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 170951,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603180110711.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603180110711.png",
+    "path": "/images/tutorials/yanyan-20260603180110711.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 21700,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260603174027962.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603174027962.png",
+    "path": "/images/tutorials/yanyan-20260603174027962.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "bytes": 33442,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527154702248.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527154702248.png",
+    "path": "/images/tutorials/yanyan-20260527154702248.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 285687,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527154950497.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527154950497.png",
+    "path": "/images/tutorials/yanyan-20260527154950497.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 475437,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527155059740.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527155059740.png",
+    "path": "/images/tutorials/yanyan-20260527155059740.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 67447,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527145931186.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527145931186.png",
+    "path": "/images/tutorials/yanyan-20260527145931186.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 482607,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527150702223.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527150702223.png",
+    "path": "/images/tutorials/yanyan-20260527150702223.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 77190,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527152034359.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152034359.png",
+    "path": "/images/tutorials/yanyan-20260527152034359.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 172743,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527152239430.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152239430.png",
+    "path": "/images/tutorials/yanyan-20260527152239430.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 47677,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527155313105.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527155313105.png",
+    "path": "/images/tutorials/yanyan-20260527155313105.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 82801,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527143924648.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527143924648.png",
+    "path": "/images/tutorials/yanyan-20260527143924648.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 72633,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527152442784.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152442784.png",
+    "path": "/images/tutorials/yanyan-20260527152442784.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 65706,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527152745840.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152745840.png",
+    "path": "/images/tutorials/yanyan-20260527152745840.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 105290,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527153008463.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527153008463.png",
+    "path": "/images/tutorials/yanyan-20260527153008463.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 146990,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527153330947.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527153330947.png",
+    "path": "/images/tutorials/yanyan-20260527153330947.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 40338,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/yanyan/20260527160714918.png",
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527160714918.png",
+    "path": "/images/tutorials/yanyan-20260527160714918.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "bytes": 162325,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-plugin-install.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-plugin-install.png",
+    "path": "/images/tutorials/codex-desktop-pet-plugin-install.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "bytes": 439720,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-slash-command.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-slash-command.png",
+    "path": "/images/tutorials/codex-desktop-pet-slash-command.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "bytes": 234879,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-task-bubble.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-task-bubble.png",
+    "path": "/images/tutorials/codex-desktop-pet-task-bubble.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "bytes": 132508,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-desktop-pet-completed-task-bubble.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-completed-task-bubble.png",
+    "path": "/images/tutorials/codex-desktop-pet-completed-task-bubble.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "bytes": 129487,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/.vuepress/public/images/codex-surfaces.svg?v=20260611",
+    "file": "docs/.vuepress/public/images/tutorials/codex-surfaces.svg",
+    "path": "/images/tutorials/codex-surfaces.svg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/01-what-is-codex.md"
+    ],
+    "bytes": 2806,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-download-macos-options.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-download-macos-options.png",
+    "path": "/images/tutorials/codex-app-download-macos-options.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/02-app-installation.md"
+    ],
+    "bytes": 755159,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/chatgpt-codex-get-started-clean.png",
+    "file": "docs/.vuepress/public/images/tutorials/chatgpt-codex-get-started-clean.png",
+    "path": "/images/tutorials/chatgpt-codex-get-started-clean.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/02-app-installation.md"
+    ],
+    "bytes": 43466,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-hero-sms-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-hero-sms-watermarked-small.png",
+    "path": "/images/tutorials/subscribe-hero-sms-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 535250,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-apple-gift-card-watermarked-small.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-apple-gift-card-watermarked-small.jpg",
+    "path": "/images/tutorials/subscribe-apple-gift-card-watermarked-small.jpg",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 188904,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-apple-id-redeem-watermarked-small.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-apple-id-redeem-watermarked-small.jpg",
+    "path": "/images/tutorials/subscribe-apple-id-redeem-watermarked-small.jpg",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 128114,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802164741.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164741.png",
+    "path": "/images/tutorials/blog-20260802164741.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 866345,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802164918.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164918.png",
+    "path": "/images/tutorials/blog-20260802164918.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 248153,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802164954.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164954.png",
+    "path": "/images/tutorials/blog-20260802164954.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 265255,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802165357.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165357.png",
+    "path": "/images/tutorials/blog-20260802165357.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 242074,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802165443.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165443.png",
+    "path": "/images/tutorials/blog-20260802165443.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 101025,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802165556.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165556.png",
+    "path": "/images/tutorials/blog-20260802165556.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 124923,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802165656.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165656.png",
+    "path": "/images/tutorials/blog-20260802165656.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 201815,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802165750.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165750.png",
+    "path": "/images/tutorials/blog-20260802165750.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 195254,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260802170049.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802170049.png",
+    "path": "/images/tutorials/blog-20260802170049.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 143471,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 112036,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-ip-check-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-ip-check-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-ip-check-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 113978,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 132038,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-payment-address-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-payment-address-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-payment-address-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 43664,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-gift-card-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-gift-card-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-gift-card-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 133438,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-payment-method-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-payment-method-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-payment-method-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 151430,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-card-payment-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-card-payment-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-card-payment-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 46188,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-card-verify-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-card-verify-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-card-verify-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 54258,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-redeem-watermarked-small.webp",
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-redeem-watermarked-small.webp",
+    "path": "/images/tutorials/subscribe-appstoreprice-redeem-watermarked-small.webp",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "bytes": 56962,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529172147.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529172147.png",
+    "path": "/images/tutorials/blog-20260529172147.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 164085,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529165811.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529165811.png",
+    "path": "/images/tutorials/blog-20260529165811.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 146256,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529170535.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529170535.png",
+    "path": "/images/tutorials/blog-20260529170535.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 241281,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529171249.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171249.png",
+    "path": "/images/tutorials/blog-20260529171249.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 606772,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529171601.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171601.png",
+    "path": "/images/tutorials/blog-20260529171601.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 157285,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529170927.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529170927.png",
+    "path": "/images/tutorials/blog-20260529170927.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 151608,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529171743.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171743.png",
+    "path": "/images/tutorials/blog-20260529171743.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 175730,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/20260529172239.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529172239.png",
+    "path": "/images/tutorials/blog-20260529172239.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 184585,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/ca6415f0ad1e10755f656001d16d91d5.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-ca6415f0ad1e10755f656001d16d91d5.png",
+    "path": "/images/tutorials/blog-ca6415f0ad1e10755f656001d16d91d5.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 76202,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/b265fd82e492107e53dc7b0df6af553c.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-b265fd82e492107e53dc7b0df6af553c.png",
+    "path": "/images/tutorials/blog-b265fd82e492107e53dc7b0df6af553c.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 90167,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/3e514cfc66a2a76536dbfc5c37743315.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-3e514cfc66a2a76536dbfc5c37743315.png",
+    "path": "/images/tutorials/blog-3e514cfc66a2a76536dbfc5c37743315.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 270711,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/f33b0f1f6377c237f113000a0ec0637f.png",
+    "file": "docs/.vuepress/public/images/tutorials/blog-f33b0f1f6377c237f113000a0ec0637f.png",
+    "path": "/images/tutorials/blog-f33b0f1f6377c237f113000a0ec0637f.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 246887,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/e0ca6498f640c984c438527f13faf435.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-e0ca6498f640c984c438527f13faf435.jpg",
+    "path": "/images/tutorials/blog-e0ca6498f640c984c438527f13faf435.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 132513,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/d13c6d3d480af07b22cc8b7b470a45e5.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-d13c6d3d480af07b22cc8b7b470a45e5.jpg",
+    "path": "/images/tutorials/blog-d13c6d3d480af07b22cc8b7b470a45e5.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 130227,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/0c4dd861837c8686d3135b704ae4517d.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-0c4dd861837c8686d3135b704ae4517d.jpg",
+    "path": "/images/tutorials/blog-0c4dd861837c8686d3135b704ae4517d.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 163959,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/9132822e751d0eccd37b79bbe0d6b3b0.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-9132822e751d0eccd37b79bbe0d6b3b0.jpg",
+    "path": "/images/tutorials/blog-9132822e751d0eccd37b79bbe0d6b3b0.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 133203,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/728d1e4564ea5f78121cae63fd94790a.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-728d1e4564ea5f78121cae63fd94790a.jpg",
+    "path": "/images/tutorials/blog-728d1e4564ea5f78121cae63fd94790a.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 146154,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/cb577d3e36171a7204e291500a7db9dc.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-cb577d3e36171a7204e291500a7db9dc.jpg",
+    "path": "/images/tutorials/blog-cb577d3e36171a7204e291500a7db9dc.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 135337,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/151adfc6f7cd994b58815787999a5c37.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-151adfc6f7cd994b58815787999a5c37.jpg",
+    "path": "/images/tutorials/blog-151adfc6f7cd994b58815787999a5c37.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 111694,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/blog/66afdc2191cadafa60171ef81940733d.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/blog-66afdc2191cadafa60171ef81940733d.jpg",
+    "path": "/images/tutorials/blog-66afdc2191cadafa60171ef81940733d.jpg",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "bytes": 101336,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-main-chat-home.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-main-chat-home.png",
+    "path": "/images/tutorials/codex-app-main-chat-home.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 193973,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-project-workspace-selection.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-project-workspace-selection.png",
+    "path": "/images/tutorials/codex-app-project-workspace-selection.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 207516,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-composer-controls.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-composer-controls.png",
+    "path": "/images/tutorials/codex-app-composer-controls.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 296455,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-marketplace-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-marketplace-watermarked-small.png",
+    "path": "/images/tutorials/codex-plugin-marketplace-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 89689,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-skills-command-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-command-watermarked-small.png",
+    "path": "/images/tutorials/codex-skills-command-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 58917,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-config-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-config-watermarked-small.png",
+    "path": "/images/tutorials/codex-plugin-config-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 101566,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-automation-overview-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-overview-watermarked-small.png",
+    "path": "/images/tutorials/codex-automation-overview-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 37931,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-automation-create-watermarked-small.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-create-watermarked-small.png",
+    "path": "/images/tutorials/codex-automation-create-watermarked-small.png",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 28680,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-profile-menu-settings-billing.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-profile-menu-settings-billing.png",
+    "path": "/images/tutorials/codex-app-profile-menu-settings-billing.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 276866,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-app-settings-panel-detail.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-settings-panel-detail.png",
+    "path": "/images/tutorials/codex-app-settings-panel-detail.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "bytes": 335963,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-local-folder.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-local-folder.png",
+    "path": "/images/tutorials/codex-first-task-local-folder.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 120123,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-add-workspace-folder.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-add-workspace-folder.png",
+    "path": "/images/tutorials/codex-first-task-add-workspace-folder.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 189609,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-selected-workspace.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-selected-workspace.png",
+    "path": "/images/tutorials/codex-first-task-selected-workspace.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 239880,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-prompt-input.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-prompt-input.png",
+    "path": "/images/tutorials/codex-first-task-prompt-input.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 258577,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-completion.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-completion.png",
+    "path": "/images/tutorials/codex-first-task-completion.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 458799,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-browser-preview.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-browser-preview.png",
+    "path": "/images/tutorials/codex-first-task-browser-preview.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 1284117,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-context-usage.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-context-usage.png",
+    "path": "/images/tutorials/codex-first-task-context-usage.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 220503,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-first-task-new-chat-in-project.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-new-chat-in-project.png",
+    "path": "/images/tutorials/codex-first-task-new-chat-in-project.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "bytes": 167596,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-ios-app-watermarked-small.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-ios-app-watermarked-small.jpg",
+    "path": "/images/tutorials/mobile-codex-ios-app-watermarked-small.jpg",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "bytes": 27375,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-connect-desktop-watermarked-small.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-connect-desktop-watermarked-small.jpg",
+    "path": "/images/tutorials/mobile-codex-connect-desktop-watermarked-small.jpg",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "bytes": 22854,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-chatgpt-entry-watermarked-small.jpg",
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-chatgpt-entry-watermarked-small.jpg",
+    "path": "/images/tutorials/mobile-codex-chatgpt-entry-watermarked-small.jpg",
+    "watermarkCandidate": true,
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "bytes": 206179,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-prerequisite-version-check.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-prerequisite-version-check.png",
+    "path": "/images/tutorials/codex-cli-prerequisite-version-check.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "bytes": 283152,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-version-check.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-version-check.png",
+    "path": "/images/tutorials/codex-cli-version-check.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "bytes": 203207,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-login-account-selection.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-login-account-selection.png",
+    "path": "/images/tutorials/codex-cli-login-account-selection.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "bytes": 638795,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-readonly-first-task.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-readonly-first-task.png",
+    "path": "/images/tutorials/codex-cli-readonly-first-task.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "bytes": 1263328,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-repo-overview-response.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-repo-overview-response.png",
+    "path": "/images/tutorials/codex-cli-repo-overview-response.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "bytes": 1070205,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-small-task-response.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-small-task-response.png",
+    "path": "/images/tutorials/codex-cli-small-task-response.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "bytes": 541551,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cli-review-diff-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-review-diff-result.png",
+    "path": "/images/tutorials/codex-cli-review-diff-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "bytes": 299992,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-marketplace.png",
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-extension-marketplace.png",
+    "path": "/images/tutorials/vscode-codex-extension-marketplace.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "bytes": 444014,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-extension-icon.png",
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-extension-icon.png",
+    "path": "/images/tutorials/vscode-codex-extension-icon.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "bytes": 420171,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-chat-panel.png",
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-chat-panel.png",
+    "path": "/images/tutorials/vscode-codex-chat-panel.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "bytes": 403761,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/vscode-codex-file-reference.png",
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-file-reference.png",
+    "path": "/images/tutorials/vscode-codex-file-reference.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "bytes": 361914,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-connect-github-button.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-connect-github-button.png",
+    "path": "/images/tutorials/codex-cloud-connect-github-button.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "bytes": 435694,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-start-task-page.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-start-task-page.png",
+    "path": "/images/tutorials/codex-cloud-start-task-page.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "bytes": 192151,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-github-repository-authorization.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-github-repository-authorization.png",
+    "path": "/images/tutorials/codex-cloud-github-repository-authorization.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "bytes": 404023,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-repository-context-prompt.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-repository-context-prompt.png",
+    "path": "/images/tutorials/codex-cloud-repository-context-prompt.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "bytes": 220333,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://cdn.canghecode.com/codexguide/docs/images/codex-cloud-task-progress-result.png",
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-task-progress-result.png",
+    "path": "/images/tutorials/codex-cloud-task-progress-result.png",
+    "watermarkCandidate": false,
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "bytes": 603893,
+    "status": "downloaded"
+  }
+]

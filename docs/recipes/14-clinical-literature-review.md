@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-30
+updated: 2026-07-02
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与临床文献综述案例，说明医护和科研人员如何整理研究问题、证据表和安全边界。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-05-27。本文只演示 Codex 辅助整理临床文献工作流，不提供医学事实结论或诊疗建议。医学资料检索请回到 [PubMed](https://pubmed.ncbi.nlm.nih.gov/)、[ClinicalTrials.gov](https://clinicaltrials.gov/) 和对应指南/论文全文核对。
+公开资料最后核对日期：2026-05-29。本文只演示 Codex 辅助整理临床文献工作流，不提供医学事实结论或诊疗建议。医学资料检索请回到 [PubMed](https://pubmed.ncbi.nlm.nih.gov/)、[ClinicalTrials.gov](https://clinicaltrials.gov/) 和对应指南/论文全文核对。
 :::
 
 # Codex × 临床文献综述：把医学问题整理成可复核证据表

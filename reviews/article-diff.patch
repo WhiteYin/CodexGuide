@@ -1,0 +1,452 @@
+diff --git a/docs/start/03-account-plan.md b/docs/start/03-account-plan.md
+index a3b2e95..74c41fe 100644
+--- a/docs/start/03-account-plan.md
++++ b/docs/start/03-account-plan.md
+@@ -1,9 +1,15 @@
+ ---
++author: 大蓝营
++date: 2026-05-12
++updated: 2026-08-05
++lastUpdated: true
++contributors: false
++editLink: false
+ description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账号准备、支付路径和订阅前需要核对的信息。"
+ ---
+ 
+ ::: tip 最后核对
+-官方资料最后核对日期：2026-06-13。定价与套餐以 [ChatGPT 定价页](https://chatgpt.com/pricing/) 和 [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 为准。
++官方资料最后核对日期：2026-06-10。定价与套餐以 [ChatGPT 定价页](https://chatgpt.com/pricing/) 和 [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) 为准。
+ :::
+ 
+ # 订阅 ChatGPT Plus / Pro
+@@ -33,7 +39,7 @@ description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账
+ 
+ >可以试试：https://hero-sms.com
+ 
+-![Hero SMS 注册验证码平台示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-hero-sms-watermarked-small.png)
++![Hero SMS 注册验证码平台示例](/images/tutorials/subscribe-hero-sms-watermarked-small.png)
+ 
+ ## 方法一：苹果礼品卡（最稳定，推荐优先尝试）
+ 
+@@ -57,11 +63,11 @@ description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账
+ 4. 购买成功后复制兑换码，打开 App Store，点击头像 → 「兑换礼品卡或代码」，粘贴充值
+ 5. 打开 ChatGPT App，登录账号，进入设置订阅 Plus，选择 Apple ID 余额支付
+ 
+-![支付宝购买苹果礼品卡示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-apple-gift-card-watermarked-small.jpg)
++![支付宝购买苹果礼品卡示例](/images/tutorials/subscribe-apple-gift-card-watermarked-small.jpg)
+ 
+ 给Apple id充值礼品卡：
+ 
+-![Apple ID 兑换礼品卡示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-apple-id-redeem-watermarked-small.jpg)
++![Apple ID 兑换礼品卡示例](/images/tutorials/subscribe-apple-id-redeem-watermarked-small.jpg)
+ 
+ ::: tip
+ 如果支付宝购买偶尔不稳定，可以通过代理访问苹果官网直接购买礼品卡，一次性多充值几个月额度，后续续订不需要重复操作。
+@@ -82,36 +88,36 @@ description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账
+ 
+ 地址：https://applegiftcard.apple.com
+ 
+-![](https://cdn.canghecode.com/blog/20260802164741.png)
++![](/images/tutorials/blog-20260802164741.png)
+ 
+ 
+ 点击这里的 buy：
+ 
+-![](https://cdn.canghecode.com/blog/20260802164918.png)
++![](/images/tutorials/blog-20260802164918.png)
+ 
+ 选择 Email：
+ 
+-![](https://cdn.canghecode.com/blog/20260802164954.png)
++![](/images/tutorials/blog-20260802164954.png)
+ 
+ 填写相关信息，接收人和赠送人姓名和邮箱。（这里名字可以随便填）
+ 
+-![](https://cdn.canghecode.com/blog/20260802165357.png)
++![](/images/tutorials/blog-20260802165357.png)
+ 
+ 然后点 add to Bag
+ 
+-![](https://cdn.canghecode.com/blog/20260802165443.png)
++![](/images/tutorials/blog-20260802165443.png)
+ 
+ 然后选择 check out，这里需要登录你的美区 appid
+ 
+-![](https://cdn.canghecode.com/blog/20260802165556.png)
++![](/images/tutorials/blog-20260802165556.png)
+ 
+ 选择支付方式 VISA 卡：
+ 
+-![](https://cdn.canghecode.com/blog/20260802165656.png)
++![](/images/tutorials/blog-20260802165656.png)
+ 
+ 然后这个地方填自己的 VISA 卡信息就好啦：
+ 
+-![](https://cdn.canghecode.com/blog/20260802165750.png)
++![](/images/tutorials/blog-20260802165750.png)
+ 
+ ::: tip
+ 这里的地址和电话就实际选择国内地址和手机即可。
+@@ -119,7 +125,7 @@ description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账
+ 
+ 最后一个是确认：
+ 
+-![](https://cdn.canghecode.com/blog/20260802170049.png)
++![](/images/tutorials/blog-20260802170049.png)
+ 
+ ::: tip
+ 这里如果用的是招行 visa 卡，金额过多，会触发人工审核，一般会被拒绝掉，建议分多次购买。
+@@ -138,12 +144,12 @@ https://shop.pockyt.io/index
+ 如果你的核心诉求是降低长期订阅成本，可以参考低价区 App Store 的做法：单独准备一个土耳其区 Apple ID，通过该区礼品卡给 Apple ID 余额充值，再在 ChatGPT iOS App 里用 App Store 应用内购订阅。
+ 
+ ::: warning 来源与风险
+-本小节整理自第三方文章 [App Store Price《没有海外信用卡也能稳定订阅 ChatGPT/Claude》](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)，源文发布于 2026-03-06，作者/发布方为 App Store Price。下图也来自该文。如有问题，请联系作者删除
++本小节整理自第三方文章 [App Store Price《没有海外信用卡也能稳定订阅 ChatGPT/Claude》](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)，源文发布于 2026-03-03，作者/发布方为 App Store Price。下图也来自该文。如有问题，请联系作者删除
+ 
+ 这不是 OpenAI 或 Apple 官方订阅说明。跨区账号、礼品卡余额、汇率、App Store 定价和风控策略都可能变化，存在充值失败、订阅失败、余额无法退款、账号触发安全验证或后续续费不稳定等风险。正式操作前建议先小额验证，不要把主 Apple ID 频繁切区。
+ :::
+ 
+-![App Store Price 提供的 ChatGPT Plus 各区价格对比示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp)
++![App Store Price 提供的 ChatGPT Plus 各区价格对比示例](/images/tutorials/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp)
+ 
+ 图源：[App Store Price 文章](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)。本小节后续截图除特别说明外，均整理自同一篇文章。价格、排名和汇率只代表源文截图时的状态，实际付款前一定以 App Store 结算页显示为准。
+ 
+@@ -163,13 +169,13 @@ https://shop.pockyt.io/index
+ 
+ 源文建议先准备土耳其节点，并在 IP 检测页面确认当前出口地区。核心原则是：注册 Apple ID、填写地区信息、登录 App Store 时，地区信息要尽量保持一致，减少触发安全验证的概率。
+ 
+-![土耳其节点 IP 检测示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-ip-check-watermarked-small.webp)
++![土耳其节点 IP 检测示例](/images/tutorials/subscribe-appstoreprice-ip-check-watermarked-small.webp)
+ 
+ **第三步：注册土耳其区 Apple ID**
+ 
+ 打开 [account.apple.com](https://account.apple.com) 注册新的 Apple ID。注册时选择土耳其地区，按页面提示填写邮箱、手机号和验证码。源文说明旧的 `appleid.apple.com` 入口也可用，但 Apple 当前页面名称可能会变化，以实际页面为准。
+ 
+-![Apple ID 注册页面示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp)
++![Apple ID 注册页面示例](/images/tutorials/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp)
+ 
+ ::: caution
+ 建议为这条订阅路线单独准备 Apple ID，不要频繁切换自己的主力 Apple ID 地区。跨区账号可能涉及 Apple 当前服务条款、账单地址真实性和后续风控，请自行确认能接受这些风险。
+@@ -179,37 +185,37 @@ https://shop.pockyt.io/index
+ 
+ 注册完成后，在 Apple 账号或 iPhone / iPad 的 App Store 账户设置里补齐 Payment Address。即使不绑定土耳其本地银行卡，Apple 也可能在购买或兑换时要求补充账单地址。
+ 
+-![App Store 账户 Payment Address 示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-payment-address-watermarked-small.webp)
++![App Store 账户 Payment Address 示例](/images/tutorials/subscribe-appstoreprice-payment-address-watermarked-small.webp)
+ 
+ **第五步：购买土耳其区 App Store 礼品卡**
+ 
+ 源文提到土耳其区礼品卡可以通过淘宝、闲鱼等渠道购买，也可以在土耳其数字商品平台购买。它以 `oyunfor.com` 为示例：注册并登录后，在站内找到 App Store 礼品卡，选择所需面值并加入购物车。
+ 
+-![Oyunfor 礼品卡选择页面示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-gift-card-watermarked-small.webp)
++![Oyunfor 礼品卡选择页面示例](/images/tutorials/subscribe-appstoreprice-gift-card-watermarked-small.webp)
+ 
+ ::: warning
+-CodexGuide 不推荐具体商家，也不保证任何第三方礼品卡渠道的稳定性。礼品卡一旦兑换通常不可退款，建议先小额测试。
++大蓝营 不推荐具体商家，也不保证任何第三方礼品卡渠道的稳定性。礼品卡一旦兑换通常不可退款，建议先小额测试。
+ :::
+ 
+ **第六步：选择支付方式并付款**
+ 
+ 源文示例中，Oyunfor 支持信用卡和 Binance Pay。信用卡页面里会出现不同支付通道，部分通道可能要求土耳其本地支付方式，源文选择了可用的国际卡通道。截图中的示例为 1000 土耳其里拉礼品卡，并叠加约 2.5% 手续费，实际手续费以付款页为准。
+ 
+-![Oyunfor 支付方式选择示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-payment-method-watermarked-small.webp)
++![Oyunfor 支付方式选择示例](/images/tutorials/subscribe-appstoreprice-payment-method-watermarked-small.webp)
+ 
+ 随后进入支付页，填写银行卡信息并确认付款。源文里的银行卡信息已经做了遮挡；你自己操作时不要把银行卡、验证码、礼品卡兑换码截图发给任何人。
+ 
+-![银行卡支付页面示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-card-payment-watermarked-small.webp)
++![银行卡支付页面示例](/images/tutorials/subscribe-appstoreprice-card-payment-watermarked-small.webp)
+ 
+ 如果银行或支付通道要求 3D Secure / 短信验证码，按页面提示完成验证。
+ 
+-![银行卡验证码验证页面示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-card-verify-watermarked-small.webp)
++![银行卡验证码验证页面示例](/images/tutorials/subscribe-appstoreprice-card-verify-watermarked-small.webp)
+ 
+ **第七步：收取并兑换礼品卡**
+ 
+ 付款成功后，礼品卡通常会通过邮件发送。源文的邮件截图中露出了兑换码，所以这里不再放图。拿到兑换码后，打开 App Store，点击头像，进入「兑换礼品卡或代码」，把土耳其区礼品卡兑换到同一个土耳其区 Apple ID。
+ 
+-![App Store 兑换礼品卡示例](https://cdn.canghecode.com/codexguide/docs/images/subscribe-appstoreprice-redeem-watermarked-small.webp)
++![App Store 兑换礼品卡示例](/images/tutorials/subscribe-appstoreprice-redeem-watermarked-small.webp)
+ 
+ **第八步：在 ChatGPT App 内购买订阅**
+ 
+@@ -274,97 +280,35 @@ CodexGuide 不推荐具体商家，也不保证任何第三方礼品卡渠道的
+ 
+ ![升级 Plus 支付情况](../images/subscribe-google-play-chatgpt-plus-checkout.png)
+ 
+-## 方法四：AI MEMBER 卡密自助充值（省去海外支付步骤-操作更简单）
++## 方法四：第三方会员代充
+ 
+-如果不想折腾海外 Apple ID、礼品卡或地区切换，也可以购买一张 ChatGPT Plus 充值卡密，再到 AI MEMBER 充值中心自助提交。整个流程都在浏览器里完成，适合已经有 ChatGPT 账号、但不方便使用海外支付方式的用户。
++如果不方便使用海外支付方式，也可以通过第三方店铺购买会员代充服务。
+ 
+-  
++- 代充店铺：[查看会员代充商品](https://prodclub.xyz/r/DXVFDX)
++- 准备一个可以正常登录的 ChatGPT 账号。
++- Plus、Pro 等商品是否可用，以及支持的账号类型，以店铺商品页为准。
+ 
+ ::: tip 第三方服务说明
+-
+-AI MEMBER 是第三方充值服务，并非 OpenAI 官方渠道。商品价格、库存、处理时间、支持的账号类型和售后规则，以下单页面实际显示为准。
+-
++该入口为第三方店铺，并非 OpenAI 官方渠道。价格、库存、处理时间、付款方式与售后规则，以当前商品页面实际显示为准。
+ :::
+ 
+-### **准备物品：**
+-
+-
+-- 购买卡密地址：[https://www.ai-member.icu](https://www.ai-member.icu?from=4068)
+-    
+-- 一个可以正常登录的 ChatGPT 账号
+-    
+-- 支付宝或商品页当前支持的其他付款方式
+-    
+-- AI MEMBER 网站购买后得到的 CDKEY
+-    
+-- 其他ChatGPT Pro 100刀、200刀、Claude Pro、Grok Super等会员充值也可参考此文档
+-
+-
+-### **第一步：选择适合自己账号的 Plus 商品**
+-
+-
+-打开 [AI MEMBER 发卡网](https://www.ai-member.icu?from=4068)，在「ChatGPT」分类里选择支持卡密自助提交的 Plus 商品。本文截图使用的是其中的 GPT Plus 官方ios充值商品。
+-
+-下单前先把商品说明看完，尤其要确认自己的账号状态是否符合要求。
+-
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-1.png)
+-
+-### **第二步：填写订单信息并付款**
+-
+-在商品页填写常用联系方式，再设置一个订单查询密码。这个密码只用于查询订单，不是 ChatGPT 密码，建议单独设置并自己记好。随后填写验证码，选择页面当前可用的支付方式，按提示完成付款。
+-
+-AI MEMBER Plus 商品下单信息示例
+-
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-2.png)
+-
+-付款完成后先别急着关闭页面，保存好订单号，并复制订单中自动发放的 CDKEY。如果暂时没有看到卡密，可以打开 [订单查询](https://www.ai-member.icu/user/index/query)，使用订单号或下单时填写的联系方式查询。
+-
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-3.png)
++### 第一步：查看商品和账号要求
+ 
+-### 第三步：进入充值中心并验证卡密
++打开[代充店铺](https://prodclub.xyz/r/DXVFDX)，选择需要的会员商品。下单前阅读商品说明，核对套餐、服务周期、账号限制以及售后规则。
+ 
++### 第二步：按商品页说明下单
+ 
+-打开 [AI MEMBER 充值中心](https://recharge.ai-member.icu/canvas-flow.html)，确认页面顶部选中的是「GPT」和「中文」。把刚才得到的 CDKEY 粘贴到输入框，点击「验证卡密」。
++按店铺当前页面填写订单信息并完成付款，保存订单号和查询方式。订单查询、卡密领取与充值入口均以本次订单提供的说明为准。
+ 
+-AI MEMBER ChatGPT Plus 充值中心
++### 第三步：完成充值并核对到账
+ 
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-4.png)
+-
+-验证通过后，页面会进入 Session 提交步骤。如果提示卡密不可用、商品不匹配或当前状态不能提交，先核对订单和商品类型，不要反复提交。
+-
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-5.png)
+-
+-### **第四步：在同一个浏览器中获取 Session**
+-
+-这里最容易出错的地方，是拿错了登录账号。请在当前浏览器中点击「打开 ChatGPT 官网」，确认登录的就是准备充值的账号；然后返回充值页，点击「打开 Session 页面」。
+-
+-官方 Session 页面地址是：
+-
+-`https://chatgpt.com/api/auth/session`
+-
+-页面打开后会显示一段 JSON 内容。使用 `Ctrl + A` 全选、`Ctrl + C` 复制，内容不要删减，也不要手动修改。
+-
+-ChatGPT 官网登录与 Session 获取步骤
+-
+-::: warning Session 要当作密码保护
+-
+-Session 中包含临时登录凭证。只在地址栏确认是 `https://recharge.ai-member.icu/` 时粘贴，不要把 Session 发到群聊、客服私聊或公开截图里。如果 Session 页面没有显示当前账号信息，先重新登录 ChatGPT，再打开一次。
++按照所购商品的说明完成充值。如果流程与教程不同，以当前商品说明为准；不适用旧店铺的充值中心或按钮名称。
+ 
++::: warning 保护账号凭证
++不要在群聊、公开截图或客服私聊中发送账号密码、验证码或 Session。涉及账号授权或登录凭证时，先确认服务说明和实际接收凭证的网站。
+ :::
+ 
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-6.png)
+-
+-### **第五步：返回充值页并提交**
+-
+-回到充值中心，把刚才复制的完整内容粘贴到 Session 输入框。页面如果弹出账号邮箱确认，请认真核对，确定是要充值的账号后再提交。
+-
+-![](https://cdn.canghecode.com/blog/codexguide-gpt-plus-7.png)
+-
+-点击「提交充值」后保持页面打开，不要重复点击。处理完成后，当前页面会显示商品、账号、完成时间和处理状态。
+-
+-### **第六步：确认 Plus 是否到账**
+-
+-重新打开 ChatGPT，在账号设置中查看当前套餐是否已经变为 Plus。若充值页显示成功，但 ChatGPT 暂时没有更新，可以先重新登录 ChatGPT。
++重新打开 ChatGPT，在账号设置中查看当前套餐和有效期。若订单显示完成但套餐尚未更新，可以重新登录后核对，再按订单提供的售后方式处理。
+ 
+ ## 常见问题
+ 
+diff --git a/docs/start/04-third-party-api.md b/docs/start/04-third-party-api.md
+index 85999b9..b543451 100644
+--- a/docs/start/04-third-party-api.md
++++ b/docs/start/04-third-party-api.md
+@@ -1,14 +1,20 @@
+ ---
++author: 大蓝营
++date: 2026-05-30
++updated: 2026-08-21
++lastUpdated: true
++contributors: false
++editLink: false
+ description: "Codex 连接第三方 API 的入门说明，比较手动配置、Codex++、CCX 与 CC Switch 三种接入方式，并提示账号、密钥、账单和隐私风险。"
+ ---
+ 
+ ::: tip 最后核对
+-官方资料最后核对日期：2026-05-29。本文参考 [OpenAI Codex config reference](https://developers.openai.com/codex/config-reference)。社区工具资料最后核对日期：2026-05-29，参考 [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus)、[CCX](https://github.com/BenedictKing/ccx) 与 [CC Switch](https://github.com/farion1231/cc-switch)。
++官方资料最后核对日期：2026-05-30。本文参考 [OpenAI Codex config reference](https://developers.openai.com/codex/config-reference)。社区工具资料最后核对日期：2026-05-30，参考 [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus)、[CCX](https://github.com/BenedictKing/ccx) 与 [CC Switch](https://github.com/farion1231/cc-switch)。
+ :::
+ 
+ # 连接第三方 API
+ 
+-Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号登录，并使用官方支持的模型与服务。连接第三方 API 属于进阶配置，适合已经理解 `config.toml`、API Key、Base URL、模型名和代理网关含义的用户。如果你希望更方便地接入和切换不同模型，也可以通过 [packyapi](https://www.packyapi.ai/register?aff=CV0c) 这类 API 聚合平台进行统一配置。
++Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号登录，并使用官方支持的模型与服务。连接第三方 API 属于进阶配置，适合已经理解 `config.toml`、API Key、Base URL、模型名和代理网关含义的用户。
+ 
+ ::: warning 第三方 API 风险
+ 本文只整理接入思路，文中提到的第三方平台仅作接入示例，不代表对服务质量、安全性或合规性的背书。第三方 API 可能涉及账号安全、API Key 泄露、账单超额、服务稳定性、日志留存、数据跨境、模型能力降级和合规风险。请只使用你信任、能承担责任的服务，并避免把密钥写进截图、仓库和公开文档。
+@@ -29,7 +35,7 @@ Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号
+ 
+ 这种是没办法使用 Codex APP 的插件功能的，可以看看方案二可以使用插件功能。
+ 
+-![](https://cdn.canghecode.com/blog/20260529172147.png)
++![](/images/tutorials/blog-20260529172147.png)
+ 
+ 手动配置的核心，是编辑本机的：
+ 
+@@ -44,7 +50,7 @@ cp ~/.codex/config.toml ~/.codex/config.toml.backup
+ cp ~/.codex/auth.json ~/.codex/auth.json.backup
+ ```
+ 
+-![](https://cdn.canghecode.com/blog/20260529165811.png)
++![](/images/tutorials/blog-20260529165811.png)
+ 
+ ### 两类登录思路
+ 
+@@ -87,7 +93,7 @@ requires_openai_auth = false
+ - `wire_api = "responses"` 表示 Codex 以 Responses API 的请求形态访问。
+ - `requires_openai_auth = true` 表示使用已有 OpenAI / ChatGPT 登录态。
+ 
+-![](https://cdn.canghecode.com/blog/20260529170535.png)
++![](/images/tutorials/blog-20260529170535.png)
+ 
+ 
+ **第二步，打开终端输入环境变量**
+@@ -97,7 +103,7 @@ requires_openai_auth = false
+ export OPENAI_API_KEY="这里填你的key"
+ ```
+ 
+-![](https://cdn.canghecode.com/blog/20260529171249.png)
++![](/images/tutorials/blog-20260529171249.png)
+ 
+ **第三步，终端中启动 Codex APP**
+ 
+@@ -113,7 +119,7 @@ open -a Codex
+ 
+ 你就可以看到已经应用到新模型了：
+ 
+-![](https://cdn.canghecode.com/blog/20260529171601.png)
++![](/images/tutorials/blog-20260529171601.png)
+ 
+ 
+ 
+@@ -145,7 +151,7 @@ requires_openai_auth = false
+ 
+ 打开 ~/.codex/auth.json，然后添加 OPENAI_API_KEY 为你模型服务商的API KEY：
+ 
+-![](https://cdn.canghecode.com/blog/20260529170927.png)
++![](/images/tutorials/blog-20260529170927.png)
+ 
+ 
+ ### 手动配置后怎么验证
+@@ -163,7 +169,7 @@ requires_openai_auth = false
+ 
+ [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus) 是面向 Codex App 的外部增强 launcher 和管理工具。根据项目 README，它不修改 Codex App 原始安装文件，而是通过外部 launcher 启动 Codex，并使用 Chromium DevTools Protocol 注入增强脚本。
+ 
+-![](https://cdn.canghecode.com/blog/20260529171743.png)
++![](/images/tutorials/blog-20260529171743.png)
+ 
+ 
+ 它更适合这些情况：
+@@ -177,29 +183,29 @@ requires_openai_auth = false
+ 
+ 1. 打开 [Codex++ Releases](https://github.com/BigPizzaV3/CodexPlusPlus/releases)，下载与你系统匹配的安装包。
+ 
+-![](https://cdn.canghecode.com/blog/20260529172239.png)
++![](/images/tutorials/blog-20260529172239.png)
+ 
+ 会有 「Codex++ 管理工具」和 「Codex++ app」两个安装包。
+ 
+-![](https://cdn.canghecode.com/blog/ca6415f0ad1e10755f656001d16d91d5.png)
++![](/images/tutorials/blog-ca6415f0ad1e10755f656001d16d91d5.png)
+ 
+ 
+ 2. 安装后打开 `Codex++ 管理工具`。
+ 
+ 首次打开如果出现这个错误：
+ 
+-![](https://cdn.canghecode.com/blog/b265fd82e492107e53dc7b0df6af553c.png)
++![](/images/tutorials/blog-b265fd82e492107e53dc7b0df6af553c.png)
+ 不要慌，先打开「系统设置」-「隐私与安全性」，点击「仍要打开」：
+ 
+-![](https://cdn.canghecode.com/blog/3e514cfc66a2a76536dbfc5c37743315.png)
++![](/images/tutorials/blog-3e514cfc66a2a76536dbfc5c37743315.png)
+ 
+ 打开后就会进入到这个管理界面：
+ 
+-![](https://cdn.canghecode.com/blog/f33b0f1f6377c237f113000a0ec0637f.png)
++![](/images/tutorials/blog-f33b0f1f6377c237f113000a0ec0637f.png)
+ 
+ 同样的方式，安装刚才安装包中的 Codex++ app。你就可以看到管理工具检测全绿了。
+ 
+-![](https://cdn.canghecode.com/blog/e0ca6498f640c984c438527f13faf435.jpg)
++![](/images/tutorials/blog-e0ca6498f640c984c438527f13faf435.jpg)
+ 
+ 确认已经检测到 ChatGPT 登录状态。
+ 
+@@ -207,31 +213,31 @@ requires_openai_auth = false
+ 
+ 选择「供应商配置」-添加供应商配置。填写自己的供应商的配置，并填写模型相关信息，注意 接入方式要选「纯API」的方式：
+ 
+-![](https://cdn.canghecode.com/blog/d13c6d3d480af07b22cc8b7b470a45e5.jpg)
++![](/images/tutorials/blog-d13c6d3d480af07b22cc8b7b470a45e5.jpg)
+ 
+ 模型列表可以选择从上游获取，如果你配置的是中转站，这里就可以用很多不同的模型了：
+ 
+-![](https://cdn.canghecode.com/blog/0c4dd861837c8686d3135b704ae4517d.jpg)
++![](/images/tutorials/blog-0c4dd861837c8686d3135b704ae4517d.jpg)
+ 
+ 可以看到这个工具做的就是帮你更方便的写入配置。
+ 
+-![](https://cdn.canghecode.com/blog/9132822e751d0eccd37b79bbe0d6b3b0.jpg)
++![](/images/tutorials/blog-9132822e751d0eccd37b79bbe0d6b3b0.jpg)
+ 
+ 保存后可以测试联通情况，没问题，直接选择使用：
+ 
+-![](https://cdn.canghecode.com/blog/728d1e4564ea5f78121cae63fd94790a.jpg)
++![](/images/tutorials/blog-728d1e4564ea5f78121cae63fd94790a.jpg)
+ 
+ 3. 从 `Codex++` 入口启动 Codex，而不是从原版 Codex 入口启动。
+ 
+-![](https://cdn.canghecode.com/blog/cb577d3e36171a7204e291500a7db9dc.jpg)
++![](/images/tutorials/blog-cb577d3e36171a7204e291500a7db9dc.jpg)
+ 
+ 重新启动后，你就能看到现在 Codex已经完全使用了我们自定义的模型供应商，并可以选择更多的模型。
+ 
+-![](https://cdn.canghecode.com/blog/151adfc6f7cd994b58815787999a5c37.jpg)
++![](/images/tutorials/blog-151adfc6f7cd994b58815787999a5c37.jpg)
+ 
+ 其中插件也可以直接使用了：
+ 
+-![](https://cdn.canghecode.com/blog/66afdc2191cadafa60171ef81940733d.jpg)
++![](/images/tutorials/blog-66afdc2191cadafa60171ef81940733d.jpg)
+ 
+ 根据 Codex++ README，它会写入类似这样的 provider：
+ 

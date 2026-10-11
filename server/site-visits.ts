@@ -15,7 +15,7 @@ const BOT_PATTERN =
 const visitorSalt = (): string =>
   process.env.SITE_VISIT_HASH_SECRET?.trim() ||
   process.env.COMMUNITY_BUYER_HMAC_SECRET?.trim() ||
-  "codexguide-site-visits";
+  "bluecamp-site-visits";
 
 // 只保存不可逆摘要：同一访客同一天记一次，隔天摘要即失效，不留存原始 IP。
 export const visitorHash = (ip: string, userAgent: string): string =>

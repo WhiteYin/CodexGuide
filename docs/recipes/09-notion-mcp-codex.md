@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-16
+updated: 2026-07-01
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 Notion MCP 案例，说明如何连接 Notion 知识空间、读取页面、整理数据库和生成内容。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/) 与 [Notion](https://www.notion.com/)。Notion MCP 的授权范围、可读写对象和连接入口请以 Notion 官方说明和当前 Codex 客户端为准。
+公开资料最后核对日期：2026-06-30。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/) 与 [Notion](https://www.notion.com/)。Notion MCP 的授权范围、可读写对象和连接入口请以 Notion 官方说明和当前 Codex 客户端为准。
 :::
 
 # Codex × Notion MCP：打通你的知识工作空间
@@ -16,7 +22,7 @@ description: "Codex 与 Notion MCP 案例，说明如何连接 Notion 知识空�
 
 打开 Codex 插件市场，搜索 **Notion**，点击安装。
 
-![notion-mcp-plugin-search](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-plugin-search.png)
+![notion-mcp-plugin-search](/images/tutorials/notion-mcp-plugin-search.png)
 
 Notion 的权限涉及较多，安装时会跳转到浏览器，需要登录你的 Notion 账号并完成授权，让 Codex 可以通过 MCP 访问你的工作空间：
 
@@ -26,7 +32,7 @@ Notion 的权限涉及较多，安装时会跳转到浏览器，需要登录你�
 
 设置完成后，直接用 `@` 调用 Notion 插件即可。
 
-![notion-mcp-authorization](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-authorization.png)
+![notion-mcp-authorization](/images/tutorials/notion-mcp-authorization.png)
 
 ---
 
@@ -36,7 +42,7 @@ Notion 的权限涉及较多，安装时会跳转到浏览器，需要登录你�
 
 先让 Codex 调用 Notion MCP，验证它能否正常读取你的工作空间内容。成功返回说明连接没有问题：
 
-![notion-mcp-workspace-read-result](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-workspace-read-result.png)
+![notion-mcp-workspace-read-result](/images/tutorials/notion-mcp-workspace-read-result.png)
 
 ### 读取其他工作空间
 
@@ -44,17 +50,17 @@ Notion 的权限涉及较多，安装时会跳转到浏览器，需要登录你�
 
 下图是让 Codex 查看我加入的一个工作空间**昨天更新的内容**，在授权范围内，读取完全正常：
 
-![notion-mcp-updated-content-query-result](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-updated-content-query-result.png)
+![notion-mcp-updated-content-query-result](/images/tutorials/notion-mcp-updated-content-query-result.png)
 
 ### 总结与写入
 
 读取到内容之后，可以让 Codex 直接进行总结。如果对话中产生了不错的想法，也可以让它**直接写入到你的 Notion 工作空间**，完成后会返回一个写入成功的链接：
 
-![notion-mcp-write-summary-result](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-write-summary-result.png)
+![notion-mcp-write-summary-result](/images/tutorials/notion-mcp-write-summary-result.png)
 
 点击链接跳转到 Notion 查看写入结果，内容完全正常：
 
-![notion-mcp-created-summary-page](https://cdn.canghecode.com/codexguide/docs/images/notion-mcp-created-summary-page.png)
+![notion-mcp-created-summary-page](/images/tutorials/notion-mcp-created-summary-page.png)
 
 ---
 

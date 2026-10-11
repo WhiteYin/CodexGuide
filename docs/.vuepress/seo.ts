@@ -2,12 +2,12 @@ const configuredSiteUrl = process.env.PUBLIC_SITE_URL?.trim();
 
 export const siteUrl = configuredSiteUrl
   ? new URL(configuredSiteUrl).origin
-  : "https://codexguide.ai";
+  : "https://guide.bigbiscuit.fun";
 
 export const siteDescription =
-  "CodexGuide 是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。";
+  "大蓝营 是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。";
 
-export const siteOgImage = `https://cdn.canghecode.com/codexguide/docs/.vuepress/public/og.svg`;
+export const siteOgImage = `${siteUrl}/bluecamp-og.svg`;
 
 export const toCleanPath = (path: string): string => {
   const [pathname, suffix = ""] = path.split(/(?=[?#])/u);
@@ -30,15 +30,10 @@ export const toCleanPath = (path: string): string => {
 
 export const pageDescriptions: Record<string, string> = {
   "/": siteDescription,
-  "/guide/": "CodexGuide 学习路线，总览快速上手、进阶教程、实战案例、参考手册和社区共建的阅读顺序。",
+  "/guide/": "大蓝营 学习路线，总览快速上手、进阶教程、实战案例和参考来源的阅读顺序。",
   "/start/": "Codex 快速上手教程，从认识 Codex、安装账号、费用上下文到第一个任务和任务执行闭环。",
   "/advanced/": "Codex 进阶教程，整理 CLI、IDE、Cloud、权限安全、AGENTS.md、Skills、MCP、Hooks、团队协作和排障路径。",
   "/recipes/": "Codex 实战案例库，收录 PPT、Draw.io、Playwright、Obsidian、临床文献综述、Hatch Pet、移动协同、CI 和远程排障案例。",
-  "/manual/": "Codex 参考手册，整理 OpenAI 官方资料、Codex 更新记录、参考来源与致谢。",
-  "/community/roadmap.html": "CodexGuide 共建路线图，记录文档站骨架、教程、案例、截图、关键词索引和社区传播的后续计划。",
-  "/community/tutorials.html": "Codex 社区优秀教程合集，收录社区维护的 Codex 开源教程、在线阅读资料和 PDF。",
-  "/community/join.html": "CodexGuide 付费交流群，介绍交流价值、适合人群和服务边界，并支持使用支付宝或微信支付 9.9 元获得长期有效的入群资格。",
-  "/sponsors/": "CodexGuide 赞助商页面，集中展示支持本站建设的项目和服务。",
 
   "/start/01-what-is-codex.html": "Codex 入口地图，比较 CLI、桌面 App、Cloud、IDE、ChatGPT 和集成生态，帮助选择合适工作入口。",
   "/start/02-app-installation.html": "Codex 桌面 App 安装教程，说明 macOS、Windows 下载入口、账号登录和第一次使用 OpenAI Codex 的准备工作。",
@@ -68,8 +63,7 @@ export const pageDescriptions: Record<string, string> = {
   "/advanced/11-troubleshooting.html": "Codex 排障手册，汇总登录、安装、权限、依赖、命令失败和任务执行异常的定位与恢复路径。",
   "/recipes/00-index.html": "Codex 非开发工作流指南，说明如何用于文档、学习、研究、内容整理、知识库和团队运营任务。",
 
-  "/manual/01-codex-updates.html": "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex changelog 自 2025 年起整理。",
-  "/manual/02-credits.html": "CodexGuide 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源。",
+  "/manual/02-credits.html": "大蓝营 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源。",
 };
 
 export const getPageDescription = (path: string): string => {

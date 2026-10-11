@@ -93,44 +93,19 @@ export default sidebar({
   ],
 
   "/manual/": [
-    {
-      text: "参考手册",
-      icon: "gear",
-      prefix: "/manual/",
-      children: ["00-index.md", "01-codex-updates.md", "02-credits.md"],
-    },
-  ],
-
-  "/community/": [
-    {
-      text: "社区共建",
-      icon: "people",
-      prefix: "/community/",
-      children: ["roadmap.md", "tutorials.md"],
-    },
-  ],
-
-  "/sponsors/": [
-    {
-      text: "赞助商",
-      icon: "star",
-      prefix: "/sponsors/",
-      children: ["00-index.md"],
-    },
+    { text: "参考来源与致谢", icon: "heart", prefix: "/manual/", children: ["02-credits.md"] },
   ],
 
   "/": [
     {
-      text: "CodexGuide",
+      text: "大蓝营",
       icon: "home",
       children: [
         "/guide/",
         "/start/",
         "/advanced/",
         "/recipes/",
-        "/manual/",
-        "/community/roadmap.md",
-        "/sponsors/",
+        "/manual/02-credits.md",
       ],
     },
   ],

@@ -1,9 +1,15 @@
 ---
-description: "CodexGuide 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。"
+author: 大蓝营
+date: 2026-05-16
+updated: 2026-07-01
+lastUpdated: true
+contributors: false
+editLink: false
+description: "大蓝营 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。"
 ---
 
 ::: tip 最后核对
-资料最后核对日期：2026-06-29。本站参考来源以原作者发布页、GitHub 仓库、视频平台和 OpenAI 官方资料为准；涉及第三方工具安装、授权、价格、维护状态和输出格式时，请打开表格中的原链接核对。
+资料最后核对日期：2026-06-30。本站参考来源以原作者发布页、GitHub 仓库、视频平台和 OpenAI 官方资料为准；涉及第三方工具安装、授权、价格、维护状态和输出格式时，请打开表格中的原链接核对。
 :::
 
 # 参考来源与致谢
@@ -23,10 +29,10 @@ description: "CodexGuide 参考来源与致谢，整理案例中涉及的第三�
 | [larksuite/cli](https://github.com/larksuite/cli/blob/main/README.zh.md) | 飞书官方 | 飞书官方开源 CLI，支持通过命令行操作飞书数据 | [06 Codex × 飞书 CLI](../recipes/06-feishu-cli-codex.md) |
 | [wshuyi/remotion-video-skill](https://github.com/wshuyi/remotion-video-skill) | 王老师（wshuyi） | 基于 Remotion 的视频生成 Skill，代码驱动制作视频 | [04 Codex × HyperFrames](../recipes/04-hyperframes-animation.md) |
 | [karpathy/llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Andrej Karpathy | LLM Wiki 理念原始设计文档，本站案例的核心参考 | [07 Codex × LLM Wiki](../recipes/07-llm-wiki-codex.md) |
-| [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) | Dailin521 | 社区工具，用于 Codex provider metadata 同步与历史会话可见性排障；最后核对日期：2026-05-29 | [配置文件 config.toml](../advanced/09-config-toml.md#切换-provider-后历史会话不可见怎么办) |
-| [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 社区工具，用于 Codex 桌面 App 外部 launcher、中转注入和 provider 管理；最后核对日期：2026-05-29 | [连接第三方 API](../start/04-third-party-api.md) |
-| [BenedictKing/ccx](https://github.com/BenedictKing/ccx) | BenedictKing | 社区项目，提供 AI API 代理、协议转换、渠道编排和 Codex Responses 网关能力；最后核对日期：2026-05-29 | [连接第三方 API](../start/04-third-party-api.md) |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | farion1231 | 社区工具，用于管理 Codex、Claude Code、Gemini CLI 等工具的供应商配置和一键切换；最后核对日期：2026-05-29 | [连接第三方 API](../start/04-third-party-api.md) |
+| [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) | Dailin521 | 社区工具，用于 Codex provider metadata 同步与历史会话可见性排障；最后核对日期：2026-05-30 | [配置文件 config.toml](../advanced/09-config-toml.md#切换-provider-后历史会话不可见怎么办) |
+| [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 社区工具，用于 Codex 桌面 App 外部 launcher、中转注入和 provider 管理；最后核对日期：2026-05-30 | [连接第三方 API](../start/04-third-party-api.md) |
+| [BenedictKing/ccx](https://github.com/BenedictKing/ccx) | BenedictKing | 社区项目，提供 AI API 代理、协议转换、渠道编排和 Codex Responses 网关能力；最后核对日期：2026-05-30 | [连接第三方 API](../start/04-third-party-api.md) |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | farion1231 | 社区工具，用于管理 Codex、Claude Code、Gemini CLI 等工具的供应商配置和一键切换；最后核对日期：2026-05-30 | [连接第三方 API](../start/04-third-party-api.md) |
 
 ---
 

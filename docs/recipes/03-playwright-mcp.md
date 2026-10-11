@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-18
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 Playwright MCP 案例，说明如何让 AI 操作浏览器、点击页面、截图检查并验证网页状态。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/)、[Playwright](https://playwright.dev/) 与 [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)。浏览器自动化能力、安装方式和可用工具名称请以原项目说明为准。
+公开资料最后核对日期：2026-07-02。本文参考 [Model Context Protocol](https://modelcontextprotocol.io/)、[Playwright](https://playwright.dev/) 与 [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)。浏览器自动化能力、安装方式和可用工具名称请以原项目说明为准。
 :::
 
 # Codex × Playwright MCP：让 AI 像人一样操控浏览器
@@ -24,13 +30,13 @@ description: "Codex 与 Playwright MCP 案例，说明如何让 AI 操作浏览�
 codex mcp add playwright npx @playwright/mcp@latest
 ```
 
-![playwright-mcp-add-command](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-add-command.png)
+![playwright-mcp-add-command](/images/tutorials/playwright-mcp-add-command.png)
 
 **验证安装是否成功：** 进入 Codex，使用 `/mcp` 命令列出当前已经安装的 MCP 服务列表。
 
-![playwright-mcp-server-list](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-server-list.png)
+![playwright-mcp-server-list](/images/tutorials/playwright-mcp-server-list.png)
 
-![playwright-mcp-list-command](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-list-command.png)
+![playwright-mcp-list-command](/images/tutorials/playwright-mcp-list-command.png)
 
 ---
 
@@ -48,7 +54,7 @@ codex mcp add playwright npx @playwright/mcp@latest
 请打开浏览器，到百度搜索"什么是 MCP"，选择两篇优质内容阅读，并整理成一个 markdown 文件保存在当前目录。
 ```
 
-![playwright-mcp-browser-search-prompt](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-browser-search-prompt.png)
+![playwright-mcp-browser-search-prompt](/images/tutorials/playwright-mcp-browser-search-prompt.png)
 
 在执行过程中，需要我们放开一些权限，让它去调用相关工具。比如：
 
@@ -58,19 +64,19 @@ codex mcp add playwright npx @playwright/mcp@latest
 
 > 这些操作在未授权的情况下，需要**手动放行**。
 
-![playwright-mcp-permission-prompt](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-permission-prompt.png)
+![playwright-mcp-permission-prompt](/images/tutorials/playwright-mcp-permission-prompt.png)
 
 在执行过程中，你确实会发现它打开了浏览器，并且搜索了相关内容，还打开了两篇文章，这些都是可以看到的。
 
-![playwright-mcp-baidu-search-results](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-baidu-search-results.png)
+![playwright-mcp-baidu-search-results](/images/tutorials/playwright-mcp-baidu-search-results.png)
 
 最终它会把得到的结果总结输出给我们，然后**写入到本地的 Markdown 文件**里。
 
-![playwright-mcp-collected-search-summary](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-collected-search-summary.png)
+![playwright-mcp-collected-search-summary](/images/tutorials/playwright-mcp-collected-search-summary.png)
 
 Codex 根据搜索到的两篇文章的内容进行总结，给我们进行相关的阐述说明。
 
-![playwright-mcp-markdown-file-created](https://cdn.canghecode.com/codexguide/docs/images/playwright-mcp-markdown-file-created.png)
+![playwright-mcp-markdown-file-created](/images/tutorials/playwright-mcp-markdown-file-created.png)
 
 ---
 

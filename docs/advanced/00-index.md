@@ -1,10 +1,16 @@
 ---
+author: 大蓝营
+date: 2026-07-02
+updated: 2026-07-02
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 进阶教程总览，整理费用上下文、AGENTS.md、Skills、权限管理、自动化、Hooks、沙盒、配置、团队协作和排障路径。"
 permalink: /advanced/
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本页是进阶教程索引，涉及费用、上下文、AGENTS.md、Skills、Plugins、权限、自动化、Hooks、沙盒、线程管理、配置和团队实践的细节，请以 [Codex 文档入口](https://developers.openai.com/codex/) 与各章节引用的官方资料为准。
+官方资料最后核对日期：2026-07-01。本页是进阶教程索引，涉及费用、上下文、AGENTS.md、Skills、Plugins、权限、自动化、Hooks、沙盒、线程管理、配置和团队实践的细节，请以 [Codex 文档入口](https://developers.openai.com/codex/) 与各章节引用的官方资料为准。
 :::
 
 # 进阶教程

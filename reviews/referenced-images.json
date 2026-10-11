@@ -1,0 +1,2122 @@
+[
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-auto-review-rejection-watermarked-small.png",
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 1,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-config-toml-settings-watermarked-small.png",
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 2,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-permissions-selector-menu-watermarked-small.png",
+    "articles": [
+      "docs/advanced/04-permissions-security.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 3,
+    "visualWatermark": true,
+    "legacyBrandText": true
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-auto-thread-management-tools-watermarked-small.png",
+    "articles": [
+      "docs/advanced/08-thread-management.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 4,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-create-watermarked-small.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 5,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-overview-watermarked-small.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 6,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-config-approval-policy-watermarked-small.png",
+    "articles": [
+      "docs/advanced/07-sandbox-approvals.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 7,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-config-sandbox-settings-watermarked-small.png",
+    "articles": [
+      "docs/advanced/07-sandbox-approvals.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 8,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-hooks-trust-review-watermarked-small.png",
+    "articles": [
+      "docs/advanced/06-hooks.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 9,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-config-watermarked-small.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 10,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-marketplace-watermarked-small.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 11,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-command-watermarked-small.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 12,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-chatgpt-entry-watermarked-small.jpg",
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 13,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-connect-desktop-watermarked-small.jpg",
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 14,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/mobile-codex-ios-app-watermarked-small.jpg",
+    "articles": [
+      "docs/start/09-mobile-control.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 15,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/prompt-caching-stable-prefix-watermarked-small.png",
+    "articles": [
+      "docs/advanced/01-cost-context.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 16,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-apple-gift-card-watermarked-small.jpg",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 17,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-apple-id-redeem-watermarked-small.jpg",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 18,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-apple-id-signup-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 19,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-card-payment-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 20,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-card-verify-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 21,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-chatgpt-price-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 22,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-gift-card-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 23,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-ip-check-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 24,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-payment-address-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 25,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-payment-method-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 26,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-appstoreprice-redeem-watermarked-small.webp",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 27,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/subscribe-hero-sms-watermarked-small.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": true,
+    "id": 28,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/agents-md-editor-rule-example.png",
+    "articles": [
+      "docs/advanced/02-agents-md.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 29,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-0c4dd861837c8686d3135b704ae4517d.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 30,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-151adfc6f7cd994b58815787999a5c37.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 31,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529165811.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 32,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529170535.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 33,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529170927.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 34,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171249.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 35,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171601.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 36,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529171743.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 37,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529172147.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 38,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260529172239.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 39,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164741.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 40,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164918.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 41,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802164954.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 42,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165357.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 43,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165443.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 44,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165556.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 45,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165656.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 46,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802165750.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 47,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-20260802170049.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 48,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-3e514cfc66a2a76536dbfc5c37743315.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 49,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-66afdc2191cadafa60171ef81940733d.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 50,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-728d1e4564ea5f78121cae63fd94790a.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 51,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-9132822e751d0eccd37b79bbe0d6b3b0.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 52,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-b265fd82e492107e53dc7b0df6af553c.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 53,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-ca6415f0ad1e10755f656001d16d91d5.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 54,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-cb577d3e36171a7204e291500a7db9dc.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 55,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-d13c6d3d480af07b22cc8b7b470a45e5.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 56,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-e0ca6498f640c984c438527f13faf435.jpg",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 57,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/blog-f33b0f1f6377c237f113000a0ec0637f.png",
+    "articles": [
+      "docs/start/04-third-party-api.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 58,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/chatgpt-codex-get-started-clean.png",
+    "articles": [
+      "docs/start/02-app-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 59,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/chrome-codex-extension-page-summary-prompt.png",
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 60,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/chrome-codex-extension-summary-result.png",
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 61,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/chrome-web-store-codex-extension.png",
+    "articles": [
+      "docs/recipes/12-chrome-browser-plugin.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 62,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-composer-controls.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 63,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-download-macos-options.png",
+    "articles": [
+      "docs/start/02-app-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 64,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-main-chat-home.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 65,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-personalization-settings.png",
+    "articles": [
+      "docs/advanced/02-agents-md.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 66,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-profile-menu-settings-billing.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 67,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-project-workspace-selection.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 68,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-app-settings-panel-detail.png",
+    "articles": [
+      "docs/start/05-app-overview.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 69,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-automation-create-dialog.png",
+    "articles": [
+      "docs/advanced/05-automation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 70,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-login-account-selection.png",
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 71,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-prerequisite-version-check.png",
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 72,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-readonly-first-task.png",
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 73,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-repo-overview-response.png",
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 74,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-review-diff-result.png",
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 75,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-small-task-response.png",
+    "articles": [
+      "docs/start/11-cli-first-run.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 76,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cli-version-check.png",
+    "articles": [
+      "docs/start/10-cli-installation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 77,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-connect-github-button.png",
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 78,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-github-repository-authorization.png",
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 79,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-repository-context-prompt.png",
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 80,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-start-task-page.png",
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 81,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-cloud-task-progress-result.png",
+    "articles": [
+      "docs/start/14-cloud.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 82,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-completed-task-bubble.png",
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 83,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-plugin-install.png",
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 84,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-slash-command.png",
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 85,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-desktop-pet-task-bubble.png",
+    "articles": [
+      "docs/recipes/17-desktop-pet.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 86,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-add-workspace-folder.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 87,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-browser-preview.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 88,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-completion.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 89,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-context-usage.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 90,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-local-folder.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 91,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-new-chat-in-project.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 92,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-prompt-input.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 93,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-first-task-selected-workspace.png",
+    "articles": [
+      "docs/start/06-first-task.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 94,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugin-install-github-prompt.png",
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 95,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-plugins-at-command-list.png",
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 96,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-list.png",
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 97,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-plugins-entry-page.png",
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 98,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/codex-skills-slash-command-list.png",
+    "articles": [
+      "docs/advanced/03-skills-plugins-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 99,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-codex-task-result.png",
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 100,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-help-tools-section.png",
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 101,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-upload-dropzone.png",
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 102,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/dkfile-upload-home.png",
+    "articles": [
+      "docs/recipes/10-dkfile-deploy-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 103,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-add-server-settings.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 104,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-github-repository.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 105,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-install-command-result.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 106,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-install-prompt.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 107,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-permission-model-prompt.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 108,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-permission-model-source-links.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 109,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-read-write-own-diagram.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 110,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/drawio-mcp-read-write-own-summary.png",
+    "articles": [
+      "docs/recipes/02-drawio-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 111,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-command-examples.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 112,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-create-app-prompt.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 113,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-create-custom-app-modal.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 114,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-doc-export-tools-result.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 115,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-document-list-result.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 116,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-generated-image-preview.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 117,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-image-generation-prompt.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 118,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-install-result.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 119,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/feishu-cli-oauth-login-link.png",
+    "articles": [
+      "docs/recipes/06-feishu-cli-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 120,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-ai-product-ui-design.png",
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 121,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-generate-flowchart-prompt.png",
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 122,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-high-fidelity-ui-prompt.png",
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 123,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-plugin-permissions.png",
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 124,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/figma-mcp-user-login-flowchart.png",
+    "articles": [
+      "docs/recipes/08-figma-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 125,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-auto-fix-pr-list.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 126,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-discount-fix-diff.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 127,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-failing-test-log.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 128,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-annotations.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 129,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-failure-list.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 130,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/github-actions-workflow-permissions-settings.png",
+    "articles": [
+      "docs/recipes/13-github-actions-ci-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 131,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-book-content-prompt.png",
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 132,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-generated-frame-files.png",
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 133,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-local-output-summary.png",
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 134,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-plugin-search.png",
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 135,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/hyperframes-refinement-prompt.png",
+    "articles": [
+      "docs/recipes/04-hyperframes-animation.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 136,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-clip-article-to-raw.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 137,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-create-vault-command.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 138,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-generated-pages.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 139,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-codex-import-article-prompt.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 140,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-concept-diagram.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 141,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/llm-wiki-obsidian-web-clipper-search.png",
+    "articles": [
+      "docs/recipes/07-llm-wiki-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 142,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-authorization.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 143,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-created-summary-page.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 144,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-plugin-search.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 145,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-updated-content-query-result.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 146,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-workspace-read-result.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 147,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/notion-mcp-write-summary-result.png",
+    "articles": [
+      "docs/recipes/09-notion-mcp-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 148,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-generation-prompt.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 149,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-generation-result-url.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 150,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-upload-link-result.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 151,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-image-upload-tools-search.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 152,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-llm-wiki-concept-image.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 153,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-codex-terminal-start.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 154,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-command-palette-integrated-terminal.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 155,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-embedded-terminal-open.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 156,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-plugin-search.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 157,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-plugin-settings.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 158,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/obsidian-terminal-profiles-config.png",
+    "articles": [
+      "docs/recipes/05-obsidian-codex.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 159,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-add-command.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 160,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-baidu-search-results.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 161,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-browser-search-prompt.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 162,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-collected-search-summary.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 163,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-list-command.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 164,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-markdown-file-created.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 165,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-permission-prompt.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 166,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/playwright-mcp-server-list.png",
+    "articles": [
+      "docs/recipes/03-playwright-mcp.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 167,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-generated-file-result.png",
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 168,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-html-preview.png",
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 169,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-install-prompt.png",
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 170,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-installation-result.png",
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 171,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/ppt-skill-user-input-menu.png",
+    "articles": [
+      "docs/recipes/01-ppt-skill-walkthrough.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 172,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-codex-login-check.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 173,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-healthcheck-curl-success.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 174,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-keyerror-traceback.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 175,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-package-install-error.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 176,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-remote-session-start.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 177,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/remote-bug-fix-tests-pass.png",
+    "articles": [
+      "docs/recipes/11-remote-bug-fix.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 178,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-chat-panel.png",
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 179,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-extension-icon.png",
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 180,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-extension-marketplace.png",
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 181,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/vscode-codex-file-reference.png",
+    "articles": [
+      "docs/start/13-ide-vscode.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 182,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527143924648.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 183,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527145931186.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 184,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527150702223.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 185,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152034359.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 186,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152239430.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 187,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152442784.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 188,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527152745840.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 189,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527153008463.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 190,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527153330947.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 191,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527154702248.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 192,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527154950497.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 193,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527155059740.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 194,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527155313105.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 195,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260527160714918.png",
+    "articles": [
+      "docs/recipes/16-android-remote-control.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 196,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603164239865.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 197,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603165113247.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 198,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603165417268.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 199,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603170909630.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 200,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603171016784.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 201,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603171438425.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 202,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603174027962.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 203,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/.vuepress/public/images/tutorials/yanyan-20260603180110711.png",
+    "articles": [
+      "docs/recipes/15-hatch-pet-photo.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 204,
+    "visualWatermark": true,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-account-preferences.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 205,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-add-payment-method.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 206,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-chatgpt-plus-checkout.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 207,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-country-profile.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 208,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-country-version.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 209,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-mobile-settings.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 210,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-payments-subscriptions.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 211,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  },
+  {
+    "file": "docs/images/subscribe-google-play-terms-of-service.png",
+    "articles": [
+      "docs/start/03-account-plan.md"
+    ],
+    "watermarkCandidate": false,
+    "id": 212,
+    "visualWatermark": false,
+    "legacyBrandText": false
+  }
+]

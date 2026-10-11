@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生成内容、管理图片、组织笔记和保留引用。"
 ---
 
 ::: tip 最后核对
-资料最后核对日期：2026-06-29。本文参考 [Obsidian](https://obsidian.md/)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 与 [OpenAI Images guide](https://platform.openai.com/docs/guides/images)。Obsidian 插件、图床工具和图像模型能力请以各自官方说明与当前客户端为准。
+资料最后核对日期：2026-06-27。本文参考 [Obsidian](https://obsidian.md/)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 与 [OpenAI Images guide](https://platform.openai.com/docs/guides/images)。Obsidian 插件、图床工具和图像模型能力请以各自官方说明与当前客户端为准。
 :::
 
 # Codex × Obsidian：在知识库中自动生成配图
@@ -23,15 +29,15 @@ description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生�
 
 首先安装 **Terminal** 插件，如图所示：
 
-![obsidian-terminal-plugin-search](https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-plugin-search.png)
+![obsidian-terminal-plugin-search](/images/tutorials/obsidian-terminal-plugin-search.png)
 
 安装完成后需要进行配置，否则无法正常使用：
 
-![obsidian-terminal-plugin-settings](https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-plugin-settings.png)
+![obsidian-terminal-plugin-settings](/images/tutorials/obsidian-terminal-plugin-settings.png)
 
 在配置中选择想要的终端输入方式：
 
-![obsidian-terminal-profiles-config](https://cdn.canghecode.com/codexguide/docs/images/obsidian-terminal-profiles-config.png)
+![obsidian-terminal-profiles-config](/images/tutorials/obsidian-terminal-profiles-config.png)
 
 ---
 
@@ -39,11 +45,11 @@ description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生�
 
 按 `Cmd+P` 调出命令面板，输入"终端"，选择**整合式**：
 
-![obsidian-command-palette-integrated-terminal](https://cdn.canghecode.com/codexguide/docs/images/obsidian-command-palette-integrated-terminal.png)
+![obsidian-command-palette-integrated-terminal](/images/tutorials/obsidian-command-palette-integrated-terminal.png)
 
 此时页面下方会出现一个命令行界面：
 
-![obsidian-embedded-terminal-open](https://cdn.canghecode.com/codexguide/docs/images/obsidian-embedded-terminal-open.png)
+![obsidian-embedded-terminal-open](/images/tutorials/obsidian-embedded-terminal-open.png)
 
 ---
 
@@ -51,7 +57,7 @@ description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生�
 
 如果之前已经登录过 Codex，直接在这个终端里输入 `codex` 即可使用。如果没有登录过，参照本教程第二部分（CLI 使用 Codex）完成配置：
 
-![obsidian-codex-terminal-start](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-terminal-start.png)
+![obsidian-codex-terminal-start](/images/tutorials/obsidian-codex-terminal-start.png)
 
 ---
 
@@ -62,25 +68,25 @@ description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生�
 1. **写入文档** — 直接在仓库中新建或修改 Markdown 文件
 2. **生成配图** — 指定文章内容，让 Codex 根据正文自动生成配图并插入对应位置
 
-![obsidian-codex-image-generation-prompt](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-generation-prompt.png)
+![obsidian-codex-image-generation-prompt](/images/tutorials/obsidian-codex-image-generation-prompt.png)
 
 成功出图：
 
-![obsidian-codex-image-generation-result-url](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-generation-result-url.png)
+![obsidian-codex-image-generation-result-url](/images/tutorials/obsidian-codex-image-generation-result-url.png)
 
 生成效果如图所示：
 
-![obsidian-codex-llm-wiki-concept-image](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-llm-wiki-concept-image.png)
+![obsidian-codex-llm-wiki-concept-image](/images/tutorials/obsidian-codex-llm-wiki-concept-image.png)
 
 **监听图床自动上传** — 如果你使用对象存储（如 PicGo），可以告诉 Codex 监听图片存储事件，识别后自动上传
 
 如果他没有上传的话，你就可以告诉他，让他去你的本地查找你有哪些图床。他会搜索所有的图床类别，如果你想让他快点找到的话，就直接告诉他你用的是什么图床、用的是什么上传工具，这样的话他就会快速定位。
 
-![obsidian-codex-image-upload-tools-search](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-upload-tools-search.png)
+![obsidian-codex-image-upload-tools-search](/images/tutorials/obsidian-codex-image-upload-tools-search.png)
 
 然后它会自己自动完成这个任务，最后返回给我们一个对应图床的链接。
 
-![obsidian-codex-image-upload-link-result](https://cdn.canghecode.com/codexguide/docs/images/obsidian-codex-image-upload-link-result.png)
+![obsidian-codex-image-upload-link-result](/images/tutorials/obsidian-codex-image-upload-link-result.png)
 
 大家可以尽情尝试，把 Obsidian 变成真正由 AI 驱动的创作工作台。
 

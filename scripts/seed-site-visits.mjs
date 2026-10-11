@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { neon } from "@neondatabase/serverless";
 import postgres from "postgres";
 
-// 把 Vercel Analytics 的历史访问量写成起始基数。
+// 把 访问统计的历史访问量写成起始基数。
 // 用法：
 //   node scripts/seed-site-visits.mjs --total 52340
 //   node scripts/seed-site-visits.mjs --total 52340 --date 2025-01-01

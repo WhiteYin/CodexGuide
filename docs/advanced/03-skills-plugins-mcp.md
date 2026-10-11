@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-16
+updated: 2026-07-01
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex Skills 和 Plugins 入门说明，介绍技能、插件、MCP 能力的关系，以及适合沉淀的工作流类型。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-20。本文参考 [Agent Skills 标准](https://agentskills.io/)、[Codex Skills](https://developers.openai.com/codex/skills)、[Codex Plugins](https://developers.openai.com/codex/plugins) 与 [Build plugins](https://developers.openai.com/codex/plugins/build)。如果你的界面与本文截图不完全一致，请优先以当前客户端和工作区可用功能为准。
+官方资料最后核对日期：2026-06-21。本文参考 [Agent Skills 标准](https://agentskills.io/)、[Codex Skills](https://developers.openai.com/codex/skills)、[Codex Plugins](https://developers.openai.com/codex/plugins) 与 [Build plugins](https://developers.openai.com/codex/plugins/build)。如果你的界面与本文截图不完全一致，请优先以当前客户端和工作区可用功能为准。
 :::
 
 # Skills 和 Plugins
@@ -15,7 +21,7 @@ Codex 里有两个经常一起出现、但含义不同的概念：Skills 和 Plu
 
 如果你在 App 中看到了和技能、插件相关的入口，可以先用这张图定位它们：
 
-![codex-skills-plugins-entry-page](https://cdn.canghecode.com/codexguide/docs/images/codex-skills-plugins-entry-page.png)
+![codex-skills-plugins-entry-page](/images/tutorials/codex-skills-plugins-entry-page.png)
 
 ## 三个核心概念
 
@@ -121,7 +127,7 @@ Agent Skills 标准还定义了这些可选字段：
 
 所以写给 Codex 的 Skill，最好先按 Agent Skills 标准写通用结构，再按需加入 Codex 扩展。这样 Codex 能稳定识别，迁移到其他支持该标准的工具也更容易。
 
-![codex-skills-list](https://cdn.canghecode.com/codexguide/docs/images/codex-skills-list.png)
+![codex-skills-list](/images/tutorials/codex-skills-list.png)
 
 ## Codex 如何使用 Skills
 
@@ -131,7 +137,7 @@ Agent Skills 标准还定义了这些可选字段：
 
 Codex 启用 Skill 的方式有两种：显式调用（在提示词里写 `$skill-name`，或用 `/` 打开 Skills 菜单选择）和隐式匹配（任务描述与某个 Skill 的 `description` 匹配时，Codex 自动选择）。
 
-![codex-skills-slash-command-list](https://cdn.canghecode.com/codexguide/docs/images/codex-skills-slash-command-list.png)
+![codex-skills-slash-command-list](/images/tutorials/codex-skills-slash-command-list.png)
 
 ## Skill 存放位置
 
@@ -213,11 +219,11 @@ Codex 两者都会读取并加载到APP里。这两种存放方式是等价的�
 - Hooks：在生命周期事件里自动运行检查或补充上下文。
 - assets：图标、logo、截图等展示素材。
 
-![codex-plugins-at-command-list](https://cdn.canghecode.com/codexguide/docs/images/codex-plugins-at-command-list.png)
+![codex-plugins-at-command-list](/images/tutorials/codex-plugins-at-command-list.png)
 
 安装或导入插件时，Codex 通常会要求你确认来源和能力范围：
 
-![codex-plugin-install-github-prompt](https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-install-github-prompt.png)
+![codex-plugin-install-github-prompt](/images/tutorials/codex-plugin-install-github-prompt.png)
 
 ## Plugin 目录结构
 

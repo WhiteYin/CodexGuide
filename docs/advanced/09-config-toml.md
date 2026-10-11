@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-01
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex config.toml 配置指南，说明模型、沙盒、审批、profiles、MCP 和个人本地配置的组织方式。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。本文参考 [Codex config basic](https://developers.openai.com/codex/config-basic)、[Codex config advanced](https://developers.openai.com/codex/config-advanced)、[Codex config reference](https://developers.openai.com/codex/config-reference) 与 [openai/codex config docs](https://github.com/openai/codex/blob/main/docs/config.md)。
+官方资料最后核对日期：2026-05-24。本文参考 [Codex config basic](https://developers.openai.com/codex/config-basic)、[Codex config advanced](https://developers.openai.com/codex/config-advanced)、[Codex config reference](https://developers.openai.com/codex/config-reference) 与 [openai/codex config docs](https://github.com/openai/codex/blob/main/docs/config.md)。
 :::
 
 # 配置文件 config.toml
@@ -157,7 +163,7 @@ approval_policy = "on-request"
 有些用户在修改根级 `model_provider` 后，会发现旧会话在 Codex Desktop 或 CLI 的 `/resume` 里突然不可见。常见原因不是会话文件丢失，而是 `~/.codex` 里的会话 metadata、SQLite 状态和项目路径缓存仍停留在旧 provider。
 
 ::: warning 第三方社区工具
-下面介绍的是社区项目 [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync)，不是 OpenAI 官方工具。社区资料最后核对日期：2026-05-29。使用前请先备份 `~/.codex`，并确认你理解它会修改本机 Codex 状态文件。
+下面介绍的是社区项目 [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync)，不是 OpenAI 官方工具。社区资料最后核对日期：2026-05-26。使用前请先备份 `~/.codex`，并确认你理解它会修改本机 Codex 状态文件。
 :::
 
 这个工具主要同步这些位置里的 provider / 可见性 metadata：

@@ -1,16 +1,22 @@
 ---
+author: 大蓝营
+date: 2026-07-03
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 入口地图，比较 CLI、桌面 App、Cloud、IDE、ChatGPT 和集成生态，帮助选择合适工作入口。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-27。参考 [OpenAI Codex 产品页](https://openai.com/codex/)、[Codex 文档入口](https://developers.openai.com/codex/)、[Codex CLI 官方仓库](https://github.com/openai/codex) 与 [Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
+官方资料最后核对日期：2026-05-30。参考 [OpenAI Codex 产品页](https://openai.com/codex/)、[Codex 文档入口](https://developers.openai.com/codex/)、[Codex CLI 官方仓库](https://github.com/openai/codex) 与 [Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
 :::
 
 # Codex 是什么
 
 Codex 是一个具备多个产品形态的Agent。涵盖桌面端APP，CLI，Web云端，IDE。
 
-![Codex 使用入口地图](https://cdn.canghecode.com/codexguide/docs/.vuepress/public/images/codex-surfaces.svg?v=20260611)
+![Codex 使用入口地图](/images/tutorials/codex-surfaces.svg)
 
 ## 入口对照表
 

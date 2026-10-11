@@ -1,0 +1,701 @@
+[
+  {
+    "file": "docs/index.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-02",
+    "date": "2026-04-29",
+    "originalUpdated": "2026-09-11",
+    "updated": "2026-09-08",
+    "bodyDates": []
+  },
+  {
+    "file": "docs/advanced/00-index.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-06-30",
+    "date": "2026-07-02",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/01-cost-context.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-06-27",
+    "date": "2026-06-25",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-27",
+        "after": "2026-06-25"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/02-agents-md.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-02",
+    "date": "2026-04-29",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-19",
+        "after": "2026-06-16"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/03-skills-plugins-mcp.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-20",
+        "after": "2026-06-21"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/04-permissions-security.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-18",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-15",
+        "after": "2026-06-18"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/05-automation.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-17",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-29"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/06-hooks.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-06-14",
+    "date": "2026-06-17",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-19",
+        "after": "2026-06-22"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/07-sandbox-approvals.md",
+    "offsetDays": -1,
+    "originalCreated": "2026-05-02",
+    "date": "2026-05-01",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-29",
+    "bodyDates": [
+      {
+        "before": "2026-06-18",
+        "after": "2026-06-17"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/08-thread-management.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-06-27",
+    "date": "2026-06-25",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-25",
+        "after": "2026-06-23"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/09-config-toml.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-04",
+    "date": "2026-05-01",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-24"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/10-team-playbook.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-04",
+    "date": "2026-05-02",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "file": "docs/advanced/11-troubleshooting.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-05-02",
+    "date": "2026-05-04",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-01"
+      },
+      {
+        "before": "2026-06-14",
+        "after": "2026-06-16"
+      }
+    ]
+  },
+  {
+    "file": "docs/guide/index.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-06-30",
+    "date": "2026-07-03",
+    "originalUpdated": "2026-07-15",
+    "updated": "2026-07-18",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "file": "docs/manual/02-credits.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-30"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/00-index.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-06-30",
+    "date": "2026-07-02",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/01-ppt-skill-walkthrough.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-25"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/02-drawio-mcp.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-18",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/03-playwright-mcp.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-18",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/04-hyperframes-animation.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/05-obsidian-codex.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/06-feishu-cli-codex.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/07-llm-wiki-codex.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/08-figma-mcp-codex.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/09-notion-mcp-codex.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/10-dkfile-deploy-codex.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/11-remote-bug-fix.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/12-chrome-browser-plugin.md",
+    "offsetDays": -1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-14",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-29",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/13-github-actions-ci-fix.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/14-clinical-literature-review.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-05-28",
+    "date": "2026-05-30",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-29"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/15-hatch-pet-photo.md",
+    "offsetDays": 2,
+    "originalCreated": "2026-06-04",
+    "date": "2026-06-06",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-02",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/16-android-remote-control.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-06-04",
+    "date": "2026-06-05",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "file": "docs/recipes/17-desktop-pet.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/00-index.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-06-30",
+    "date": "2026-07-03",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/01-what-is-codex.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-06-30",
+    "date": "2026-07-03",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/02-app-installation.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-18",
+    "originalUpdated": "2026-08-10",
+    "updated": "2026-08-13",
+    "bodyDates": [
+      {
+        "before": "2026-06-13",
+        "after": "2026-06-16"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/03-account-plan.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-08-08",
+    "updated": "2026-08-05",
+    "bodyDates": [
+      {
+        "before": "2026-06-13",
+        "after": "2026-06-10"
+      },
+      {
+        "before": "2026-03-06",
+        "after": "2026-03-03"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/04-third-party-api.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-29",
+    "date": "2026-05-30",
+    "originalUpdated": "2026-08-20",
+    "updated": "2026-08-21",
+    "bodyDates": [
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      },
+      {
+        "before": "2026-05-29",
+        "after": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/05-app-overview.md",
+    "offsetDays": -2,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-13",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-28",
+    "bodyDates": [
+      {
+        "before": "2026-06-13",
+        "after": "2026-06-11"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/06-first-task.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-16",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/07-task-design.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-04",
+    "date": "2026-05-01",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/08-task-execution.md",
+    "offsetDays": -1,
+    "originalCreated": "2026-06-30",
+    "date": "2026-06-29",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-29",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-28"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/09-mobile-control.md",
+    "offsetDays": 3,
+    "originalCreated": "2026-05-27",
+    "date": "2026-05-30",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-03",
+    "bodyDates": [
+      {
+        "before": "2026-06-13",
+        "after": "2026-06-16"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/10-cli-installation.md",
+    "offsetDays": -1,
+    "originalCreated": "2026-05-02",
+    "date": "2026-05-01",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-29",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/11-cli-first-run.md",
+    "offsetDays": 1,
+    "originalCreated": "2026-05-02",
+    "date": "2026-05-03",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-07-01",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-28"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/12-cli-options.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-04",
+    "date": "2026-05-01",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-05-27",
+        "after": "2026-05-24"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/13-ide-vscode.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "file": "docs/start/14-cloud.md",
+    "offsetDays": -3,
+    "originalCreated": "2026-05-15",
+    "date": "2026-05-12",
+    "originalUpdated": "2026-06-30",
+    "updated": "2026-06-27",
+    "bodyDates": [
+      {
+        "before": "2026-06-29",
+        "after": "2026-06-26"
+      }
+    ]
+  }
+]

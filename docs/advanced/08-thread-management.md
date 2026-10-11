@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-06-25
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 自动线程管理指南：解释 thread、resume、fork、worktree、handoff 和 subagent 的层级关系，帮助你在正确的地方继续、分叉和移交任务。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-25。本文参考 [Kimi Code Agents and Sub-Agents](https://moonshotai.github.io/kimi-code/en/customization/agents)、[OpenAI Codex Subagents](https://developers.openai.com/codex/subagents)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 和 [Codex App Worktrees](https://developers.openai.com/codex/app/worktrees) 整理。不同版本的 App、CLI 和移动端界面可能会变化，请以当前客户端为准。
+官方资料最后核对日期：2026-06-23。本文参考 [Kimi Code Agents and Sub-Agents](https://moonshotai.github.io/kimi-code/en/customization/agents)、[OpenAI Codex Subagents](https://developers.openai.com/codex/subagents)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 和 [Codex App Worktrees](https://developers.openai.com/codex/app/worktrees) 整理。不同版本的 App、CLI 和移动端界面可能会变化，请以当前客户端为准。
 :::
 
 # 自动线程管理
@@ -12,7 +18,7 @@ description: "Codex 自动线程管理指南：解释 thread、resume、fork、w
 
 这类能力适合处理长期任务、后台跟进和多路线探索。并且线程拥有独立的上下文。这意味着分配任务给子线程将避免受到上下文的干扰，缓解Codex总是写出100%通过的测试的问题。
 
-![Codex 自动线程管理工具示例](https://cdn.canghecode.com/codexguide/docs/images/codex-auto-thread-management-tools-watermarked-small.png)
+![Codex 自动线程管理工具示例](/images/tutorials/codex-auto-thread-management-tools-watermarked-small.png)
 
 ## 四个概念
 

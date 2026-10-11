@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与云服务器排障案例，说明如何远程复现问题、读取日志、定位 Python 报错并验证修复结果。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 与 [Codex Cloud docs](https://platform.openai.com/docs/codex)。远程服务器登录、凭据管理和生产环境操作请按你的组织安全规范执行。
+官方资料最后核对日期：2026-06-27。本文参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security) 与 [Codex Cloud docs](https://platform.openai.com/docs/codex)。远程服务器登录、凭据管理和生产环境操作请按你的组织安全规范执行。
 :::
 
 # Codex × 云服务器：远程定位并修复 Bug
@@ -69,7 +75,7 @@ python3 container_health.py
 KeyError: 'status'
 ```
 
-![remote-bug-fix-keyerror-traceback](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-keyerror-traceback.png)
+![remote-bug-fix-keyerror-traceback](/images/tutorials/remote-bug-fix-keyerror-traceback.png)
 
 跑测试也一样挂：
 
@@ -109,7 +115,7 @@ codex app-server (WebSockets)
   healthz: http://0.0.0.0:9001/healthz
 ```
 
-![remote-bug-fix-package-install-error](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-package-install-error.png)
+![remote-bug-fix-package-install-error](/images/tutorials/remote-bug-fix-package-install-error.png)
 
 > ⚠️ 注意：不要加 `--ws-auth` 参数。通过 SSH 隧道连接时，安全性由 SSH 本身保证，不需要额外的 WebSocket 认证。
 
@@ -131,7 +137,7 @@ curl -i http://127.0.0.1:9001/healthz
 
 返回 `HTTP/1.1 200 OK` 就说明隧道没问题。
 
-![remote-bug-fix-healthcheck-curl-success](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-healthcheck-curl-success.png)
+![remote-bug-fix-healthcheck-curl-success](/images/tutorials/remote-bug-fix-healthcheck-curl-success.png)
 
 ### 第 3 步：本地登录 Codex（仅首次需要）
 
@@ -162,7 +168,7 @@ model:     gpt-5.5   /model to change
 directory: /workspace/docker-health-demo
 ```
 
-![remote-bug-fix-codex-login-check](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-codex-login-check.png)
+![remote-bug-fix-codex-login-check](/images/tutorials/remote-bug-fix-codex-login-check.png)
 
 到这里，远程连接就成功了。你本地的 Codex 已经"站在"远程服务器的项目目录里了。
 
@@ -174,7 +180,7 @@ directory: /workspace/docker-health-demo
 find and fix the bug in container_health.py, then run pytest to verify
 ```
 
-![remote-bug-fix-remote-session-start](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-remote-session-start.png)
+![remote-bug-fix-remote-session-start](/images/tutorials/remote-bug-fix-remote-session-start.png)
 
 Codex 会自动完成以下步骤：
 
@@ -205,7 +211,7 @@ pytest -q
 1 passed in 0.00s
 ```
 
-![remote-bug-fix-tests-pass](https://cdn.canghecode.com/codexguide/docs/images/remote-bug-fix-tests-pass.png)
+![remote-bug-fix-tests-pass](/images/tutorials/remote-bug-fix-tests-pass.png)
 
 Done。一个远程 Bug 修复的完整闭环。
 

@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-30
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "手机端跟进桌面 Codex 任务教程，说明 ChatGPT App 入口、跨设备连接、任务查看和协同边界。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-13。本文参考 OpenAI 官方文章 [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere/)。具体入口、可用地区、系统支持和界面名称会随客户端更新变化，请以当前 ChatGPT 手机 App 和 Codex 桌面 App 为准。
+官方资料最后核对日期：2026-06-16。本文参考 OpenAI 官方文章 [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere/)。具体入口、可用地区、系统支持和界面名称会随客户端更新变化，请以当前 ChatGPT 手机 App 和 Codex 桌面 App 为准。
 :::
 
 # 用手机远程操控 Codex
@@ -14,15 +20,15 @@ Codex 现在支持 Android 和 iOS 手机。在手机上发消息，就能操作
 
 把 ChatGPT App 更新到最新版，然后选择连接电脑上的 Codex。
 
-![ChatGPT 手机 App 中的 Codex 入口](https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-ios-app-watermarked-small.jpg)
+![ChatGPT 手机 App 中的 Codex 入口](/images/tutorials/mobile-codex-ios-app-watermarked-small.jpg)
 
 连接桌面 Codex APP：
 
-![手机端连接桌面 Codex App](https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-connect-desktop-watermarked-small.jpg)
+![手机端连接桌面 Codex App](/images/tutorials/mobile-codex-connect-desktop-watermarked-small.jpg)
 
 在 ChatGPT 里打开 Codex 就能用。
 
-![在 ChatGPT 手机 App 中打开 Codex](https://cdn.canghecode.com/codexguide/docs/images/mobile-codex-chatgpt-entry-watermarked-small.jpg)
+![在 ChatGPT 手机 App 中打开 Codex](/images/tutorials/mobile-codex-chatgpt-entry-watermarked-small.jpg)
 
 ## 它能做什么
 

@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-01
+updated: 2026-06-29
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 沙盒与审批指南：面向新手解释为什么 Codex 有时会停下来问你，以及如何设置合适的权限。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-18。本文依据 [Codex Sandboxing](https://developers.openai.com/codex/concepts/sandboxing)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)、[Permissions](https://developers.openai.com/codex/permissions)、[Rules](https://developers.openai.com/codex/rules)、[Windows](https://developers.openai.com/codex/windows) 和 [Auto-review](https://developers.openai.com/codex/concepts/sandboxing/auto-review) 整理。
+官方资料最后核对日期：2026-06-17。本文依据 [Codex Sandboxing](https://developers.openai.com/codex/concepts/sandboxing)、[Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)、[Permissions](https://developers.openai.com/codex/permissions)、[Rules](https://developers.openai.com/codex/rules)、[Windows](https://developers.openai.com/codex/windows) 和 [Auto-review](https://developers.openai.com/codex/concepts/sandboxing/auto-review) 整理。
 :::
 
 # 沙盒与审批
@@ -16,7 +22,7 @@ Codex 能读取代码、修改文件、执行命令。这些操作需要受控�
 
 当你在利用沙盒和权限机制来约束 Codex 行为的时候，你已经在实践 `Harness Engineering `，即“约束工程” 。
 
-![Codex 沙盒、审批策略、审批人与配置项关系图](https://cdn.canghecode.com/codexguide/docs/.vuepress/public/images/codex-safety-layers.svg)
+![Codex 沙盒、审批策略、审批人与配置项关系图](/images/tutorials/codex-safety-layers.svg)
 
 ## 三个概念
 
@@ -75,7 +81,7 @@ approvals_reviewer = "user"
 | 工作区写入 | `workspace-write` / `:workspace` | 可以在项目里读、写、运行常规命令 | 联网或写到项目外时触发审批 |
 | 完全访问 | `danger-full-access` / `:danger-full-access`| 没有沙盒限制，可以访问任何位置 | 取决于审批策略 |
 
-![Codex 配置中的沙盒设置选项](https://cdn.canghecode.com/codexguide/docs/images/codex-config-sandbox-settings-watermarked-small.png)
+![Codex 配置中的沙盒设置选项](/images/tutorials/codex-config-sandbox-settings-watermarked-small.png)
 
 **日常默认用工作区。** 它为 Codex 提供足够的操作空间完成普通开发任务，同时守住项目边界。
 
@@ -100,7 +106,7 @@ approvals_reviewer = "user"
 | `on-request`（按请求） | 操作越过沙盒边界 | 默认推荐。沙盒内自动执行，越界时请求确认 |
 | `never`（从不） | 不触发 | Codex 在既有权限内自行处理，不弹出审批 |
 
-![Codex 配置中的审批策略选项](https://cdn.canghecode.com/codexguide/docs/images/codex-config-approval-policy-watermarked-small.png)
+![Codex 配置中的审批策略选项](/images/tutorials/codex-config-approval-policy-watermarked-small.png)
 
 **`on-request`（按请求）是新手最友好的选择。** 沙盒内自动执行，越界时暂停并请求确认。不需要审批每一个文件修改，只需要在关键时刻把关。
 

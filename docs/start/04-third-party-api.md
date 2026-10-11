@@ -1,14 +1,20 @@
 ---
+author: 大蓝营
+date: 2026-05-30
+updated: 2026-08-21
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 连接第三方 API 的入门说明，比较手动配置、Codex++、CCX 与 CC Switch 三种接入方式，并提示账号、密钥、账单和隐私风险。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-05-29。本文参考 [OpenAI Codex config reference](https://developers.openai.com/codex/config-reference)。社区工具资料最后核对日期：2026-05-29，参考 [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus)、[CCX](https://github.com/BenedictKing/ccx) 与 [CC Switch](https://github.com/farion1231/cc-switch)。
+官方资料最后核对日期：2026-05-30。本文参考 [OpenAI Codex config reference](https://developers.openai.com/codex/config-reference)。社区工具资料最后核对日期：2026-05-30，参考 [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus)、[CCX](https://github.com/BenedictKing/ccx) 与 [CC Switch](https://github.com/farion1231/cc-switch)。
 :::
 
 # 连接第三方 API
 
-Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号登录，并使用官方支持的模型与服务。连接第三方 API 属于进阶配置，适合已经理解 `config.toml`、API Key、Base URL、模型名和代理网关含义的用户。如果你希望更方便地接入和切换不同模型，也可以通过 [packyapi](https://www.packyapi.ai/register?aff=CV0c) 这类 API 聚合平台进行统一配置。
+Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号登录，并使用官方支持的模型与服务。连接第三方 API 属于进阶配置，适合已经理解 `config.toml`、API Key、Base URL、模型名和代理网关含义的用户。
 
 ::: warning 第三方 API 风险
 本文只整理接入思路，文中提到的第三方平台仅作接入示例，不代表对服务质量、安全性或合规性的背书。第三方 API 可能涉及账号安全、API Key 泄露、账单超额、服务稳定性、日志留存、数据跨境、模型能力降级和合规风险。请只使用你信任、能承担责任的服务，并避免把密钥写进截图、仓库和公开文档。
@@ -29,7 +35,7 @@ Codex 默认最稳妥的使用方式，是通过官方 ChatGPT / OpenAI 账号�
 
 这种是没办法使用 Codex APP 的插件功能的，可以看看方案二可以使用插件功能。
 
-![](https://cdn.canghecode.com/blog/20260529172147.png)
+![](/images/tutorials/blog-20260529172147.png)
 
 手动配置的核心，是编辑本机的：
 
@@ -44,7 +50,7 @@ cp ~/.codex/config.toml ~/.codex/config.toml.backup
 cp ~/.codex/auth.json ~/.codex/auth.json.backup
 ```
 
-![](https://cdn.canghecode.com/blog/20260529165811.png)
+![](/images/tutorials/blog-20260529165811.png)
 
 ### 两类登录思路
 
@@ -87,7 +93,7 @@ requires_openai_auth = false
 - `wire_api = "responses"` 表示 Codex 以 Responses API 的请求形态访问。
 - `requires_openai_auth = true` 表示使用已有 OpenAI / ChatGPT 登录态。
 
-![](https://cdn.canghecode.com/blog/20260529170535.png)
+![](/images/tutorials/blog-20260529170535.png)
 
 
 **第二步，打开终端输入环境变量**
@@ -97,7 +103,7 @@ requires_openai_auth = false
 export OPENAI_API_KEY="这里填你的key"
 ```
 
-![](https://cdn.canghecode.com/blog/20260529171249.png)
+![](/images/tutorials/blog-20260529171249.png)
 
 **第三步，终端中启动 Codex APP**
 
@@ -113,7 +119,7 @@ open -a Codex
 
 你就可以看到已经应用到新模型了：
 
-![](https://cdn.canghecode.com/blog/20260529171601.png)
+![](/images/tutorials/blog-20260529171601.png)
 
 
 
@@ -145,7 +151,7 @@ requires_openai_auth = false
 
 打开 ~/.codex/auth.json，然后添加 OPENAI_API_KEY 为你模型服务商的API KEY：
 
-![](https://cdn.canghecode.com/blog/20260529170927.png)
+![](/images/tutorials/blog-20260529170927.png)
 
 
 ### 手动配置后怎么验证
@@ -163,7 +169,7 @@ requires_openai_auth = false
 
 [Codex++](https://github.com/BigPizzaV3/CodexPlusPlus) 是面向 Codex App 的外部增强 launcher 和管理工具。根据项目 README，它不修改 Codex App 原始安装文件，而是通过外部 launcher 启动 Codex，并使用 Chromium DevTools Protocol 注入增强脚本。
 
-![](https://cdn.canghecode.com/blog/20260529171743.png)
+![](/images/tutorials/blog-20260529171743.png)
 
 
 它更适合这些情况：
@@ -177,29 +183,29 @@ requires_openai_auth = false
 
 1. 打开 [Codex++ Releases](https://github.com/BigPizzaV3/CodexPlusPlus/releases)，下载与你系统匹配的安装包。
 
-![](https://cdn.canghecode.com/blog/20260529172239.png)
+![](/images/tutorials/blog-20260529172239.png)
 
 会有 「Codex++ 管理工具」和 「Codex++ app」两个安装包。
 
-![](https://cdn.canghecode.com/blog/ca6415f0ad1e10755f656001d16d91d5.png)
+![](/images/tutorials/blog-ca6415f0ad1e10755f656001d16d91d5.png)
 
 
 2. 安装后打开 `Codex++ 管理工具`。
 
 首次打开如果出现这个错误：
 
-![](https://cdn.canghecode.com/blog/b265fd82e492107e53dc7b0df6af553c.png)
+![](/images/tutorials/blog-b265fd82e492107e53dc7b0df6af553c.png)
 不要慌，先打开「系统设置」-「隐私与安全性」，点击「仍要打开」：
 
-![](https://cdn.canghecode.com/blog/3e514cfc66a2a76536dbfc5c37743315.png)
+![](/images/tutorials/blog-3e514cfc66a2a76536dbfc5c37743315.png)
 
 打开后就会进入到这个管理界面：
 
-![](https://cdn.canghecode.com/blog/f33b0f1f6377c237f113000a0ec0637f.png)
+![](/images/tutorials/blog-f33b0f1f6377c237f113000a0ec0637f.png)
 
 同样的方式，安装刚才安装包中的 Codex++ app。你就可以看到管理工具检测全绿了。
 
-![](https://cdn.canghecode.com/blog/e0ca6498f640c984c438527f13faf435.jpg)
+![](/images/tutorials/blog-e0ca6498f640c984c438527f13faf435.jpg)
 
 确认已经检测到 ChatGPT 登录状态。
 
@@ -207,31 +213,31 @@ requires_openai_auth = false
 
 选择「供应商配置」-添加供应商配置。填写自己的供应商的配置，并填写模型相关信息，注意 接入方式要选「纯API」的方式：
 
-![](https://cdn.canghecode.com/blog/d13c6d3d480af07b22cc8b7b470a45e5.jpg)
+![](/images/tutorials/blog-d13c6d3d480af07b22cc8b7b470a45e5.jpg)
 
 模型列表可以选择从上游获取，如果你配置的是中转站，这里就可以用很多不同的模型了：
 
-![](https://cdn.canghecode.com/blog/0c4dd861837c8686d3135b704ae4517d.jpg)
+![](/images/tutorials/blog-0c4dd861837c8686d3135b704ae4517d.jpg)
 
 可以看到这个工具做的就是帮你更方便的写入配置。
 
-![](https://cdn.canghecode.com/blog/9132822e751d0eccd37b79bbe0d6b3b0.jpg)
+![](/images/tutorials/blog-9132822e751d0eccd37b79bbe0d6b3b0.jpg)
 
 保存后可以测试联通情况，没问题，直接选择使用：
 
-![](https://cdn.canghecode.com/blog/728d1e4564ea5f78121cae63fd94790a.jpg)
+![](/images/tutorials/blog-728d1e4564ea5f78121cae63fd94790a.jpg)
 
 3. 从 `Codex++` 入口启动 Codex，而不是从原版 Codex 入口启动。
 
-![](https://cdn.canghecode.com/blog/cb577d3e36171a7204e291500a7db9dc.jpg)
+![](/images/tutorials/blog-cb577d3e36171a7204e291500a7db9dc.jpg)
 
 重新启动后，你就能看到现在 Codex已经完全使用了我们自定义的模型供应商，并可以选择更多的模型。
 
-![](https://cdn.canghecode.com/blog/151adfc6f7cd994b58815787999a5c37.jpg)
+![](/images/tutorials/blog-151adfc6f7cd994b58815787999a5c37.jpg)
 
 其中插件也可以直接使用了：
 
-![](https://cdn.canghecode.com/blog/66afdc2191cadafa60171ef81940733d.jpg)
+![](/images/tutorials/blog-66afdc2191cadafa60171ef81940733d.jpg)
 
 根据 Codex++ README，它会写入类似这样的 provider：
 

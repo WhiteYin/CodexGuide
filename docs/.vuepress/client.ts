@@ -1,20 +1,14 @@
 import { inject } from "@vercel/analytics";
 import { defineClientConfig } from "vuepress/client";
 
-import PaidCommunity from "./components/PaidCommunity.vue";
-import PaidCommunityAdmin from "./components/PaidCommunityAdmin.vue";
-import PaidCommunityResult from "./components/PaidCommunityResult.vue";
 import SiteVisitCounter from "./components/SiteVisitCounter.vue";
 import { loadSiteVisitStats } from "./site-visits.js";
 
-const analyticsHosts = new Set(["codexguide.ai", "www.codexguide.ai"]);
 
 const navbarDropdownLinks: Record<string, string> = {
   快速上手导航: "/start/",
   进阶教程导航: "/advanced/",
   实战案例导航: "/recipes/",
-  社区共建: "/community/roadmap.html",
-  产品导航: "https://theme.codexguide.ai/",
 };
 
 const legacySectionPaths: Record<string, string> = {
@@ -26,10 +20,6 @@ const legacySectionPaths: Record<string, string> = {
   "/advanced.html": "/advanced/",
   "/recipes": "/recipes/",
   "/recipes.html": "/recipes/",
-  "/manual": "/manual/",
-  "/manual.html": "/manual/",
-  "/sponsors": "/sponsors/",
-  "/sponsors.html": "/sponsors/",
 };
 
 const normalizeLegacySectionPath = (): void => {
@@ -50,9 +40,6 @@ if (typeof window !== "undefined") {
 
 export default defineClientConfig({
   enhance: ({ app }) => {
-    app.component("PaidCommunity", PaidCommunity);
-    app.component("PaidCommunityAdmin", PaidCommunityAdmin);
-    app.component("PaidCommunityResult", PaidCommunityResult);
     app.component("SiteVisitCounter", SiteVisitCounter);
 
     // 站内任意页面都计入访问，首页组件复用同一次请求的结果。
@@ -75,7 +62,7 @@ export default defineClientConfig({
     if (
       import.meta.env.PROD &&
       typeof window !== "undefined" &&
-      analyticsHosts.has(window.location.hostname)
+      !["localhost", "127.0.0.1"].includes(window.location.hostname)
     ) {
       inject();
     }

@@ -19,11 +19,17 @@ export default {
     try {
       assertMethod(request, ["GET", "POST"]);
 
+      if (request.method === "POST") assertSameOrigin(request);
+
+      // 数据库尚未接入时返回空统计，前端隐藏计数，不制造错误日志或虚假零值。
+      if (!process.env.DATABASE_URL?.trim()) {
+        return Response.json(null, { headers: noStoreHeaders() });
+      }
+
       if (request.method === "GET") {
         return Response.json(await readSiteVisitStats(), { headers: sharedCacheHeaders() });
       }
 
-      assertSameOrigin(request);
       const userAgent = request.headers.get("user-agent") || "";
 
       // 爬虫与探活请求只读取计数，不写入，避免把机器流量算成访问量。

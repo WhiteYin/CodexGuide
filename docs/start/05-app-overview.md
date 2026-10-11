@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-13
+updated: 2026-06-28
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 桌面 App 基本组成说明，介绍项目工作区、对话、设置入口、任务状态和常见界面区域，方便快速定位功能。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-13。本章参考 [Codex App docs](https://developers.openai.com/codex/app)、[Settings](https://developers.openai.com/codex/app/settings)、[Agent approvals and security](https://developers.openai.com/codex/agent-approvals-security) 等官方资料。界面说明以当前 Codex 桌面 App 实际版本为准，不同系统、地区、客户端版本和账号套餐下显示可能略有差异。
+官方资料最后核对日期：2026-06-11。本章参考 [Codex App docs](https://developers.openai.com/codex/app)、[Settings](https://developers.openai.com/codex/app/settings)、[Agent approvals and security](https://developers.openai.com/codex/agent-approvals-security) 等官方资料。界面说明以当前 Codex 桌面 App 实际版本为准，不同系统、地区、客户端版本和账号套餐下显示可能略有差异。
 :::
 
 # 了解 Codex 基本组成
@@ -13,7 +19,7 @@ description: "Codex 桌面 App 基本组成说明，介绍项目工作区、对�
 
 打开 Codex，左侧栏就两个入口：**Chat（对话）** 和 **Project（项目）**。
 
-![Codex 桌面 App 主界面](https://cdn.canghecode.com/codexguide/docs/images/codex-app-main-chat-home.png)
+![Codex 桌面 App 主界面](/images/tutorials/codex-app-main-chat-home.png)
 
 **Chat 对话**
 
@@ -23,7 +29,7 @@ description: "Codex 桌面 App 基本组成说明，介绍项目工作区、对�
 
 需要动本地文件时用它——写代码、改文档、做 PPT 都可以。项目里的所有对话共用同一个文件夹，方便一起管理。
 
-![Project 工作区界面](https://cdn.canghecode.com/codexguide/docs/images/codex-app-project-workspace-selection.png)
+![Project 工作区界面](/images/tutorials/codex-app-project-workspace-selection.png)
 
 在项目里下达指令后，Codex 的修改会直接应用到你本地文件夹中的文件。
 
@@ -39,32 +45,32 @@ Codex 的对话框和 ChatGPT 网页版类似，支持：
 3. **控制权限**：设定 Codex 在当前任务中的操作权限
 4. **选择工作目录**：指定 Codex 在哪个本地文件夹下执行任务
 
-![对话框功能区](https://cdn.canghecode.com/codexguide/docs/images/codex-app-composer-controls.png)
+![对话框功能区](/images/tutorials/codex-app-composer-controls.png)
 
 
 ## 插件与技能
 
 包括 OpenAI 官方定制或推荐的插件与技能。
 
-![Codex 插件与技能](https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-marketplace-watermarked-small.png)
+![Codex 插件与技能](/images/tutorials/codex-plugin-marketplace-watermarked-small.png)
 
 Skills 默认包含 Skills Creator、Skills Installer、OpenAI Docs 等技能，用来创建、安装技能，或获取 OpenAI 官方最新文档。在对话框中使用 `$` 即可调用 Skills：
 
-![Codex Skills 调用](https://cdn.canghecode.com/codexguide/docs/images/codex-skills-command-watermarked-small.png)
+![Codex Skills 调用](/images/tutorials/codex-skills-command-watermarked-small.png)
 
 插件是 OpenAI 定义的外部工具入口，也可能包含 Skills、MCP、脚本等能力。常见插件包括 Computer Use、Browser Use、PPT、Docs、Excel、Slack、GitHub 等。不同插件可能有额外配置。
 
-![Codex 插件配置](https://cdn.canghecode.com/codexguide/docs/images/codex-plugin-config-watermarked-small.png)
+![Codex 插件配置](/images/tutorials/codex-plugin-config-watermarked-small.png)
 
 ## 自动化
 
 Codex 支持自动化执行任务，包括使用 MCP 服务器、钩子和插件等。
 
-![Codex 自动化总览](https://cdn.canghecode.com/codexguide/docs/images/codex-automation-overview-watermarked-small.png)
+![Codex 自动化总览](/images/tutorials/codex-automation-overview-watermarked-small.png)
 
 自动化会执行你指定的命令，你可以指定工作树、项目地址和定时的间隔。在下图中输入你的指令，并且配置即可。
 
-![Codex 创建自动化](https://cdn.canghecode.com/codexguide/docs/images/codex-automation-create-watermarked-small.png)
+![Codex 创建自动化](/images/tutorials/codex-automation-create-watermarked-small.png)
 
 ::: tip 注意
 自动化任务以默认沙盒设置运行。若工具调用需修改工作空间外文件、访问网络或操作电脑应用，该操作将执行失败。可通过规则选择性允许特定命令在沙盒外运行。
@@ -75,9 +81,9 @@ Codex 支持自动化执行任务，包括使用 MCP 服务器、钩子和插件
 
 点击左下角头像或设置图标可以打开设置面板。
 
-![设置入口](https://cdn.canghecode.com/codexguide/docs/images/codex-app-profile-menu-settings-billing.png)
+![设置入口](/images/tutorials/codex-app-profile-menu-settings-billing.png)
 
-![设置面板详情](https://cdn.canghecode.com/codexguide/docs/images/codex-app-settings-panel-detail.png)
+![设置面板详情](/images/tutorials/codex-app-settings-panel-detail.png)
 
 左侧是设置菜单。里面包含丰富的配置选项，详情如下：
 

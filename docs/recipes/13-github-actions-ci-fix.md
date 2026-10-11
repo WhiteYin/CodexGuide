@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-12
+updated: 2026-06-27
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 与 GitHub Actions 案例，说明 CI 失败后如何读取日志、定位问题、自动修复并生成 PR。"
 ---
 
 ::: tip 最后核对
-公开资料最后核对日期：2026-06-29。本文参考 [GitHub Actions 文档](https://docs.github.com/actions)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 与 [Codex Cloud docs](https://platform.openai.com/docs/codex)。CI 权限、token、分支保护和自动修复策略请以仓库当前配置为准。
+公开资料最后核对日期：2026-06-26。本文参考 [GitHub Actions 文档](https://docs.github.com/actions)、[Codex CLI features](https://developers.openai.com/codex/cli/features) 与 [Codex Cloud docs](https://platform.openai.com/docs/codex)。CI 权限、token、分支保护和自动修复策略请以仓库当前配置为准。
 :::
 
 # Codex × GitHub Actions：CI 失败自动修复实测
@@ -47,11 +53,11 @@ if (total >= 100) {
 
 代码推到 GitHub 后，CI 自动跑测试，大约一分钟后失败。
 
-![github-actions-workflow-failure-list](https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-failure-list.png)
+![github-actions-workflow-failure-list](/images/tutorials/github-actions-workflow-failure-list.png)
 
 点进去看报错：
 
-![github-actions-failing-test-log](https://cdn.canghecode.com/codexguide/docs/images/github-actions-failing-test-log.png)
+![github-actions-failing-test-log](/images/tutorials/github-actions-failing-test-log.png)
 
 测试期望拿到 100，实际拿到 140。错误直接指向了折扣计算的问题，非常明确。
 
@@ -135,7 +141,7 @@ jobs:
 
 CI 失败后，配置好的 Codex 工作流自动触发。它做了三件事：读取仓库代码、运行测试套件、定位问题并修改。
 
-![github-actions-workflow-annotations](https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-annotations.png)
+![github-actions-workflow-annotations](/images/tutorials/github-actions-workflow-annotations.png)
 
 整个过程大约一分钟。
 
@@ -155,7 +161,7 @@ Error: GitHub Actions is not permitted to create or approve pull requests.
 
 GitHub 仓库默认不允许 Actions 创建 PR，需要在 Settings 里手动开启。
 
-![github-actions-workflow-permissions-settings](https://cdn.canghecode.com/codexguide/docs/images/github-actions-workflow-permissions-settings.png)
+![github-actions-workflow-permissions-settings](/images/tutorials/github-actions-workflow-permissions-settings.png)
 
 开启后重新触发，正常。
 
@@ -171,11 +177,11 @@ API 按 token 计费，不按成功次数——只要 AI 启动并读了代码�
 
 工作流跑完变绿，Pull Requests 页面出现一条自动生成的 PR。
 
-![github-actions-auto-fix-pr-list](https://cdn.canghecode.com/codexguide/docs/images/github-actions-auto-fix-pr-list.png)
+![github-actions-auto-fix-pr-list](/images/tutorials/github-actions-auto-fix-pr-list.png)
 
 点进去看它改了什么：
 
-![github-actions-discount-fix-diff](https://cdn.canghecode.com/codexguide/docs/images/github-actions-discount-fix-diff.png)
+![github-actions-discount-fix-diff](/images/tutorials/github-actions-discount-fix-diff.png)
 
 就改了这一个字符，其他代码一行没动。
 

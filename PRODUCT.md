@@ -6,11 +6,11 @@ brand
 
 ## Users
 
-CodexGuide serves Chinese readers who want to use OpenAI Codex in real work. The audience includes first-time Codex users, developers bringing Codex into local projects, creators and knowledge workers using Codex for writing and research workflows, and team leads who need repeatable rules, examples, and safety boundaries.
+BlueCamp serves Chinese readers who want to use OpenAI Codex in real work. The audience includes first-time Codex users, developers bringing Codex into local projects, creators and knowledge workers using Codex for writing and research workflows, and team leads who need repeatable rules, examples, and safety boundaries.
 
 ## Product Purpose
 
-CodexGuide is a practical tutorial and reference site for Codex. It helps readers choose the right entry point, complete a first task, understand advanced configuration and safety boundaries, reuse proven examples, and join a community that keeps the guide current as Codex changes.
+BlueCamp is a practical tutorial and reference site for Codex. It helps readers choose the right entry point, complete a first task, understand advanced configuration and safety boundaries, reuse proven examples, and find attributed sources for further learning.
 
 ## Brand Personality
 
@@ -26,7 +26,7 @@ Avoid generic SaaS landing pages, decorative card walls, vague AI productivity c
 - Keep dense information scannable through hierarchy, rhythm, and concrete labels.
 - Treat tutorials as the product: surface high-value chapters and examples, not abstract promises.
 - Preserve trust with restrained color, readable typography, and direct copy.
-- Make community participation visible without overwhelming the learning flow.
+- Keep navigation focused on tutorials and attributed sources.
 
 ## Accessibility & Inclusion
 

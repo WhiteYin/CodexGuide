@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-18
+updated: 2026-07-03
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 权限管理指南，说明文件访问、命令审批、网络权限、敏感数据和高风险操作的控制方式，适合任务前核对。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-15。本文参考 [Codex app settings](https://developers.openai.com/codex/app/settings)、[Sandboxing](https://developers.openai.com/codex/concepts/sandboxing#how-you-control-it)、[Permissions](https://developers.openai.com/codex/permissions) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。不同版本的界面具体名称、入口和可用选项会有所不同，请以你当前使用的客户端界面为准。
+官方资料最后核对日期：2026-06-18。本文参考 [Codex app settings](https://developers.openai.com/codex/app/settings)、[Sandboxing](https://developers.openai.com/codex/concepts/sandboxing#how-you-control-it)、[Permissions](https://developers.openai.com/codex/permissions) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。不同版本的界面具体名称、入口和可用选项会有所不同，请以你当前使用的客户端界面为准。
 :::
 
 # 权限管理
@@ -22,7 +28,7 @@ description: "Codex 权限管理指南，说明文件访问、命令审批、网
 3. `Full access`（完全访问）
 4. `Custom (config.toml)`（自定义配置）
 
-![Codex App 权限选择器示例](https://cdn.canghecode.com/codexguide/docs/images/codex-app-permissions-selector-menu-watermarked-small.png)
+![Codex App 权限选择器示例](/images/tutorials/codex-app-permissions-selector-menu-watermarked-small.png)
 
 对于 CLI 而言，权限配置的细粒度和复杂度都会更高。这里不做展开。
 
@@ -53,7 +59,7 @@ description: "Codex 权限管理指南，说明文件访问、命令审批、网
 
 这是最**推荐**的权限机制。保证安全性的同时也能兼顾用户体验和工作效率。
 
-![Codex App 自动审核拒绝高风险操作示例](https://cdn.canghecode.com/codexguide/docs/images/codex-app-auto-review-rejection-watermarked-small.png)
+![Codex App 自动审核拒绝高风险操作示例](/images/tutorials/codex-app-auto-review-rejection-watermarked-small.png)
 
 **适用场景：**
 - 项目经常需要访问当前文件夹以外的资源，如调用本机 CLI、联网查询，且风险可控。
@@ -88,7 +94,7 @@ description: "Codex 权限管理指南，说明文件访问、命令审批、网
 | `approvals_reviewer = "auto_review"` | 符合条件的审批请求交给 reviewer agent | 自动审核 / 替我审批 |
 | `sandbox_workspace_write.writable_roots` | 给 `workspace-write` 增加可写目录 | 需要跨目录时，优先考虑 |
 
-![Codex App config.toml 配置示例](https://cdn.canghecode.com/codexguide/docs/images/codex-app-config-toml-settings-watermarked-small.png)
+![Codex App config.toml 配置示例](/images/tutorials/codex-app-config-toml-settings-watermarked-small.png)
 
 上表仅展示部分常见配置选项，更多请查看[OpenAI Premission](https://developers.openai.com/codex/permissions)。
 

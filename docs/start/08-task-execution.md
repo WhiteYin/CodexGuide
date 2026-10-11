@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-06-29
+updated: 2026-06-29
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 任务执行与验证闭环教程，说明如何写清任务、观察执行、检查 diff、验证结果、处理失败并判断任务完成。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-29。本文是 Codex 任务执行与验证流程总结，命令执行、权限审批、沙盒边界和结果检查请参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Permissions](https://developers.openai.com/codex/permissions) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。
+官方资料最后核对日期：2026-06-28。本文是 Codex 任务执行与验证流程总结，命令执行、权限审批、沙盒边界和结果检查请参考 [Codex CLI features](https://developers.openai.com/codex/cli/features)、[Permissions](https://developers.openai.com/codex/permissions) 与 [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)。
 :::
 
 # 任务执行与验证闭环

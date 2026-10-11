@@ -1,9 +1,15 @@
 ---
+author: 大蓝营
+date: 2026-05-18
+updated: 2026-08-13
+lastUpdated: true
+contributors: false
+editLink: false
 description: "Codex 桌面 App 下载与安装教程，说明 macOS、Windows 安装入口、账号登录和首次启动前的准备工作。"
 ---
 
 ::: tip 最后核对
-官方资料最后核对日期：2026-06-13。下载地址与安装方式以 [OpenAI Codex 产品页](https://openai.com/codex/) 和 [chatgpt.com/codex/get-started](https://chatgpt.com/codex/get-started/) 为准，不同地区和账号套餐下可用功能可能有所差异。
+官方资料最后核对日期：2026-06-16。下载地址与安装方式以 [OpenAI Codex 产品页](https://openai.com/codex/) 和 [chatgpt.com/codex/get-started](https://chatgpt.com/codex/get-started/) 为准，不同地区和账号套餐下可用功能可能有所差异。
 :::
 
 # Codex 桌面 App 下载与安装
@@ -21,7 +27,7 @@ description: "Codex 桌面 App 下载与安装教程，说明 macOS、Windows �
 
 **macOS：**
 
-![Codex 桌面 App 下载页 macOS](https://cdn.canghecode.com/codexguide/docs/images/codex-app-download-macos-options.png)
+![Codex 桌面 App 下载页 macOS](/images/tutorials/codex-app-download-macos-options.png)
 
 点击「Download for macOS」下载 `.dmg` 安装包。
 1. 打开下载好的 `.dmg` 文件
@@ -31,7 +37,7 @@ description: "Codex 桌面 App 下载与安装教程，说明 macOS、Windows �
 
 **Windows：**
 
-![Codex 桌面 App 下载页 Windows](https://cdn.canghecode.com/codexguide/docs/images/chatgpt-codex-get-started-clean.png)
+![Codex 桌面 App 下载页 Windows](/images/tutorials/chatgpt-codex-get-started-clean.png)
 
 Windows 用户点击对应的下载按钮，下载完成后运行安装程序，按提示完成安装。
 
